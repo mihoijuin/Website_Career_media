@@ -1,4 +1,5 @@
-
+$header_color: #83E3C2;
+$basic_color: #FAF5CD;
 
 * {
   box-sizing: border-box;
@@ -7,7 +8,7 @@
 body {
   margin: 0;
   font-family: 'BokutachinoGothic2Regular', Arial, Verdana, sans-serif;
-  background-color: #FAF5CD;
+  background-color: $basic_color;
 }
 
 a {
@@ -20,7 +21,7 @@ p {
 }
 
 header {
-  background-color: #83E3C2;
+  background-color: $header_color;
   display: flex;
   justify-content: space-between;
   .header-logo {
