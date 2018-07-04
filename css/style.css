@@ -40,5 +40,7 @@ header {
     header .header-nav ul li {
       margin-left: 2.3em;
       font-size: 1.3em; }
+      header .header-nav ul li:hover {
+        border-bottom: dotted 3px #1c7e5c; }
 
 /*# sourceMappingURL=style.css.map */

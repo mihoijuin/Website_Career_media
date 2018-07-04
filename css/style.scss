@@ -54,6 +54,7 @@ header {
         margin-left: 2.3em;
         font-size: 1.3em;
         &:hover {
+          border-bottom: dotted 3px darken($header_color, 40%);
         }
       }
     }
