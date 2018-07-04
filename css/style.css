@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'BokutachinoGothic2Regular', Arial, Verdana, sans-serif;
+  background-color: #FAF5CD; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+p {
+  line-height: 1.5em; }
+
+header {
+  background-color: #83E3C2;
+  display: flex;
+  justify-content: space-between; }
+  header .header-logo {
+    display: flex;
+    align-items: center;
+    text-align: center; }
+    header .header-logo img {
+      border-radius: 50%;
+      margin: .8em; }
+    header .header-logo .media-title {
+      margin-top: .5em; }
+      header .header-logo .media-title h1 {
+        font-weight: bold;
+        font-size: 1.8rem;
+        font-family: uzura_font; }
+      header .header-logo .media-title p {
+        padding-top: .4em; }
+  header .header-nav ul {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2em;
+    margin-top: 4.5em; }
+    header .header-nav ul li {
+      margin-left: 2.3em;
+      font-size: 1.3em; }
+      header .header-nav ul li:hover {
+        border-bottom: dotted 3px #1c7e5c; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+$header_color: #83E3C2;
+$basic_color: #FAF5CD;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'BokutachinoGothic2Regular', Arial, Verdana, sans-serif;
+  background-color: $basic_color;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+header {
+  background-color: $header_color;
+  display: flex;
+  justify-content: space-between;
+  .header-logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    img {
+      border-radius: 50%;
+      margin: .8em;
+    }
+    .media-title {
+      margin-top: .5em;
+      h1 {
+        font-weight: bold;
+        font-size: 1.8rem;
+        font-family: uzura_font;
+      }
+      p {
+        padding-top: .4em;
+      }
+    }
+  }
+  .header-nav {
+    ul {
+      display: flex;
+      align-items: flex-end;
+      margin-right: 2em;
+      margin-top: 4.5em;  //ここはflexboxのalign-itemsが効いたらいらない
+      li {
+        margin-left: 2.3em;
+        font-size: 1.3em;
+        &:hover {
+          border-bottom: dotted 3px darken($header_color, 40%);
+        }
+      }
+    }
+  }
+}
