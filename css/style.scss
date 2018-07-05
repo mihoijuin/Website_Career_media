@@ -24,41 +24,41 @@ p {
 }
 
 /* Header */
-header {
+#header {
   background-color: $basic_color;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  padding: 1.5em 1rem;
   .header-logo {
     display: flex;
     align-items: center;
     text-align: center;
     img {
       border-radius: 50%;
-      margin: .8rem;
     }
     .media-title {
-      margin-top: .5rem;
+      margin-left: .8rem;
       h1 {
-        font-weight: bold;
-        font-size: 1.8rem;
-        font-family: uzura_font;
+        font: bold 1.8rem uzura_font;
       }
       p {
-        padding-top: .4rem;
+        margin-top: 1rem;
       }
     }
   }
   .header-nav {
     ul {
       display: flex;
-      align-items: flex-end;
       margin-right: 2rem;
-      margin-top: 4.5rem;  //ここはflexboxのalign-itemsが効いたらいらない
       li {
         margin-left: 3rem;
-        font-size: 1.3rem;
+        padding-bottom: .2rem;
+        font-size: 1.2rem;
+        // hover時のレイアウト防止用
+        border-bottom: rem(5px) dotted $basic_color;
         &:hover {
-          border-bottom: dotted rem(3px) darken($basic_color, 40%);
+          border-bottom: rem(5px) dotted darken($basic_color, 40%);
         }
       }
     }
@@ -71,9 +71,11 @@ header {
   margin: 4rem auto;
   .heading{
     font: bold 2rem uzura_font;
+    width: 20%;
+    text-align: center;
     border-bottom: rem(4px) dashed $orange;
-    margin-right: 63rem;  //下線の長さをh3の文字と同じ長さにする別の方法を探したい
     padding-bottom: .8rem;
+    margin-bottom: 4rem;
   }
 
   /* posts */
@@ -83,22 +85,23 @@ header {
     .post {
       background-color: lighten($basic_color, 15%);
       opacity: 0.8;
-      margin-bottom: 1.5rem;
-      padding: .6rem;
+      margin-bottom: 1.7rem;
+      padding: 1rem;
       border-radius: rem(5px);
       &:hover {
         opacity: 1;
         cursor: pointer;
       }
       header {
-        background-color: lighten($basic_color, 15%);  //.postのbackground-colorを引き継ぐにはどうすれば？inheritだとbodyの色が引き継がれる
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .8rem;
         .post-title {
-          font: bold 1.2rem/1.6 uzura_font;
+          font: bold 1.5rem uzura_font;
         }
         .post-category {
           background-color: lighten($orange, 5%);
-          height: 1.8em;
-          padding: .2rem;
+          padding: .1rem;
         }
       }
     }
@@ -111,6 +114,8 @@ header {
       justify-content: center;
       li {
         margin: 0 1rem;
+        // hover時のレイアウト防止用
+        border-bottom: rem(1px) solid $background_color;
         &:hover {
           border-bottom: rem(1px) solid black;
           cursor: pointer;
@@ -137,7 +142,7 @@ footer {
         font: bold 1.2rem uzura_font;
       }
       p {
-        padding-top: .4rem;
+        margin-top: .5rem;
         font-size: .8em;
       }
     }
@@ -156,9 +161,12 @@ footer {
       margin-right: 2rem;
       li {
         font-size: 1.1em;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        padding-bottom: .2em;
+        // hover時のレイアウト防止用
+        border-bottom: rem(4px) dotted $basic_color;
         &:hover {
-          border-bottom: dotted rem(2px) darken($basic_color, 40%);
+          border-bottom: rem(4px) dotted darken($basic_color, 40%);
         }
       }
     }
