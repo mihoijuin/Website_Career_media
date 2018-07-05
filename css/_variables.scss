@@ -1,3 +1,8 @@
+/* 関数 */
 @function rem($px) {
   @return ($px / 16px) * 1rem;
 }
+
+/* カラー変数 */
+$header_color: #83E3C2;
+$basic_color: #FAF5CD;
