@@ -71,9 +71,11 @@ p {
   margin: 4rem auto;
   .heading{
     font: bold 2rem uzura_font;
+    width: 20%;
+    text-align: center;
     border-bottom: rem(4px) dashed $orange;
-    margin-right: 63rem;  //下線の長さをh3の文字と同じ長さにする別の方法を探したい
     padding-bottom: .8rem;
+    margin-bottom: 4rem;
   }
 
   /* posts */
@@ -159,7 +161,7 @@ footer {
       margin-right: 2rem;
       li {
         font-size: 1.1em;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
         padding-bottom: .2em;
         // hover時のレイアウト防止用
         border-bottom: rem(4px) dotted $basic_color;
