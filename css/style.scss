@@ -10,7 +10,7 @@
 body {
   margin: 0;
   font-family: 'BokutachinoGothic2Regular', Arial, Verdana, sans-serif;
-  background-color: $basic_color;
+  background-color: $background_color;
 }
 
 a {
@@ -25,7 +25,7 @@ p {
 
 /* Header */
 header {
-  background-color: $header_color;
+  background-color: $basic_color;
   display: flex;
   justify-content: space-between;
   .header-logo {
@@ -58,7 +58,7 @@ header {
         margin-left: 3rem;
         font-size: 1.3rem;
         &:hover {
-          border-bottom: dotted rem(3px) darken($header_color, 40%);
+          border-bottom: dotted rem(3px) darken($basic_color, 40%);
         }
       }
     }
@@ -81,7 +81,7 @@ header {
     width: 85%;
     margin: 2.5em auto;
     .post {
-      background-color: lighten($header_color, 15%);
+      background-color: lighten($basic_color, 15%);
       opacity: 0.8;
       margin-bottom: 1.5rem;
       padding: .6rem;
@@ -91,7 +91,7 @@ header {
         cursor: pointer;
       }
       header {
-        background-color: lighten($header_color, 15%);  //.postのbackground-colorを引き継ぐにはどうすれば？inheritだとbodyの色が引き継がれる
+        background-color: lighten($basic_color, 15%);  //.postのbackground-colorを引き継ぐにはどうすれば？inheritだとbodyの色が引き継がれる
         .post-title {
           font: bold 1.2rem/1.6 uzura_font;
         }
