@@ -88,4 +88,40 @@ header {
         border-bottom: 0.0625rem solid black;
         cursor: pointer; }
 
+/* footer */
+footer {
+  background-color: #83E3C2; }
+  footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .footer-container .footer-logo {
+      margin: 2rem .8rem;
+      text-align: center; }
+      footer .footer-container .footer-logo img {
+        border-radius: 50%;
+        margin-bottom: .8rem; }
+      footer .footer-container .footer-logo h1 {
+        font: bold 1.2rem uzura_font; }
+      footer .footer-container .footer-logo p {
+        padding-top: .4rem;
+        font-size: .8em; }
+    footer .footer-container .social ul {
+      display: flex;
+      margin: 3rem 3rem 0 0; }
+      footer .footer-container .social ul li {
+        display: inline-block;
+        font-size: 1.3rem;
+        margin-right: 2rem; }
+    footer .footer-container .footer-nav {
+      margin-right: 2rem; }
+      footer .footer-container .footer-nav li {
+        font-size: 1.1em;
+        margin-bottom: 1.5rem; }
+        footer .footer-container .footer-nav li:hover {
+          border-bottom: dotted 0.125rem #1c7e5c; }
+  footer .Copyright {
+    text-align: right;
+    padding: .2rem; }
+
 /*# sourceMappingURL=style.css.map */
