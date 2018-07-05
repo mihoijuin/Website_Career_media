@@ -103,4 +103,19 @@ header {
       }
     }
   }
+
+  /* page-nav */
+  .page-nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      li {
+        margin: 0 1rem;
+        &:hover {
+          border-bottom: rem(1px) solid black;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }

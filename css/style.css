@@ -52,7 +52,8 @@ header {
 .main-wrapper {
   width: 80%;
   margin: 4rem auto;
-  /* posts */ }
+  /* posts */
+  /* page-nav */ }
   .main-wrapper .heading {
     font: bold 2rem uzura_font;
     border-bottom: 0.25rem dashed #F5AC88;
@@ -78,5 +79,13 @@ header {
           background-color: #f7bca0;
           height: 1.8em;
           padding: .2rem; }
+  .main-wrapper .page-nav ul {
+    display: flex;
+    justify-content: center; }
+    .main-wrapper .page-nav ul li {
+      margin: 0 1rem; }
+      .main-wrapper .page-nav ul li:hover {
+        border-bottom: 0.0625rem solid black;
+        cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
