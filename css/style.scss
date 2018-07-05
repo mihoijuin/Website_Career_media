@@ -70,12 +70,8 @@ p {
   width: 80%;
   margin: 4rem auto;
   .heading{
-    font: bold 2rem uzura_font;
-    width: 20%;
-    text-align: center;
-    border-bottom: rem(4px) dashed $orange;
-    padding-bottom: .8rem;
-    margin-bottom: 4rem;
+    // 他のページでも使用するのでmixin化
+    @include heading;
   }
 
   /* posts */
