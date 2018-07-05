@@ -50,9 +50,7 @@ p {
 /* main */
 .main-wrapper {
   width: 80%;
-  margin: 4rem auto;
-  /* posts */
-  /* page-nav */ }
+  margin: 4rem auto; }
   .main-wrapper .heading {
     font: bold 2rem uzura_font;
     width: 20%;
@@ -60,36 +58,40 @@ p {
     border-bottom: 0.25rem dashed #F5AC88;
     padding-bottom: .8rem;
     margin-bottom: 4rem; }
-  .main-wrapper .posts {
-    width: 85%;
-    margin: 2.5em auto; }
-    .main-wrapper .posts .post {
-      background-color: #c1f1e1;
-      opacity: 0.8;
-      margin-bottom: 1.7rem;
-      padding: 1rem;
-      border-radius: 0.3125rem; }
-      .main-wrapper .posts .post:hover {
-        opacity: 1;
-        cursor: pointer; }
-      .main-wrapper .posts .post header {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: .8rem; }
-        .main-wrapper .posts .post header .post-title {
-          font: bold 1.5rem uzura_font; }
-        .main-wrapper .posts .post header .post-category {
-          background-color: #f7bca0;
-          padding: .1rem; }
-  .main-wrapper .page-nav ul {
-    display: flex;
-    justify-content: center; }
-    .main-wrapper .page-nav ul li {
-      margin: 0 1rem;
-      border-bottom: 0.0625rem solid #FAF5CD; }
-      .main-wrapper .page-nav ul li:hover {
-        border-bottom: 0.0625rem solid black;
-        cursor: pointer; }
+
+/* posts */
+.posts {
+  width: 85%;
+  margin: 2.5em auto; }
+  .posts .post {
+    background-color: #c1f1e1;
+    opacity: 0.8;
+    margin-bottom: 1.7rem;
+    padding: 1rem;
+    border-radius: 0.3125rem; }
+    .posts .post:hover {
+      opacity: 1;
+      cursor: pointer; }
+    .posts .post header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: .8rem; }
+      .posts .post header .post-title {
+        font: bold 1.5rem uzura_font; }
+      .posts .post header .post-category {
+        background-color: #f7bca0;
+        padding: .1rem; }
+
+/* page-nav */
+.page-nav ul {
+  display: flex;
+  justify-content: center; }
+  .page-nav ul li {
+    margin: 0 1rem;
+    border-bottom: 0.0625rem solid #FAF5CD; }
+    .page-nav ul li:hover {
+      border-bottom: 0.0625rem solid black;
+      cursor: pointer; }
 
 /* footer */
 footer {
