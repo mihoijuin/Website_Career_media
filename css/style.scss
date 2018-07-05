@@ -24,7 +24,7 @@ p {
 }
 
 /* Header */
-header {
+#header {
   background-color: $basic_color;
   display: flex;
   justify-content: space-between;
@@ -83,21 +83,22 @@ header {
       background-color: lighten($basic_color, 15%);
       opacity: 0.8;
       margin-bottom: 1.7rem;
-      padding: .6rem;
+      padding: 1rem;
       border-radius: rem(5px);
       &:hover {
         opacity: 1;
         cursor: pointer;
       }
       header {
-        align-items: flex-start;
-        background-color: lighten($basic_color, 15%);  //.postのbackground-colorを引き継ぐにはどうすれば？inheritだとbodyの色が引き継がれる
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .8rem;
         .post-title {
           font: bold 1.5rem uzura_font;
         }
         .post-category {
           background-color: lighten($orange, 5%);
-          padding: .2rem;
+          padding: .1rem;
         }
       }
     }

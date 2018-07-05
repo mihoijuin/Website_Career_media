@@ -18,33 +18,33 @@ p {
   font-size: .9rem; }
 
 /* Header */
-header {
+#header {
   background-color: #83E3C2;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 1rem; }
-  header .header-logo {
+  #header .header-logo {
     display: flex;
     align-items: center;
     text-align: center; }
-    header .header-logo img {
+    #header .header-logo img {
       border-radius: 50%; }
-    header .header-logo .media-title {
+    #header .header-logo .media-title {
       margin-left: .8rem; }
-      header .header-logo .media-title h1 {
+      #header .header-logo .media-title h1 {
         font-weight: bold;
         font-size: 1.8rem;
         font-family: uzura_font; }
-      header .header-logo .media-title p {
+      #header .header-logo .media-title p {
         padding-top: .4rem; }
-  header .header-nav ul {
+  #header .header-nav ul {
     display: flex;
     margin-right: 2rem; }
-    header .header-nav ul li {
+    #header .header-nav ul li {
       margin-left: 3rem;
       font-size: 1.2rem; }
-      header .header-nav ul li:hover {
+      #header .header-nav ul li:hover {
         border-bottom: dotted 0.1875rem #1c7e5c; }
 
 /* main */
@@ -65,19 +65,20 @@ header {
       background-color: #c1f1e1;
       opacity: 0.8;
       margin-bottom: 1.7rem;
-      padding: .6rem;
+      padding: 1rem;
       border-radius: 0.3125rem; }
       .main-wrapper .posts .post:hover {
         opacity: 1;
         cursor: pointer; }
       .main-wrapper .posts .post header {
-        align-items: flex-start;
-        background-color: #c1f1e1; }
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .8rem; }
         .main-wrapper .posts .post header .post-title {
           font: bold 1.5rem uzura_font; }
         .main-wrapper .posts .post header .post-category {
           background-color: #f7bca0;
-          padding: .2rem; }
+          padding: .1rem; }
   .main-wrapper .page-nav ul {
     display: flex;
     justify-content: center; }
