@@ -40,9 +40,7 @@ p {
     .media-title {
       margin-left: .8rem;
       h1 {
-        font-weight: bold;
-        font-size: 1.8rem;
-        font-family: uzura_font;
+        font: bold 1.8rem uzura_font;
       }
       p {
         padding-top: .4rem;

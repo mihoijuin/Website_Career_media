@@ -33,9 +33,7 @@ p {
     #header .header-logo .media-title {
       margin-left: .8rem; }
       #header .header-logo .media-title h1 {
-        font-weight: bold;
-        font-size: 1.8rem;
-        font-family: uzura_font; }
+        font: bold 1.8rem uzura_font; }
       #header .header-logo .media-title p {
         padding-top: .4rem; }
   #header .header-nav ul {
