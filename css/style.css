@@ -16,6 +16,7 @@ a {
 p {
   line-height: 1.5; }
 
+/* Header */
 header {
   background-color: #83E3C2;
   display: flex;
