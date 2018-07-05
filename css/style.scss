@@ -1,3 +1,6 @@
+
+//bug修正必要な部分はこのようにコメントを残す
+
 @import "variables";
 
 * {
@@ -16,7 +19,8 @@ a {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.7;
+  font-size: .9rem;
 }
 
 /* Header */
@@ -54,7 +58,62 @@ header {
         margin-left: 3rem;
         font-size: 1.3rem;
         &:hover {
-          border-bottom: dotted 3px darken($header_color, 40%);
+          border-bottom: dotted rem(3px) darken($header_color, 40%);
+        }
+      }
+    }
+  }
+}
+
+/* main */
+.main-wrapper {
+  width: 80%;
+  margin: 4rem auto;
+  .heading{
+    font: bold 2rem uzura_font;
+    border-bottom: rem(4px) dashed $orange;
+    margin-right: 63rem;  //下線の長さをh3の文字と同じ長さにする別の方法を探したい
+    padding-bottom: .8rem;
+  }
+
+  /* posts */
+  .posts {
+    width: 85%;
+    margin: 2.5em auto;
+    .post {
+      background-color: lighten($header_color, 15%);
+      opacity: 0.8;
+      margin-bottom: 1.5rem;
+      padding: .6rem;
+      border-radius: rem(5px);
+      &:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+      header {
+        background-color: lighten($header_color, 15%);  //.postのbackground-colorを引き継ぐにはどうすれば？inheritだとbodyの色が引き継がれる
+        .post-title {
+          font: bold 1.2rem/1.6 uzura_font;
+        }
+        .post-category {
+          background-color: lighten($orange, 5%);
+          height: 1.8em;
+          padding: .2rem;
+        }
+      }
+    }
+  }
+
+  /* page-nav */
+  .page-nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      li {
+        margin: 0 1rem;
+        &:hover {
+          border-bottom: rem(1px) solid black;
+          cursor: pointer;
         }
       }
     }
