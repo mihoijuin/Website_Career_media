@@ -47,4 +47,9 @@ header {
       header .header-nav ul li:hover {
         border-bottom: dotted 3px #1c7e5c; }
 
+/* main */
+.main-wrapper {
+  width: 80%;
+  margin: 4rem auto; }
+
 /*# sourceMappingURL=style.css.map */
