@@ -43,9 +43,9 @@ p {
       margin-left: 3rem;
       padding-bottom: .2rem;
       font-size: 1.2rem;
-      border-bottom: dotted 0.3125rem #83E3C2; }
+      border-bottom: 0.3125rem dotted #83E3C2; }
       #header .header-nav ul li:hover {
-        border-bottom: dotted 0.3125rem #1c7e5c; }
+        border-bottom: 0.3125rem dotted #1c7e5c; }
 
 /* main */
 .main-wrapper {
@@ -120,9 +120,9 @@ footer {
         font-size: 1.1em;
         margin-bottom: 1.5rem;
         padding-bottom: .2em;
-        border-bottom: dotted 0.25rem #83E3C2; }
+        border-bottom: 0.25rem dotted #83E3C2; }
         footer .footer-container .footer-nav li:hover {
-          border-bottom: dotted 0.25rem #1c7e5c; }
+          border-bottom: 0.25rem dotted #1c7e5c; }
   footer .Copyright {
     text-align: right;
     padding: .2rem; }

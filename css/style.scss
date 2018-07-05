@@ -56,9 +56,9 @@ p {
         padding-bottom: .2rem;
         font-size: 1.2rem;
         // hover時のレイアウト防止用
-        border-bottom: dotted rem(5px) $basic_color;
+        border-bottom: rem(5px) dotted $basic_color;
         &:hover {
-          border-bottom: dotted rem(5px) darken($basic_color, 40%);
+          border-bottom: rem(5px) dotted darken($basic_color, 40%);
         }
       }
     }
@@ -162,9 +162,9 @@ footer {
         margin-bottom: 1.5rem;
         padding-bottom: .2em;
         // hover時のレイアウト防止用
-        border-bottom: dotted rem(4px) $basic_color;
+        border-bottom: rem(4px) dotted $basic_color;
         &:hover {
-          border-bottom: dotted rem(4px) darken($basic_color, 40%);
+          border-bottom: rem(4px) dotted darken($basic_color, 40%);
         }
       }
     }
