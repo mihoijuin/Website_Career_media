@@ -53,9 +53,12 @@ p {
       margin-right: 2rem;
       li {
         margin-left: 3rem;
+        padding-bottom: .2rem;
         font-size: 1.2rem;
+        // hover時のレイアウト防止用
+        border-bottom: dotted rem(5px) $basic_color;
         &:hover {
-          border-bottom: dotted rem(3px) darken($basic_color, 40%);
+          border-bottom: dotted rem(5px) darken($basic_color, 40%);
         }
       }
     }
@@ -109,6 +112,8 @@ p {
       justify-content: center;
       li {
         margin: 0 1rem;
+        // hover時のレイアウト防止用
+        border-bottom: rem(1px) solid $background_color;
         &:hover {
           border-bottom: rem(1px) solid black;
           cursor: pointer;
@@ -155,8 +160,11 @@ footer {
       li {
         font-size: 1.1em;
         margin-bottom: 1.5rem;
+        padding-bottom: .2em;
+        // hover時のレイアウト防止用
+        border-bottom: dotted rem(4px) $basic_color;
         &:hover {
-          border-bottom: dotted rem(2px) darken($basic_color, 40%);
+          border-bottom: dotted rem(4px) darken($basic_color, 40%);
         }
       }
     }
