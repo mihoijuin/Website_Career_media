@@ -29,7 +29,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 1rem;
+  padding: 1.5em 1rem;
   .header-logo {
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ p {
         font: bold 1.8rem uzura_font;
       }
       p {
-        padding-top: .4rem;
+        margin-top: 1rem;
       }
     }
   }
@@ -135,7 +135,7 @@ footer {
         font: bold 1.2rem uzura_font;
       }
       p {
-        padding-top: .4rem;
+        margin-top: .5rem;
         font-size: .8em;
       }
     }
