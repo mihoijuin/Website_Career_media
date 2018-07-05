@@ -43,7 +43,7 @@ header {
     margin-right: 2rem; }
     header .header-nav ul li {
       margin-left: 3rem;
-      font-size: 1.3rem; }
+      font-size: 1.2rem; }
       header .header-nav ul li:hover {
         border-bottom: dotted 0.1875rem #1c7e5c; }
 
@@ -64,19 +64,19 @@ header {
     .main-wrapper .posts .post {
       background-color: #c1f1e1;
       opacity: 0.8;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.7rem;
       padding: .6rem;
       border-radius: 0.3125rem; }
       .main-wrapper .posts .post:hover {
         opacity: 1;
         cursor: pointer; }
       .main-wrapper .posts .post header {
+        align-items: flex-start;
         background-color: #c1f1e1; }
         .main-wrapper .posts .post header .post-title {
-          font: bold 1.2rem/1.6 uzura_font; }
+          font: bold 1.5rem uzura_font; }
         .main-wrapper .posts .post header .post-category {
           background-color: #f7bca0;
-          height: 1.8em;
           padding: .2rem; }
   .main-wrapper .page-nav ul {
     display: flex;

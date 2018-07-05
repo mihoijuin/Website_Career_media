@@ -52,12 +52,10 @@ header {
   .header-nav {
     ul {
       display: flex;
-
       margin-right: 2rem;
-
       li {
         margin-left: 3rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         &:hover {
           border-bottom: dotted rem(3px) darken($basic_color, 40%);
         }
@@ -84,7 +82,7 @@ header {
     .post {
       background-color: lighten($basic_color, 15%);
       opacity: 0.8;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.7rem;
       padding: .6rem;
       border-radius: rem(5px);
       &:hover {
@@ -92,13 +90,13 @@ header {
         cursor: pointer;
       }
       header {
+        align-items: flex-start;
         background-color: lighten($basic_color, 15%);  //.postのbackground-colorを引き継ぐにはどうすれば？inheritだとbodyの色が引き継がれる
         .post-title {
-          font: bold 1.2rem/1.6 uzura_font;
+          font: bold 1.5rem uzura_font;
         }
         .post-category {
           background-color: lighten($orange, 5%);
-          height: 1.8em;
           padding: .2rem;
         }
       }
