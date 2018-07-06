@@ -45,14 +45,14 @@ ul, li {
       border-radius: 50%;
     }
     .media-title {
-      margin-left: .8rem;
+      margin-left: .5rem;
 
       h1 {
         font: bold 1.8rem uzura_font;
       }
 
       p {
-        margin-top: 1rem;
+        margin-top: .4rem;
       }
     }
   }
@@ -67,7 +67,6 @@ ul, li {
         border-bottom: rem(5px) dotted $basic_color;
         font-size: 1.2rem;
         margin-left: 3rem;
-        padding-bottom: .2rem;
 
         &:hover {
           border-bottom: rem(5px) dotted darken($basic_color, 40%);
@@ -152,7 +151,7 @@ footer {
     justify-content: space-between;
 
     .footer-logo {
-      margin: 2rem .8rem;
+      margin: 1.5rem .5rem;
       text-align: center;
 
       img {
@@ -173,7 +172,7 @@ footer {
     .social {
       ul {
         display: flex;
-        margin:3rem 3rem 0 0;
+        margin: 3rem 10.5rem 0 0;
 
         li {
           font-size: 1.3rem;
@@ -190,7 +189,6 @@ footer {
         border-bottom: rem(4px) dotted $basic_color;
         font-size: 1.1em;
         margin-bottom: 1rem;
-        padding-bottom: .2em;
 
         &:hover {
           border-bottom: rem(4px) dotted darken($basic_color, 40%);

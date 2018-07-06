@@ -35,19 +35,18 @@ ul, li {
     #header .header-logo img {
       border-radius: 50%; }
     #header .header-logo .media-title {
-      margin-left: .8rem; }
+      margin-left: .5rem; }
       #header .header-logo .media-title h1 {
         font: bold 1.8rem uzura_font; }
       #header .header-logo .media-title p {
-        margin-top: 1rem; }
+        margin-top: .4rem; }
   #header .header-nav ul {
     display: flex;
     margin-right: 2rem; }
     #header .header-nav ul li {
       border-bottom: 0.3125rem dotted #83E3C2;
       font-size: 1.2rem;
-      margin-left: 3rem;
-      padding-bottom: .2rem; }
+      margin-left: 3rem; }
       #header .header-nav ul li:hover {
         border-bottom: 0.3125rem dotted #1c7e5c; }
 
@@ -105,7 +104,7 @@ footer {
     align-items: center;
     justify-content: space-between; }
     footer .footer-container .footer-logo {
-      margin: 2rem .8rem;
+      margin: 1.5rem .5rem;
       text-align: center; }
       footer .footer-container .footer-logo img {
         border-radius: 50%;
@@ -117,7 +116,7 @@ footer {
         margin-top: .5rem; }
     footer .footer-container .social ul {
       display: flex;
-      margin: 3rem 3rem 0 0; }
+      margin: 3rem 10.5rem 0 0; }
       footer .footer-container .social ul li {
         font-size: 1.3rem;
         margin-right: 2rem; }
@@ -126,8 +125,7 @@ footer {
       footer .footer-container .footer-nav li {
         border-bottom: 0.25rem dotted #83E3C2;
         font-size: 1.1em;
-        margin-bottom: 1rem;
-        padding-bottom: .2em; }
+        margin-bottom: 1rem; }
         footer .footer-container .footer-nav li:hover {
           border-bottom: 0.25rem dotted #1c7e5c; }
   footer .copyright {
