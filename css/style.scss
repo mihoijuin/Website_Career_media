@@ -79,11 +79,17 @@ ul, li {
 /* main */
 .main-wrapper {
   margin: 4rem auto;
-  width: 80%;
+  width: 90%;
   .heading{
     // 他のページでも使用するのでmixin化
     @include heading;
   }
+}
+
+/* top-wrapper */
+.top-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* posts */

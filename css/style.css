@@ -53,7 +53,7 @@ ul, li {
 /* main */
 .main-wrapper {
   margin: 4rem auto;
-  width: 80%; }
+  width: 90%; }
   .main-wrapper .heading {
     font: bold 2rem uzura_font;
     width: 20%;
@@ -61,6 +61,11 @@ ul, li {
     border-bottom: 0.25rem dashed #F5AC88;
     padding-bottom: .8rem;
     margin-bottom: 2rem; }
+
+/* top-wrapper */
+.top-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
 
 /* posts */
 .posts {
