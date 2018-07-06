@@ -7,3 +7,12 @@
 $basic_color: #83E3C2;
 $background_color: #FAF5CD;
 $orange: #F5AC88;
+
+@mixin heading {
+  font: bold 2rem uzura_font;
+  width: 20%;
+  text-align: center;
+  border-bottom: rem(4px) dashed $orange;
+  padding-bottom: .8rem;
+  margin-bottom: 4rem;
+}
