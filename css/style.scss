@@ -79,17 +79,33 @@ ul, li {
 /* main */
 .main-wrapper {
   margin: 4rem auto;
-  width: 90%;
+  width: 95%;
   .heading{
     // 他のページでも使用するのでmixin化
     @include heading;
   }
 }
 
-/* top-wrapper */
+/* top-wrapper@page.html */
 .top-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+  margin: 5rem 0;
+}
+
+.top-description {
+  text-align: center;
+  h1 {
+    font: bold 4rem uzura_font;
+  }
+  h2 {
+    font: bold 1.2rem 'BokutachinoGothic2Regular', Arial, Verdana, sans-serif;
+    margin: 1rem 0;
+  }
+  img {
+    border-radius: 50%;
+  }
 }
 
 /* posts */
