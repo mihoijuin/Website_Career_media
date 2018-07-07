@@ -34,7 +34,7 @@ ul, li {
   align-items: flex-end;
   background-color: $basic_color;
   justify-content: space-between;
-  padding: 1.5em 1rem;
+  padding: 1em 1rem;
 
   .header-logo {
     display: flex;
@@ -91,13 +91,13 @@ ul, li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
-  
+  margin-bottom: 7rem;
 }
 
 .top-description {
   text-align: center;
   h1 {
-    font: bold 4rem uzura_font;
+    font: bold 3.8rem uzura_font;
   }
   h2 {
     font: bold 1.2rem 'BokutachinoGothic2Regular', Arial, Verdana, sans-serif;
@@ -105,13 +105,13 @@ ul, li {
   }
   img {
     border-radius: 50%;
-    margin: 1.5rem  .3rem;
+    margin: .8rem  .3rem;
   }
 }
 
 /* posts */
 .posts {
-  margin: 2.5em auto;
+  margin: 3rem auto;
   width: 85%;
 
   .post {
