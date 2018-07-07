@@ -137,6 +137,9 @@ ul, li {
       border-bottom: 0.0625rem solid black;
       cursor: pointer; }
 
+.more-nav {
+  text-align: right; }
+
 /* footer */
 footer {
   background-color: #83E3C2; }
