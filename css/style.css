@@ -63,33 +63,24 @@ ul, li {
     padding-bottom: .8rem;
     margin-bottom: 2rem; }
 
-/* top-wrapper@page.html */
-.top-wrapper {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 5rem;
-  margin-bottom: 7rem; }
-
-.top-description {
-  text-align: center; }
-  .top-description h1 {
-    font: bold 3.2rem uzura_font; }
-  .top-description h2 {
-    font: bold 1rem 'BokutachinoGothic2Regular', Arial, Verdana, sans-serif;
-    margin: 1rem 0; }
-  .top-description img {
-    border-radius: 50%;
-    margin: 1rem 1rem; }
-  .top-description p {
-    font-size: 1rem; }
-
 /* popular-posts@page.html */
 .popular-posts {
-  margin: 0 2rem; }
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "area1  area3" "area2  area3";
+  margin: 3rem auto 8rem auto;
+  width: 100%; }
+  .popular-posts .popular-post:nth-child(1) {
+    grid-area: area1; }
+  .popular-posts .popular-post:nth-child(2) {
+    grid-area: area2; }
+  .popular-posts .popular-post:nth-child(3) {
+    grid-area: area3; }
   .popular-posts .popular-post {
     background-image: url(http://placehold.jp/150x50.png);
     opacity: 0.8;
-    margin-bottom: 2rem;
     padding: 2.5rem 2.5rem; }
     .popular-posts .popular-post:hover {
       cursor: pointer;
