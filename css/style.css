@@ -70,19 +70,6 @@ ul, li {
   grid-gap: 5rem;
   margin-bottom: 7rem; }
 
-.top-description {
-  text-align: center; }
-  .top-description h1 {
-    font: bold 3.2rem uzura_font; }
-  .top-description h2 {
-    font: bold 1rem 'BokutachinoGothic2Regular', Arial, Verdana, sans-serif;
-    margin: 1rem 0; }
-  .top-description img {
-    border-radius: 50%;
-    margin: 1rem 1rem; }
-  .top-description p {
-    font-size: 1rem; }
-
 /* popular-posts@page.html */
 .popular-posts {
   margin: 0 2rem; }
