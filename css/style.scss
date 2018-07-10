@@ -100,11 +100,31 @@ ul, li {
 
 /* popular-posts@page.html */
 .popular-posts {
-  margin: 0 2rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+      "area1  area3"
+      "area2  area3";
+  margin: 0 auto;
+  width: 100%;
+
+  .popular-post:nth-child(1) {
+    grid-area: area1;
+  }
+
+  .popular-post:nth-child(2) {
+    grid-area: area2;
+  }
+
+  .popular-post:nth-child(3) {
+    grid-area: area3;
+  }
+
   .popular-post {
     background-image: url(http://placehold.jp/150x50.png);
     opacity: 0.8;
-    margin-bottom: 2rem;
     padding: 2.5rem 2.5rem;
 
     &:hover {
