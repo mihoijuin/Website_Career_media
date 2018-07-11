@@ -141,11 +141,6 @@ ul, li {
   }
 }
 
-.released-date {
-  text-align: right;
-  margin-top: 1rem;
-}
-
 /* posts */
 .posts {
   margin: 3rem auto;
@@ -178,6 +173,11 @@ ul, li {
       }
     }
   }
+}
+
+.released-date {
+  text-align: right;
+  margin-top: 1rem;
 }
 
 /* page-nav */

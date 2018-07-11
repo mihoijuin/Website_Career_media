@@ -95,10 +95,6 @@ ul, li {
         background-color: #f7bca0;
         padding: .4rem; }
 
-.released-date {
-  text-align: right;
-  margin-top: 1rem; }
-
 /* posts */
 .posts {
   margin: 3rem auto;
@@ -121,6 +117,10 @@ ul, li {
       .posts .post header .post-category {
         background-color: #f7bca0;
         padding: .1rem; }
+
+.released-date {
+  text-align: right;
+  margin-top: 1rem; }
 
 /* page-nav */
 .page-nav ul {
