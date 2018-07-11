@@ -118,6 +118,15 @@ ul, li {
         background-color: #f7bca0;
         padding: .1rem; }
 
+.single {
+  display: grid;
+  grid-template-columns: auto 25%;
+  grid-gap: 3rem;
+  margin: 4rem auto;
+  width: 95%; }
+  .single .single-content {
+    background-color: #fff; }
+
 .released-date {
   text-align: right;
   margin-top: 1rem; }
