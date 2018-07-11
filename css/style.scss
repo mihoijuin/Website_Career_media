@@ -141,11 +141,6 @@ ul, li {
   }
 }
 
-.relesed-date {
-  text-align: right;
-  margin-top: 1rem;
-}
-
 /* posts */
 .posts {
   margin: 3rem auto;
@@ -178,6 +173,28 @@ ul, li {
       }
     }
   }
+}
+
+.single {
+  display: grid;
+  grid-template-columns: auto 25%;
+  grid-gap: 3rem;
+
+  margin: 4rem auto;
+  width: 95%;
+
+  .single-content {
+    background-color: #fff;
+  }
+
+  .sidebar {
+
+  }
+}
+
+.released-date {
+  text-align: right;
+  margin-top: 1rem;
 }
 
 /* page-nav */
