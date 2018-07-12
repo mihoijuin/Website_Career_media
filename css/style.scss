@@ -34,12 +34,13 @@ ul, li {
   align-items: flex-end;
   background-color: $basic_color;
   justify-content: space-between;
-  padding: 1em 1rem;
+  padding: 0 2rem .5rem 2rem;
 
   .header-logo {
     display: flex;
     align-items: center;
     text-align: center;
+    margin-top: 2rem;
 
     img {
       border-radius: 50%;
@@ -48,11 +49,11 @@ ul, li {
       margin-left: .5rem;
 
       h1 {
-        font: bold 1.8rem $title_font;
+        font: bold 2.5rem $title_font;
       }
 
       p {
-        margin-top: .4rem;
+        margin-top: 1rem;
       }
     }
   }
@@ -60,7 +61,7 @@ ul, li {
   .header-nav {
     ul {
       display: flex;
-      margin-right: 2rem;
+      
 
       li {
         // hover時のレイアウト防止用
