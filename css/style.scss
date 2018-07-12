@@ -130,7 +130,7 @@ ul, li {
       margin-bottom: 2rem;
 
       .popular-title {
-        font: bold 2.5rem $title_font;
+        font: bold 2rem $title_font;
       }
 
       .popular-category {
@@ -187,13 +187,45 @@ ul, li {
     background-color: #fff;
   }
 
-  .sidebar {
+  .single-post {
+    margin: 3rem auto;
+    width: 85%;
 
+    header {
+      display: flex;
+      justify-content: space-between;
+
+      .single-title {
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: $title_font;
+      }
+
+      .single-category {
+        background-color: lighten($orange, 5%);
+        padding: .1rem;
+      }
+    }
+
+    .txt-content {
+      margin: 3rem 0;
+    }
+
+    .share {
+      ul {
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+          margin-left: 1.5rem;
+          margin-top: 1rem;
+        }
+      }
+    }
   }
 }
 
 .released-date {
-  text-align: right;
   margin-top: 1rem;
 }
 
