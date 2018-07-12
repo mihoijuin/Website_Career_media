@@ -34,13 +34,13 @@ ul, li {
   align-items: flex-end;
   background-color: $basic_color;
   justify-content: space-between;
-  padding: 0 2rem .5rem 2rem;
+  padding: 0 1.5rem .5rem 1.5rem;
 
   .header-logo {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 
     img {
       border-radius: 50%;
@@ -49,11 +49,11 @@ ul, li {
       margin-left: .5rem;
 
       h1 {
-        font: bold 2.5rem $title_font;
+        font: bold 3rem $title_font;
       }
 
       p {
-        margin-top: 1rem;
+        margin-top: 1.5rem;
       }
     }
   }
@@ -82,10 +82,10 @@ ul, li {
   width: 90%;
 
   .heading{
-    font: bold 2rem $title_font;
+    font: bold 2.3rem $strong_font;
     width: 15%;
     text-align: center;
-    border-bottom: rem(4px) dashed $orange;
+    border-bottom: rem(7px) dashed $orange;
     padding-bottom: .8rem;
     margin-bottom: 2rem;
   }
@@ -131,7 +131,7 @@ ul, li {
       margin-bottom: 2rem;
 
       .popular-title {
-        font: bold 2rem $title_font;
+        font: bold 2rem $post_font;
       }
 
       .popular-category {
@@ -165,7 +165,7 @@ ul, li {
       margin-bottom: .8rem;
 
       .post-title {
-        font: bold 1.5rem $title_font;
+        font: bold 1.5rem $post_font;
       }
 
       .post-category {
@@ -199,7 +199,7 @@ ul, li {
       .single-title {
         font-size: 2rem;
         font-weight: bold;
-        font-family: $title_font;
+        font-family: $post_font;
       }
 
       .single-category {
@@ -289,6 +289,7 @@ ul, li {
     margin-bottom: 3rem;
 
     h3 {
+      font-family: $post_font;
       font-size: 1.8rem;
       font-weight: bold;
     }
@@ -324,7 +325,7 @@ footer {
       }
 
       h1 {
-        font: bold 1.8rem $title_font;
+        font: bold 2rem $title_font;
         margin: 1rem 0;
       }
 
