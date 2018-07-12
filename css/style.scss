@@ -61,7 +61,6 @@ ul, li {
   .header-nav {
     ul {
       display: flex;
-      
 
       li {
         // hover時のレイアウト防止用
@@ -314,23 +313,23 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 1.5rem;
 
     .footer-logo {
-      margin: 1.5rem .5rem;
+      margin: 1.5rem 0;
       text-align: center;
 
       img {
         border-radius: 50%;
-        margin-bottom: .8rem;
       }
 
       h1 {
-        font: bold 1.2rem $title_font;
+        font: bold 1.8rem $title_font;
+        margin: 1rem 0;
       }
 
       p {
         font-size: .8em;
-        margin-top: .5rem;
       }
     }
 
@@ -347,16 +346,18 @@ footer {
     }
 
     .footer-nav {
-      margin-right: 2rem;
+      ul {
+        text-align: right;
 
-      li {
-        // hover時のレイアウト防止用
-        border-bottom: rem(4px) dotted $basic_color;
-        font-size: 1.1em;
-        margin-bottom: 1rem;
+        li {
+          // hover時のレイアウト防止用
+          border-bottom: rem(4px) dotted $basic_color;
+          font-size: 1.1em;
+          margin-bottom: 1rem;
 
-        &:hover {
-          border-bottom: rem(4px) dotted darken($basic_color, 40%);
+          &:hover {
+            border-bottom: rem(4px) dotted darken($basic_color, 40%);
+          }
         }
       }
     }
@@ -364,6 +365,6 @@ footer {
 
   .copyright {
     padding: .2rem;
-    text-align: right;
+    text-align: center;
   }
 }
