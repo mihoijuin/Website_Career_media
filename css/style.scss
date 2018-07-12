@@ -20,7 +20,7 @@ a {
 }
 
 p {
-  font-size: .9rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
@@ -130,7 +130,7 @@ ul, li {
       margin-bottom: 2rem;
 
       .popular-title {
-        font: bold 2.5rem $title_font;
+        font: bold 2rem $title_font;
       }
 
       .popular-category {
@@ -178,7 +178,7 @@ ul, li {
 .single {
   display: grid;
   grid-template-columns: auto 25%;
-  grid-gap: 3rem;
+  grid-gap: 2rem;
 
   margin: 4rem auto;
   width: 95%;
@@ -187,13 +187,69 @@ ul, li {
     background-color: #fff;
   }
 
-  .sidebar {
+  .single-post {
+    margin: 3rem auto;
+    width: 85%;
 
+    header {
+      display: flex;
+      justify-content: space-between;
+
+      .single-title {
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: $title_font;
+      }
+
+      .single-category {
+        background-color: lighten($orange, 5%);
+        padding: .1rem;
+      }
+    }
+
+    .txt-content {
+      margin: 3rem 0;
+    }
+
+    .share {
+      ul {
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+          margin-left: 1.5rem;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.sidebar {
+  width: 85%;
+  margin: 0 auto;
+
+  .side-content {
+    background-color: lighten($basic_color, 15%);
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    padding: 2.5rem 0;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  ul {
+    margin: 2rem 0;
+    li {
+      margin: 1rem 0;
+    }
   }
 }
 
 .released-date {
-  text-align: right;
   margin-top: 1rem;
 }
 
