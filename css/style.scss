@@ -178,7 +178,7 @@ ul, li {
 .single {
   display: grid;
   grid-template-columns: auto 25%;
-  grid-gap: 3rem;
+  grid-gap: 2rem;
 
   margin: 4rem auto;
   width: 95%;
@@ -221,6 +221,30 @@ ul, li {
           margin-top: 1rem;
         }
       }
+    }
+  }
+}
+
+.sidebar {
+  width: 85%;
+  margin: 0 auto;
+
+  .side-content {
+    background-color: lighten($basic_color, 15%);
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  ul {
+    margin: 2rem 0;
+    li {
+      margin: 1rem 0;
     }
   }
 }
