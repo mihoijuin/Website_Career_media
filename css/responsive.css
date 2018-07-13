@@ -19,14 +19,15 @@
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
-      margin: 4rem 0; }
+      margin: 3rem auto;
+      width: 100%; }
       #header .header-nav ul li {
         border-bottom: none;
         font-size: 1rem;
         margin-left: 0;
         padding: 1.3rem;
         text-align: center;
-        width: 25%; }
+        width: 100%; }
         #header .header-nav ul li:hover {
           border-bottom: none; }
 
@@ -117,13 +118,14 @@
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
-      margin: 3rem 0; }
+      margin: 3rem auto;
+      width: 100%; }
       #header .header-nav ul li {
         border-bottom: none;
         font-size: .8rem;
         margin-left: 0;
         text-align: center;
-        width: 30%; }
+        width: 100%; }
         #header .header-nav ul li:hover {
           border-bottom: none; }
 
