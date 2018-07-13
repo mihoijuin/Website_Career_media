@@ -197,9 +197,7 @@ ul, li {
       justify-content: space-between;
 
       .single-title {
-        font-size: 2rem;
-        font-weight: bold;
-        font-family: $post_font;
+        font: bold 2rem $post_font;
       }
 
       .single-category {
@@ -289,9 +287,7 @@ ul, li {
     margin-bottom: 3rem;
 
     h3 {
-      font-family: $post_font;
-      font-size: 1.8rem;
-      font-weight: bold;
+      font: bold 1.8rem $post_font;
     }
 
     img {

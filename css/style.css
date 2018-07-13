@@ -133,9 +133,7 @@ ul, li {
       display: flex;
       justify-content: space-between; }
       .single .single-post header .single-title {
-        font-size: 2rem;
-        font-weight: bold;
-        font-family: uzura_font; }
+        font: bold 2rem uzura_font; }
       .single .single-post header .single-category {
         background-color: #f7bca0;
         padding: .1rem; }
@@ -191,9 +189,7 @@ ul, li {
     text-align: center;
     margin-bottom: 3rem; }
     .profiles .profile h3 {
-      font-family: uzura_font;
-      font-size: 1.8rem;
-      font-weight: bold; }
+      font: bold 1.8rem uzura_font; }
     .profiles .profile img {
       border-radius: 50%;
       margin: 1.7rem 0; }
