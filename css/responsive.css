@@ -201,13 +201,18 @@
     font-size: .5rem; }
 
   .profiles {
-    display: block; }
+    display: block;
+    width: 100%; }
     .profiles .profile {
       margin-bottom: 2rem; }
+      .profiles .profile h3 {
+        font-size: 1.2rem; }
       .profiles .profile img {
-        margin: 1rem 0; }
+        padding: 1.3rem;
+        margin: 0; }
       .profiles .profile a {
-        margin: 1rem 0; }
+        font-size: .8rem;
+        margin: .3rem 0; }
 
   footer .footer-container {
     display: block;
