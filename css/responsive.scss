@@ -132,6 +132,22 @@
         margin-top: .5rem;
     }
 
+    .profiles {
+        display: block;
+
+        .profile {
+            margin-bottom: 2rem;
+
+            img {
+                margin: 1rem 0;
+            }
+
+            a {
+                margin: 1rem 0;
+            }
+        }
+    }
+
     footer {
         padding-top: 2rem;
 
