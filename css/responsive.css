@@ -32,6 +32,33 @@
         #header .header-nav ul li:hover {
           border-bottom: none; }
 
+  .main-wrapper .heading {
+    font-size: 2rem;
+    width: 30%; }
+
+  .popular-posts {
+    display: block; }
+    .popular-posts .popular-post {
+      margin-bottom: 2rem;
+      padding: 2rem; }
+      .popular-posts .popular-post header {
+        margin-bottom: .8rem; }
+        .popular-posts .popular-post header .popular-title {
+          font-size: 1.5rem; }
+
+  .posts {
+    width: 100%; }
+    .posts .post {
+      margin-bottom: 1rem;
+      padding: .5rem; }
+      .posts .post header {
+        margin-bottom: .5rem; }
+        .posts .post header .post-title {
+          font-size: 1.2rem; }
+
+  .released-date {
+    margin-top: .5rem; }
+
   footer {
     padding-top: 2rem; }
     footer .footer-container {

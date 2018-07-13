@@ -47,6 +47,52 @@
         }
     }
 
+    .main-wrapper {
+        .heading {
+            font-size: 2rem;
+            width: 30%;
+        }
+    }
+
+    .popular-posts {
+        display: block;
+
+        .popular-post {
+            margin-bottom: 2rem;
+            padding: 2rem;
+
+            header {
+                margin-bottom: .8rem;
+
+                .popular-title {
+                    font-size: 1.5rem;
+                }
+            }
+
+        }
+    }
+
+    .posts {
+        width: 100%;
+
+        .post {
+            margin-bottom: 1rem;
+            padding: .5rem;
+
+            header {
+                margin-bottom: .5rem;
+
+                .post-title {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    .released-date {
+        margin-top: .5rem;
+    }
+
     footer {
         padding-top: 2rem;
 
