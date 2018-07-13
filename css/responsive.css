@@ -86,6 +86,9 @@
       footer .footer-container .social ul {
         justify-content: center;
         margin: 4rem 0; }
+        footer .footer-container .social ul li {
+          font-size: 1rem;
+          margin-right: 1.5rem; }
       footer .footer-container .footer-nav {
         display: none; } }
 
