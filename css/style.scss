@@ -79,7 +79,7 @@ ul, li {
 /* main */
 .main-wrapper {
   margin: 3rem auto;
-  width: 90%;
+  width: 95%;
 
   .heading{
     font: bold 2.3rem $strong_font;
@@ -94,7 +94,7 @@ ul, li {
 /* popular-posts@page.html */
 .popular-posts {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-template-areas:
