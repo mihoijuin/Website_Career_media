@@ -151,7 +151,7 @@
           padding: .3rem; }
 
   .posts {
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     width: 100%; }
     .posts .post {
       margin-bottom: .5rem;
@@ -164,25 +164,38 @@
         display: none; }
 
   .single {
-    display: block; }
+    display: block;
+    margin: 0 auto; }
     .single .single-post {
-      margin: 2rem auto;
-      padding: .5rem; }
+      margin: 1.5rem auto;
+      padding: .2rem; }
       .single .single-post header .single-title {
         font-size: 1.6rem; }
+      .single .single-post header .single-category {
+        padding-top: .4rem; }
       .single .single-post .txt-content {
         margin: 2rem 0; }
       .single .single-post .share ul {
         margin-top: 1rem; }
+        .single .single-post .share ul li {
+          font-size: .5rem;
+          margin-left: 1rem; }
     .single .sidebar .side-content {
       margin-bottom: 1rem;
       padding: 1rem; }
-    .single .sidebar ul li {
-      font-size: .8rem;
-      margin: .5rem 0; }
+    .single .sidebar h3 {
+      font-size: 1rem; }
+    .single .sidebar ul {
+      margin: 1rem 0; }
+      .single .sidebar ul li {
+        font-size: .8rem;
+        margin: .1rem 0; }
 
   .released-date {
     margin-top: .2rem; }
+
+  .page-nav {
+    font-size: .5rem; }
 
   .more-nav {
     font-size: .5rem; }
@@ -203,10 +216,11 @@
       display: none; }
     footer .footer-container .social ul {
       justify-content: center;
-      margin: 2rem 0; }
+      margin: 1.5rem 0; }
       footer .footer-container .social ul li {
-        font-size: 1rem;
-        margin-right: 1.5rem; }
+        font-size: .8rem;
+        margin-right: 0;
+        letter-spacing: 1rem; }
     footer .footer-container .footer-nav {
       display: none; }
   footer .copyright {

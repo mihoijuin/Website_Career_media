@@ -262,7 +262,7 @@
     }
 
     .posts {
-        margin: 1rem auto;
+        margin: 1.5rem auto;
         width: 100%;
 
         .post {
@@ -285,14 +285,19 @@
 
     .single {
         display: block;
+        margin: 0 auto;
 
         .single-post {
-            margin: 2rem auto;
-            padding: .5rem;
+            margin: 1.5rem auto;
+            padding: .2rem;
 
             header {
                 .single-title {
                     font-size: 1.6rem;
+                }
+
+                .single-category {
+                    padding-top: .4rem;
                 }
             }
 
@@ -303,6 +308,11 @@
             .share {
                 ul {
                     margin-top: 1rem;
+
+                    li {
+                        font-size: .5rem;
+                        margin-left: 1rem;
+                    }
                 }
             }
         }
@@ -313,10 +323,16 @@
                 padding: 1rem;
             }
 
+            h3 {
+                font-size: 1rem;
+            }
+
             ul {
+                margin: 1rem 0;
+
                 li {
                     font-size: .8rem;
-                    margin: .5rem 0;
+                    margin: .1rem 0;
                 }
             }
         }
@@ -324,6 +340,10 @@
 
     .released-date {
         margin-top: .2rem;
+    }
+
+    .page-nav {
+        font-size: .5rem;
     }
 
     .more-nav {
@@ -358,11 +378,12 @@
             .social {
                 ul {
                     justify-content: center;
-                    margin: 2rem 0;
+                    margin: 1.5rem 0;
 
                     li {
-                        font-size: 1rem;
-                        margin-right: 1.5rem;
+                        font-size: .8rem;
+                        margin-right: 0;
+                        letter-spacing: 1rem;
                     }
                 }
             }
