@@ -17,11 +17,7 @@
             margin: 0;
 
             img {
-                margin-top: 2rem;
-            }
-
-            h1 {
-                margin: 1rem 0;
+                margin: 1.5rem 0;
             }
         }
 
@@ -177,4 +173,235 @@
         }
     }
 
+}
+
+
+@media screen and (max-width: 670px) {
+    p {
+        font-size: .5rem;
+        line-height: 1.3;
+    }
+
+    /* header */
+    #header {
+        display: block;
+        padding: 0;
+
+
+        .header-logo {
+            display: block;
+            margin: 0;
+
+            img {
+                margin-top: 2rem;
+            }
+
+            .media-title {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+
+        }
+
+        .header-nav {
+            ul {
+                background-color: darken($basic_color, 10%);
+                justify-content: center;
+                margin: 3rem 0;
+
+                li {
+                    border-bottom: none;
+                    font-size: .8rem;
+                    margin-left: 0;
+                    text-align: center;
+                    width: 30%;
+
+                    &:hover {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-wrapper {
+        margin: 1rem auto;
+
+        .heading {
+            border-bottom: rem(4px) dashed $orange;
+            text-align: left;
+            font-size: 1.3rem;
+            margin-bottom: 0;
+            padding-bottom: .3rem;
+            width: 30%;
+        }
+    }
+
+    .popular-posts {
+        display: block;
+        margin: 1.5rem auto 2.5rem auto;
+
+        .popular-post {
+            margin-bottom: .5rem;
+            padding: .5rem;
+
+            header {
+                margin-bottom: 0;
+
+                .popular-title {
+                    font-size: 1rem;
+                }
+
+                .popular-category {
+                    padding: .3rem;
+                }
+            }
+
+        }
+    }
+
+    .posts {
+        margin: 1.5rem auto;
+        width: 100%;
+
+        .post {
+            margin-bottom: .5rem;
+            padding: .5rem;
+
+            header {
+                margin-bottom: 0;
+
+                .post-title {
+                    font-size: .8rem;
+                }
+            }
+
+            .post-txt {
+                display: none;
+            }
+        }
+    }
+
+    .single {
+        display: block;
+        margin: 0 auto;
+
+        .single-post {
+            margin: 1.5rem auto;
+            padding: .2rem;
+
+            header {
+                .single-title {
+                    font-size: 1.6rem;
+                }
+
+                .single-category {
+                    padding-top: .4rem;
+                }
+            }
+
+            .txt-content {
+                margin: 2rem 0;
+            }
+
+            .share {
+                ul {
+                    margin-top: 1rem;
+
+                    li {
+                        font-size: .5rem;
+                        margin-left: 1rem;
+                    }
+                }
+            }
+        }
+
+        .sidebar {
+            .side-content {
+                margin-bottom: 1rem;
+                padding: 1rem;
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            ul {
+                margin: 1rem 0;
+
+                li {
+                    font-size: .8rem;
+                    margin: .1rem 0;
+                }
+            }
+        }
+    }
+
+    .released-date {
+        margin-top: .2rem;
+    }
+
+    .page-nav {
+        font-size: .5rem;
+    }
+
+    .more-nav {
+        font-size: .5rem;
+    }
+
+    .profiles {
+        display: block;
+        width: 100%;
+
+        .profile {
+            margin-bottom: 2rem;
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            img {
+                padding: 1.3rem;
+                margin: 0;
+            }
+
+            a {
+                font-size: .8rem;
+                margin: .3rem 0;
+            }
+        }
+    }
+
+    footer {
+        .footer-container {
+            display: block;
+            margin: 0;
+
+            .footer-logo {
+                display: none;
+            }
+
+            .social {
+                ul {
+                    justify-content: center;
+                    margin: 1.5rem 0;
+
+                    li {
+                        font-size: .8rem;
+                        margin-right: 0;
+                        letter-spacing: 1rem;
+                    }
+                }
+            }
+
+            .footer-nav {
+                display: none;
+            }
+        }
+
+        .copyright {
+            padding: .1rem;
+        }
+    }
 }
