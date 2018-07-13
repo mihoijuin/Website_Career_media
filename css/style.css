@@ -28,7 +28,7 @@ ul, li {
   align-items: flex-end;
   background-color: #83E3C2;
   justify-content: space-between;
-  padding: 0 1.5rem .5rem 1.5rem; }
+  padding: 0 1.5rem 1rem 1.5rem; }
   #header .header-logo {
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@ ul, li {
 /* main */
 .main-wrapper {
   margin: 3rem auto;
-  width: 90%; }
+  width: 95%; }
   .main-wrapper .heading {
     font: bold 2.3rem Kaiso;
     width: 15%;
@@ -66,7 +66,7 @@ ul, li {
 /* popular-posts@page.html */
 .popular-posts {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-template-areas: "area1  area3" "area2  area3";
