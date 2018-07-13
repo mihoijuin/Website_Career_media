@@ -118,7 +118,7 @@ ul, li {
   .popular-post {
     background-image: url(http://placehold.jp/150x50.png);
     opacity: 0.8;
-    padding: 2.5rem 2.5rem;
+    padding: 2.5rem;
 
     &:hover {
       cursor: pointer;
@@ -149,7 +149,6 @@ ul, li {
 
   .post {
     background-color: lighten($basic_color, 15%);
-    border-radius: rem(5px);
     margin-bottom: 1.7rem;
     opacity: 0.8;
     padding: 1rem;
@@ -180,7 +179,6 @@ ul, li {
   display: grid;
   grid-template-columns: auto 25%;
   grid-gap: 2rem;
-
   margin: 4rem auto;
   width: 95%;
 
@@ -190,16 +188,14 @@ ul, li {
 
   .single-post {
     margin: 3rem auto;
-    width: 85%;
+    width: 90%;
 
     header {
       display: flex;
       justify-content: space-between;
 
       .single-title {
-        font-size: 2rem;
-        font-weight: bold;
-        font-family: $post_font;
+        font: bold 2rem $post_font;
       }
 
       .single-category {
@@ -216,10 +212,10 @@ ul, li {
       ul {
         display: flex;
         justify-content: flex-end;
+        margin-top: 1rem;
 
         li {
           margin-left: 1.5rem;
-          margin-top: 1rem;
         }
       }
     }
@@ -289,9 +285,7 @@ ul, li {
     margin-bottom: 3rem;
 
     h3 {
-      font-family: $post_font;
-      font-size: 1.8rem;
-      font-weight: bold;
+      font: bold 1.8rem $post_font;
     }
 
     img {

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* 関数 */
+/* カラー変数 */
+/* フォント */
+@media screen and (max-width: 800px) {
+  p {
+    font-size: .8rem;
+    line-height: 1.3; }
+
+  /* header */
+  #header {
+    display: block;
+    padding: 0; }
+    #header .header-logo {
+      display: block;
+      margin: 0; }
+      #header .header-logo img {
+        margin-top: 2rem; }
+      #header .header-logo h1 {
+        margin: 1rem 0; }
+    #header .header-nav ul {
+      background-color: #59daae;
+      justify-content: center;
+      margin: 4rem 0; }
+      #header .header-nav ul li {
+        border-bottom: none;
+        font-size: 1rem;
+        margin-left: 0;
+        padding: 1.3rem;
+        text-align: center;
+        width: 25%; }
+        #header .header-nav ul li:hover {
+          border-bottom: none; }
+
+  .main-wrapper .heading {
+    font-size: 2rem;
+    width: 30%; }
+
+  .popular-posts {
+    display: block; }
+    .popular-posts .popular-post {
+      margin-bottom: 2rem;
+      padding: 2rem; }
+      .popular-posts .popular-post header {
+        margin-bottom: .8rem; }
+        .popular-posts .popular-post header .popular-title {
+          font-size: 1.5rem; }
+
+  .posts {
+    width: 100%; }
+    .posts .post {
+      margin-bottom: 1rem;
+      padding: .5rem; }
+      .posts .post header {
+        margin-bottom: .5rem; }
+        .posts .post header .post-title {
+          font-size: 1.2rem; }
+
+  .single {
+    display: block; }
+    .single .single-post {
+      margin: 2rem auto;
+      padding: .5rem; }
+      .single .single-post header .single-title {
+        font-size: 1.6rem; }
+      .single .single-post .txt-content {
+        margin: 2rem 0; }
+      .single .single-post .share ul {
+        margin-top: 1rem; }
+    .single .sidebar .side-content {
+      margin-bottom: 1rem;
+      padding: 1rem; }
+    .single .sidebar ul li {
+      font-size: .8rem;
+      margin: .5rem 0; }
+
+  .released-date {
+    margin-top: .5rem; }
+
+  .profiles {
+    display: block; }
+    .profiles .profile {
+      margin-bottom: 2rem; }
+      .profiles .profile img {
+        margin: 1rem 0; }
+      .profiles .profile a {
+        margin: 1rem 0; }
+
+  footer {
+    padding-top: 2rem; }
+    footer .footer-container {
+      display: block; }
+      footer .footer-container .footer-logo {
+        display: none; }
+      footer .footer-container .social ul {
+        justify-content: center;
+        margin: 4rem 0; }
+        footer .footer-container .social ul li {
+          font-size: 1rem;
+          margin-right: 1.5rem; }
+      footer .footer-container .footer-nav {
+        display: none; } }
+
+/*# sourceMappingURL=responsive.css.map */
