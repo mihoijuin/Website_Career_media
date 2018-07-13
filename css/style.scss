@@ -149,7 +149,6 @@ ul, li {
 
   .post {
     background-color: lighten($basic_color, 15%);
-    
     margin-bottom: 1.7rem;
     opacity: 0.8;
     padding: 1rem;
@@ -180,7 +179,6 @@ ul, li {
   display: grid;
   grid-template-columns: auto 25%;
   grid-gap: 2rem;
-
   margin: 4rem auto;
   width: 95%;
 
@@ -190,7 +188,7 @@ ul, li {
 
   .single-post {
     margin: 3rem auto;
-    width: 85%;
+    width: 90%;
 
     header {
       display: flex;
@@ -214,10 +212,10 @@ ul, li {
       ul {
         display: flex;
         justify-content: flex-end;
+        margin-top: 1rem;
 
         li {
           margin-left: 1.5rem;
-          margin-top: 1rem;
         }
       }
     }

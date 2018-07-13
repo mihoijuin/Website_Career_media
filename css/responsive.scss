@@ -89,6 +89,45 @@
         }
     }
 
+    .single {
+        display: block;
+
+        .single-post {
+            margin: 2rem auto;
+            padding: .5rem;
+
+            header {
+                .single-title {
+                    font-size: 1.6rem;
+                }
+            }
+
+            .txt-content {
+                margin: 2rem 0;
+            }
+
+            .share {
+                ul {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        .sidebar {
+            .side-content {
+                margin-bottom: 1rem;
+                padding: 1rem;
+            }
+
+            ul {
+                li {
+                    font-size: .8rem;
+                    margin: .5rem 0;
+                }
+            }
+        }
+    }
+
     .released-date {
         margin-top: .5rem;
     }

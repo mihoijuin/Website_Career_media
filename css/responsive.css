@@ -56,6 +56,24 @@
         .posts .post header .post-title {
           font-size: 1.2rem; }
 
+  .single {
+    display: block; }
+    .single .single-post {
+      margin: 2rem auto;
+      padding: .5rem; }
+      .single .single-post header .single-title {
+        font-size: 1.6rem; }
+      .single .single-post .txt-content {
+        margin: 2rem 0; }
+      .single .single-post .share ul {
+        margin-top: 1rem; }
+    .single .sidebar .side-content {
+      margin-bottom: 1rem;
+      padding: 1rem; }
+    .single .sidebar ul li {
+      font-size: .8rem;
+      margin: .5rem 0; }
+
   .released-date {
     margin-top: .5rem; }
 
