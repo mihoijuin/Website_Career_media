@@ -25,7 +25,8 @@
             ul {
                 background-color: darken($basic_color, 10%);
                 justify-content: center;
-                margin: 4rem 0;
+                width: 50%;
+                margin: 0 auto;
 
                 li {
                     border-bottom: none;
@@ -33,7 +34,6 @@
                     margin-left: 0;
                     padding: 1.3rem;
                     text-align: center;
-                    width: 25%;
 
                     &:hover {
                         border-bottom: none;

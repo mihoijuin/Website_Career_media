@@ -19,14 +19,14 @@
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
-      margin: 4rem 0; }
+      width: 50%;
+      margin: 0 auto; }
       #header .header-nav ul li {
         border-bottom: none;
         font-size: 1rem;
         margin-left: 0;
         padding: 1.3rem;
-        text-align: center;
-        width: 25%; }
+        text-align: center; }
         #header .header-nav ul li:hover {
           border-bottom: none; }
 
