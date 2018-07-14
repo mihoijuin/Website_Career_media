@@ -16,6 +16,8 @@
       margin: 0; }
       #header .header-logo img {
         margin: 1.5rem 0; }
+      #header .header-logo svg {
+        width: 75%; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
