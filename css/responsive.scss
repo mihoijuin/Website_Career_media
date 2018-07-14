@@ -21,7 +21,7 @@
             }
 
             svg {
-                width: 75%;
+                width: 100%;
             }
         }
 
@@ -198,12 +198,16 @@
             margin: 0;
 
             img {
-                margin-top: 2rem;
+                margin: 1rem 0;
+            }
+
+            svg {
+                width: 75%;
             }
 
             .media-title {
-                h1 {
-                    font-size: 2rem;
+                p {
+                    margin-top: .5rem;
                 }
             }
 
@@ -213,7 +217,7 @@
             ul {
                 background-color: darken($basic_color, 10%);
                 justify-content: center;
-                margin: 3rem auto;
+                margin: 2.5rem auto;
                 width: 100%;
 
                 li {

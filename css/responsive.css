@@ -17,7 +17,7 @@
       #header .header-logo img {
         margin: 1.5rem 0; }
       #header .header-logo svg {
-        width: 75%; }
+        width: 100%; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
@@ -114,13 +114,15 @@
       display: block;
       margin: 0; }
       #header .header-logo img {
-        margin-top: 2rem; }
-      #header .header-logo .media-title h1 {
-        font-size: 2rem; }
+        margin: 1rem 0; }
+      #header .header-logo svg {
+        width: 75%; }
+      #header .header-logo .media-title p {
+        margin-top: .5rem; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
-      margin: 3rem auto;
+      margin: 2.5rem auto;
       width: 100%; }
       #header .header-nav ul li {
         border-bottom: none;
