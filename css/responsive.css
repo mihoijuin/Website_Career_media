@@ -133,11 +133,13 @@
     margin: 1rem auto; }
     .main-wrapper .heading {
       border-bottom: 0.25rem dashed #F5AC88;
-      text-align: left;
+      text-align: center;
       font-size: 1.3rem;
       margin-bottom: 0;
       padding-bottom: .3rem;
       width: 30%; }
+      .main-wrapper .heading svg {
+        width: 70%; }
 
   .popular-posts {
     display: block;

@@ -232,11 +232,15 @@
 
         .heading {
             border-bottom: rem(4px) dashed $orange;
-            text-align: left;
+            text-align: center;
             font-size: 1.3rem;
             margin-bottom: 0;
             padding-bottom: .3rem;
             width: 30%;
+
+            svg {
+                width: 70%;
+            }
         }
     }
 
