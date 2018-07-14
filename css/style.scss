@@ -247,7 +247,8 @@ p {
       margin-bottom: 2rem;
 
       .popular-title {
-        font: bold 2rem $post_font;
+        font-weight: bold;
+        font-size: 2rem;
       }
 
       .popular-category {
@@ -280,7 +281,8 @@ p {
       margin-bottom: .8rem;
 
       .post-title {
-        font: bold 1.5rem $post_font;
+        font-weight: bold;
+        font-size: 1.5rem;
       }
 
       .post-category {
@@ -311,7 +313,8 @@ p {
       justify-content: space-between;
 
       .single-title {
-        font: bold 2rem $post_font;
+        font-weight: bold;
+        font-size: 2rem;
       }
 
       .single-category {

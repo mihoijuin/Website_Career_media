@@ -209,7 +209,8 @@ p {
       justify-content: space-between;
       margin-bottom: 2rem; }
       .popular-posts .popular-post header .popular-title {
-        font: bold 2rem uzura_font; }
+        font-weight: bold;
+        font-size: 2rem; }
       .popular-posts .popular-post header .popular-category {
         background-color: #f7bca0;
         padding: .4rem; }
@@ -231,7 +232,8 @@ p {
       justify-content: space-between;
       margin-bottom: .8rem; }
       .posts .post header .post-title {
-        font: bold 1.5rem uzura_font; }
+        font-weight: bold;
+        font-size: 1.5rem; }
       .posts .post header .post-category {
         background-color: #f7bca0;
         padding: .1rem; }
@@ -251,7 +253,8 @@ p {
       display: flex;
       justify-content: space-between; }
       .single .single-post header .single-title {
-        font: bold 2rem uzura_font; }
+        font-weight: bold;
+        font-size: 2rem; }
       .single .single-post header .single-category {
         background-color: #f7bca0;
         padding: .1rem; }
