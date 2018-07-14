@@ -134,7 +134,7 @@ legend {
 }
 
 body {
-  font-family: 'BokutachinoGothic2Regular', Arial, Verdana, sans-serif;
+  font-family: -apple-system,'Segoe UI','Avenir','Helvetica Neue','Helvetica','Arial',"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
   background-color: $background_color;
 }
 
@@ -168,12 +168,8 @@ p {
     .media-title {
       margin-left: .5rem;
 
-      h1 {
-        font: bold 3rem $title_font;
-      }
-
       p {
-        margin-top: 1.5rem;
+        margin-top: 1rem;
       }
     }
   }
@@ -202,7 +198,7 @@ p {
   width: 95%;
 
   .heading{
-    font: bold 2.3rem $strong_font;
+    font: bold 2rem $strong_font;
     width: 15%;
     text-align: center;
     border-bottom: rem(7px) dashed $orange;
@@ -438,8 +434,7 @@ footer {
         border-radius: 50%;
       }
 
-      h1 {
-        font: bold 2rem $title_font;
+      svg {
         margin: 1rem 0;
       }
 
