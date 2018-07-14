@@ -198,7 +198,6 @@ p {
   width: 95%;
 
   .heading{
-    font: bold 2rem $strong_font;
     width: 15%;
     text-align: center;
     border-bottom: rem(7px) dashed $orange;
@@ -404,7 +403,8 @@ p {
     margin-bottom: 3rem;
 
     h3 {
-      font: bold 1.8rem $post_font;
+      font-weight: bold;
+      font-size: 1.8rem;
     }
 
     img {
