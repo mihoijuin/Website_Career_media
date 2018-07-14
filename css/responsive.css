@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* 関数 */
 /* カラー変数 */
-/* フォント */
 @media screen and (max-width: 800px) {
   p {
     font-size: .8rem;
@@ -16,6 +15,8 @@
       margin: 0; }
       #header .header-logo img {
         margin: 1.5rem 0; }
+      #header .header-logo svg {
+        width: 100%; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
@@ -112,13 +113,15 @@
       display: block;
       margin: 0; }
       #header .header-logo img {
-        margin-top: 2rem; }
-      #header .header-logo .media-title h1 {
-        font-size: 2rem; }
+        margin: 1rem 0; }
+      #header .header-logo svg {
+        width: 75%; }
+      #header .header-logo .media-title p {
+        margin-top: .5rem; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
-      margin: 3rem auto;
+      margin: 2.5rem auto;
       width: 100%; }
       #header .header-nav ul li {
         border-bottom: none;
@@ -136,7 +139,7 @@
       text-align: center;
       font-size: 1.3rem;
       margin-bottom: 0;
-      padding-bottom: .3rem;
+      padding-bottom: .1rem;
       width: 30%; }
       .main-wrapper .heading svg {
         width: 70%; }
@@ -145,14 +148,14 @@
     display: block;
     margin: 1.5rem auto 2.5rem auto; }
     .popular-posts .popular-post {
-      margin-bottom: .5rem;
+      margin-bottom: .8rem;
       padding: .5rem; }
       .popular-posts .popular-post header {
-        margin-bottom: 0; }
+        margin-bottom: .3rem; }
         .popular-posts .popular-post header .popular-title {
-          font-size: 1rem; }
+          font-size: .8rem; }
         .popular-posts .popular-post header .popular-category {
-          padding: .3rem; }
+          padding: .3rem .2rem .1rem .2rem; }
 
   .posts {
     margin: 1.5rem auto;
@@ -161,9 +164,11 @@
       margin-bottom: .5rem;
       padding: .5rem; }
       .posts .post header {
-        margin-bottom: 0; }
+        margin-bottom: .5rem; }
         .posts .post header .post-title {
-          font-size: .8rem; }
+          font-size: .7rem; }
+        .posts .post header .post-category {
+          padding: .3rem .1rem .2rem .2rem; }
       .posts .post .post-txt {
         display: none; }
 
@@ -174,9 +179,9 @@
       margin: 1.5rem auto;
       padding: .2rem; }
       .single .single-post header .single-title {
-        font-size: 1.6rem; }
+        font-size: 1.2rem; }
       .single .single-post header .single-category {
-        padding-top: .4rem; }
+        padding-top: .6rem; }
       .single .single-post .txt-content {
         margin: 2rem 0; }
       .single .single-post .share ul {
@@ -210,7 +215,7 @@
     .profiles .profile {
       margin-bottom: 2rem; }
       .profiles .profile h3 {
-        font-size: 1.2rem; }
+        font-size: 1rem; }
       .profiles .profile img {
         padding: 1.3rem;
         margin: 0; }
