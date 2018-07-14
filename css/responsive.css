@@ -148,14 +148,14 @@
     display: block;
     margin: 1.5rem auto 2.5rem auto; }
     .popular-posts .popular-post {
-      margin-bottom: .5rem;
+      margin-bottom: .8rem;
       padding: .5rem; }
       .popular-posts .popular-post header {
         margin-bottom: .3rem; }
         .popular-posts .popular-post header .popular-title {
           font-size: .8rem; }
         .popular-posts .popular-post header .popular-category {
-          padding: .1rem; }
+          padding: .3rem .2rem .1rem .2rem; }
 
   .posts {
     margin: 1.5rem auto;
@@ -167,6 +167,8 @@
         margin-bottom: .5rem; }
         .posts .post header .post-title {
           font-size: .7rem; }
+        .posts .post header .post-category {
+          padding: .3rem .1rem .2rem .2rem; }
       .posts .post .post-txt {
         display: none; }
 

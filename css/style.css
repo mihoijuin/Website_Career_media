@@ -197,6 +197,7 @@ p {
     grid-area: area3; }
   .popular-posts .popular-post {
     background-image: url(http://placehold.jp/150x50.png);
+    border-radius: .3rem;
     opacity: 0.8;
     padding: 2.5rem; }
     .popular-posts .popular-post:hover {
@@ -211,6 +212,7 @@ p {
         font-size: 1.7rem; }
       .popular-posts .popular-post header .popular-category {
         background-color: #f7bca0;
+        border-radius: .2rem;
         padding: .4rem; }
 
 /* posts */
@@ -219,6 +221,7 @@ p {
   width: 85%; }
   .posts .post {
     background-color: #c1f1e1;
+    border-radius: .3rem;
     margin-bottom: 1.7rem;
     opacity: 0.8;
     padding: 1rem; }
@@ -234,6 +237,7 @@ p {
         font-size: 1.3rem; }
       .posts .post header .post-category {
         background-color: #f7bca0;
+        border-radius: .2rem;
         padding: .1rem; }
 
 .single {
@@ -255,6 +259,7 @@ p {
         font-size: 1.8rem; }
       .single .single-post header .single-category {
         background-color: #f7bca0;
+        border-radius: .2rem;
         padding: .6rem .3rem 0 .3rem; }
     .single .single-post .txt-content {
       margin: 3rem 0; }

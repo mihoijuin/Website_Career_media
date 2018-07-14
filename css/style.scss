@@ -232,6 +232,7 @@ p {
 
   .popular-post {
     background-image: url(http://placehold.jp/150x50.png);
+    border-radius: .3rem;
     opacity: 0.8;
     padding: 2.5rem;
 
@@ -252,6 +253,7 @@ p {
 
       .popular-category {
         background-color: lighten($orange, 5%);
+        border-radius: .2rem;
         padding: .4rem;
       }
     }
@@ -265,6 +267,7 @@ p {
 
   .post {
     background-color: lighten($basic_color, 15%);
+    border-radius: .3rem;
     margin-bottom: 1.7rem;
     opacity: 0.8;
     padding: 1rem;
@@ -286,6 +289,7 @@ p {
 
       .post-category {
         background-color: lighten($orange, 5%);
+        border-radius: .2rem;
         padding: .1rem;
       }
     }
@@ -318,6 +322,7 @@ p {
 
       .single-category {
         background-color: lighten($orange, 5%);
+        border-radius: .2rem;
         padding: .6rem .3rem 0 .3rem;
       }
     }
