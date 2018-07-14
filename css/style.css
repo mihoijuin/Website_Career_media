@@ -1,356 +1,80 @@
-@charset "UTF-8";
-/**
- * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
- * https://cssreset.com/
- * Copyright 2012 Yahoo! Inc. All rights reserved.
- * http://yuilibrary.com/license/
- */
 /*
-	TODO will need to remove settings on HTML since we can't namespace it.
-	TODO with the prefix, should I group by selector or property for weight savings?
+Error: Undefined variable: "$strong_font".
+        on line 201 of /Users/ijumiho/Local Sites/nandedemodakara/app/public/wp-content/themes/wp_nandedemodakara/css/style.scss
+
+196: .main-wrapper {
+197:   margin: 3rem auto;
+198:   width: 95%;
+199: 
+200:   .heading{
+201:     font: bold 2rem $strong_font;
+202:     width: 15%;
+203:     text-align: center;
+204:     border-bottom: rem(7px) dashed $orange;
+205:     padding-bottom: .8rem;
+206:     margin-bottom: 2rem;
+
+Backtrace:
+/Users/ijumiho/Local Sites/nandedemodakara/app/public/wp-content/themes/wp_nandedemodakara/css/style.scss:201
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `_perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
 */
-html {
-  color: #000;
-  background: #FFF; }
-
-/*
-	TODO remove settings on BODY since we can't namespace it.
-*/
-/*
-	TODO test putting a class on HEAD.
-		- Fails on FF.
-*/
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
-  margin: 0;
-  padding: 0; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-fieldset,
-img {
-  border: 0; }
-
-/*
-	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
-*/
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-strong,
-th,
-var {
-  font-style: normal;
-  font-weight: normal; }
-
-ol,
-ul {
-  list-style: none; }
-
-caption,
-th {
-  text-align: left; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal; }
-
-q:before,
-q:after {
-  content: ''; }
-
-abbr,
-acronym {
-  border: 0;
-  font-variant: normal; }
-
-/* to preserve line-height and selector appearance */
-sup {
-  vertical-align: text-top; }
-
-sub {
-  vertical-align: text-bottom; }
-
-input,
-textarea,
-select {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit; }
-
-/*to enable resizing for IE*/
-input,
-textarea,
-select {
-  *font-size: 100%; }
-
-/*because legend doesn't inherit in IE */
-legend {
-  color: #000; }
-
-/* YUI CSS Detection Stamp */
-#yui3-css-stamp.cssreset {
-  display: none; }
-
-/* 関数 */
-/* カラー変数 */
-/* フォント */
-* {
-  box-sizing: border-box; }
-
-body {
-  font-family: -apple-system,'Segoe UI','Avenir','Helvetica Neue','Helvetica','Arial',"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
-  background-color: #FAF5CD; }
-
-a {
-  color: black;
-  text-decoration: none; }
-
-p {
-  font-size: 1rem;
-  line-height: 1.7; }
-
-/* Header */
-#header {
-  display: flex;
-  align-items: flex-end;
-  background-color: #83E3C2;
-  justify-content: space-between;
-  padding: 0 1.5rem 1rem 1.5rem; }
-  #header .header-logo {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-top: 2.5rem; }
-    #header .header-logo img {
-      border-radius: 50%; }
-    #header .header-logo .media-title {
-      margin-left: .5rem; }
-      #header .header-logo .media-title p {
-        margin-top: 1rem; }
-  #header .header-nav ul {
-    display: flex; }
-    #header .header-nav ul li {
-      border-bottom: 0.3125rem dotted #83E3C2;
-      font-size: 1.2rem;
-      margin-left: 3rem; }
-      #header .header-nav ul li:hover {
-        border-bottom: 0.3125rem dotted #1c7e5c; }
-
-/* main */
-.main-wrapper {
-  margin: 3rem auto;
-  width: 95%; }
-  .main-wrapper .heading {
-    font: bold 2rem Kaiso;
-    width: 15%;
-    text-align: center;
-    border-bottom: 0.4375rem dashed #F5AC88;
-    padding-bottom: .8rem;
-    margin-bottom: 2rem; }
-
-/* popular-posts@page.html */
-.popular-posts {
-  display: grid;
-  grid-gap: 1.5rem;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  grid-template-areas: "area1  area3" "area2  area3";
-  margin: 3rem auto 8rem auto;
-  width: 100%; }
-  .popular-posts .popular-post:nth-child(1) {
-    grid-area: area1; }
-  .popular-posts .popular-post:nth-child(2) {
-    grid-area: area2; }
-  .popular-posts .popular-post:nth-child(3) {
-    grid-area: area3; }
-  .popular-posts .popular-post {
-    background-image: url(http://placehold.jp/150x50.png);
-    opacity: 0.8;
-    padding: 2.5rem; }
-    .popular-posts .popular-post:hover {
-      cursor: pointer;
-      opacity: 1; }
-    .popular-posts .popular-post header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 2rem; }
-      .popular-posts .popular-post header .popular-title {
-        font-weight: bold;
-        font-size: 2rem; }
-      .popular-posts .popular-post header .popular-category {
-        background-color: #f7bca0;
-        padding: .4rem; }
-
-/* posts */
-.posts {
-  margin: 3rem auto;
-  width: 85%; }
-  .posts .post {
-    background-color: #c1f1e1;
-    margin-bottom: 1.7rem;
-    opacity: 0.8;
-    padding: 1rem; }
-    .posts .post:hover {
-      cursor: pointer;
-      opacity: 1; }
-    .posts .post header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: .8rem; }
-      .posts .post header .post-title {
-        font-weight: bold;
-        font-size: 1.5rem; }
-      .posts .post header .post-category {
-        background-color: #f7bca0;
-        padding: .1rem; }
-
-.single {
-  display: grid;
-  grid-template-columns: auto 25%;
-  grid-gap: 2rem;
-  margin: 4rem auto;
-  width: 95%; }
-  .single .single-content {
-    background-color: #fff; }
-  .single .single-post {
-    margin: 3rem auto;
-    width: 90%; }
-    .single .single-post header {
-      display: flex;
-      justify-content: space-between; }
-      .single .single-post header .single-title {
-        font-weight: bold;
-        font-size: 2rem; }
-      .single .single-post header .single-category {
-        background-color: #f7bca0;
-        padding: .1rem; }
-    .single .single-post .txt-content {
-      margin: 3rem 0; }
-    .single .single-post .share ul {
-      display: flex;
-      justify-content: flex-end;
-      margin-top: 1rem; }
-      .single .single-post .share ul li {
-        margin-left: 1.5rem; }
-
-.sidebar {
-  width: 85%;
-  margin: 0 auto; }
-  .sidebar .side-content {
-    background-color: #c1f1e1;
-    border-radius: .5rem;
-    margin-bottom: 2rem;
-    padding: 2.5rem 0;
-    text-align: center; }
-  .sidebar h3 {
-    font-size: 1.3rem; }
-  .sidebar ul {
-    margin: 2rem 0; }
-    .sidebar ul li {
-      margin: 1rem 0; }
-
-.released-date {
-  margin-top: 1rem; }
-
-/* page-nav */
-.page-nav ul {
-  display: flex;
-  justify-content: center; }
-  .page-nav ul li {
-    border-bottom: 0.0625rem solid #FAF5CD;
-    margin: 0 1rem; }
-    .page-nav ul li:hover {
-      border-bottom: 0.0625rem solid black;
-      cursor: pointer; }
-
-.more-nav {
-  text-align: right; }
-
-/* profiles */
-.profiles {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  width: 50%; }
-  .profiles .profile {
-    text-align: center;
-    margin-bottom: 3rem; }
-    .profiles .profile h3 {
-      font: bold 1.8rem uzura_font; }
-    .profiles .profile img {
-      border-radius: 50%;
-      margin: 1.7rem 0; }
-    .profiles .profile a {
-      display: inline-block;
-      margin: 1.5rem 0; }
-
-/* footer */
-footer {
-  background-color: #83E3C2; }
-  footer .footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 1.5rem; }
-    footer .footer-container .footer-logo {
-      margin: 1.5rem 0;
-      text-align: center; }
-      footer .footer-container .footer-logo img {
-        border-radius: 50%; }
-      footer .footer-container .footer-logo svg {
-        margin: 1rem 0; }
-      footer .footer-container .footer-logo p {
-        font-size: .8em; }
-    footer .footer-container .social ul {
-      display: flex;
-      margin: 3rem 10.5rem 0 0; }
-      footer .footer-container .social ul li {
-        font-size: 1.3rem;
-        letter-spacing: 2rem; }
-    footer .footer-container .footer-nav ul {
-      text-align: right; }
-      footer .footer-container .footer-nav ul li {
-        border-bottom: 0.25rem dotted #83E3C2;
-        font-size: 1.1em;
-        margin-bottom: 1rem; }
-        footer .footer-container .footer-nav ul li:hover {
-          border-bottom: 0.25rem dotted #1c7e5c; }
-  footer .copyright {
-    padding: .2rem;
-    text-align: center; }
-
-/*# sourceMappingURL=style.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$strong_font\".\A         on line 201 of /Users/ijumiho/Local Sites/nandedemodakara/app/public/wp-content/themes/wp_nandedemodakara/css/style.scss\A \A 196: .main-wrapper {\A 197:   margin: 3rem auto;\A 198:   width: 95%;\A 199: \A 200:   .heading{\A 201:     font: bold 2rem $strong_font;\A 202:     width: 15%;\A 203:     text-align: center;\A 204:     border-bottom: rem(7px) dashed $orange;\A 205:     padding-bottom: .8rem;\A 206:     margin-bottom: 2rem;"; }

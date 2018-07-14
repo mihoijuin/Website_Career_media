@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* 関数 */
 /* カラー変数 */
-/* フォント */
 @media screen and (max-width: 800px) {
   p {
     font-size: .8rem;
