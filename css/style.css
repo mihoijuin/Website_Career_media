@@ -208,7 +208,7 @@ p {
       margin-bottom: 2rem; }
       .popular-posts .popular-post header .popular-title {
         font-weight: bold;
-        font-size: 2rem; }
+        font-size: 1.7rem; }
       .popular-posts .popular-post header .popular-category {
         background-color: #f7bca0;
         padding: .4rem; }
@@ -231,7 +231,7 @@ p {
       margin-bottom: .8rem; }
       .posts .post header .post-title {
         font-weight: bold;
-        font-size: 1.5rem; }
+        font-size: 1.3rem; }
       .posts .post header .post-category {
         background-color: #f7bca0;
         padding: .1rem; }
@@ -252,10 +252,10 @@ p {
       justify-content: space-between; }
       .single .single-post header .single-title {
         font-weight: bold;
-        font-size: 2rem; }
+        font-size: 1.8rem; }
       .single .single-post header .single-category {
         background-color: #f7bca0;
-        padding: .1rem; }
+        padding: .6rem .3rem 0 .3rem; }
     .single .single-post .txt-content {
       margin: 3rem 0; }
     .single .single-post .share ul {
@@ -309,7 +309,7 @@ p {
     margin-bottom: 3rem; }
     .profiles .profile h3 {
       font-weight: bold;
-      font-size: 1.8rem; }
+      font-size: 1.5rem; }
     .profiles .profile img {
       border-radius: 50%;
       margin: 1.7rem 0; }

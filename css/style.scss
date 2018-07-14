@@ -247,7 +247,7 @@ p {
 
       .popular-title {
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
 
       .popular-category {
@@ -281,7 +281,7 @@ p {
 
       .post-title {
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
 
       .post-category {
@@ -313,12 +313,12 @@ p {
 
       .single-title {
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
 
       .single-category {
         background-color: lighten($orange, 5%);
-        padding: .1rem;
+        padding: .6rem .3rem 0 .3rem;
       }
     }
 
@@ -404,7 +404,7 @@ p {
 
     h3 {
       font-weight: bold;
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
 
     img {
