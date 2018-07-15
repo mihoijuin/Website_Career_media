@@ -174,11 +174,11 @@ p {
   margin: 3rem auto;
   width: 95%; }
   .main-wrapper .heading {
-    width: 15%;
+    width: 10%;
     text-align: center;
     border-bottom: 0.4375rem dashed #F5AC88;
     padding-bottom: .8rem;
-    margin-bottom: 2rem; }
+    margin: 1.5rem 0; }
 
 /* popular-posts@page.html */
 .popular-posts {

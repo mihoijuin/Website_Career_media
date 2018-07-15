@@ -135,9 +135,8 @@
     .main-wrapper .heading {
       border-bottom: 0.25rem dashed #F5AC88;
       text-align: center;
-      font-size: 1.3rem;
       margin-bottom: 0;
-      padding-bottom: .1rem;
+      padding-bottom: .5rem;
       width: 30%; }
       .main-wrapper .heading svg {
         width: 70%; }
