@@ -217,7 +217,7 @@ p {
   grid-template-areas:
       "area1  area3"
       "area2  area3";
-  margin: 3rem auto 8rem auto;
+  margin: 1rem auto 8rem auto;
   width: 100%;
 
   .popular-post:nth-child(1) {
@@ -264,7 +264,7 @@ p {
 
 /* posts */
 .posts {
-  margin: 3rem auto;
+  margin: 1rem auto;
   width: 85%;
 
   .post {

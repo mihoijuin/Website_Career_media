@@ -187,7 +187,7 @@ p {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-template-areas: "area1  area3" "area2  area3";
-  margin: 3rem auto 8rem auto;
+  margin: 1rem auto 8rem auto;
   width: 100%; }
   .popular-posts .popular-post:nth-child(1) {
     grid-area: area1; }
@@ -217,7 +217,7 @@ p {
 
 /* posts */
 .posts {
-  margin: 3rem auto;
+  margin: 1rem auto;
   width: 85%; }
   .posts .post {
     background-color: #c1f1e1;
