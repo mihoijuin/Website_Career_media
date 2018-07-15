@@ -13,10 +13,8 @@
     #header .header-logo {
       display: block;
       margin: 0; }
-      #header .header-logo img {
+      #header .header-logo .top-icon {
         margin: 1.5rem 0; }
-      #header .header-logo svg {
-        width: 100%; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
@@ -112,9 +110,9 @@
     #header .header-logo {
       display: block;
       margin: 0; }
-      #header .header-logo img {
+      #header .header-logo .header-icon {
         margin: 1rem 0; }
-      #header .header-logo svg {
+      #header .header-logo .media-title .title {
         width: 75%; }
       #header .header-logo .media-title p {
         margin-top: .5rem; }
@@ -137,10 +135,9 @@
     .main-wrapper .heading {
       border-bottom: 0.25rem dashed #F5AC88;
       text-align: center;
-      font-size: 1.3rem;
       margin-bottom: 0;
-      padding-bottom: .1rem;
-      width: 30%; }
+      padding-bottom: .5rem;
+      width: 25%; }
       .main-wrapper .heading svg {
         width: 70%; }
 

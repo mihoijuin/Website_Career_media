@@ -1,3 +1,5 @@
+@charset 'UTF-8';
+
 @import 'variables';
 
 @media screen and (max-width: 800px) {
@@ -16,12 +18,8 @@
             display: block;
             margin: 0;
 
-            img {
+            .top-icon {
                 margin: 1.5rem 0;
-            }
-
-            svg {
-                width: 100%;
             }
         }
 
@@ -197,15 +195,15 @@
             display: block;
             margin: 0;
 
-            img {
+            .header-icon {
                 margin: 1rem 0;
             }
 
-            svg {
-                width: 75%;
-            }
-
             .media-title {
+                .title {
+                    width: 75%;
+                }
+
                 p {
                     margin-top: .5rem;
                 }
@@ -241,10 +239,9 @@
         .heading {
             border-bottom: rem(4px) dashed $orange;
             text-align: center;
-            font-size: 1.3rem;
             margin-bottom: 0;
-            padding-bottom: .1rem;
-            width: 30%;
+            padding-bottom: .5rem;
+            width: 25%;
 
             svg {
                 width: 70%;
