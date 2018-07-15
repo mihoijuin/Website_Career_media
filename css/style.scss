@@ -434,7 +434,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 1rem;
 
     .footer-logo {
       margin: 1.5rem 0;
@@ -457,7 +456,7 @@ footer {
     .social {
       ul {
         display: flex;
-        margin: 3rem 10.5rem 0 0;
+        margin: 3rem 14rem 0 0;
 
         li {
           font-size: 1.3rem;
@@ -469,16 +468,11 @@ footer {
     .footer-nav {
       ul {
         text-align: right;
+        margin-right: 1.5rem;
 
         li {
-          // hover時のレイアウト防止用
-          border-bottom: rem(4px) dotted $basic_color;
-          font-size: 1.1em;
-          margin-bottom: 1rem;
-
-          &:hover {
-            border-bottom: rem(4px) dotted darken($basic_color, 40%);
-          }
+          font-size: 1.3rem;
+          margin-bottom: 1.5rem;
         }
       }
     }

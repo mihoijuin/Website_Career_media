@@ -145,12 +145,12 @@
     display: block;
     margin: 1.5rem auto 2.5rem auto; }
     .popular-posts .popular-post {
-      margin-bottom: .8rem;
-      padding: .5rem; }
+      margin-bottom: 1rem;
+      padding: 2rem .5rem; }
       .popular-posts .popular-post header {
-        margin-bottom: .3rem; }
+        margin-bottom: 1.5rem; }
         .popular-posts .popular-post header .popular-title {
-          font-size: .8rem; }
+          font-size: 1rem; }
         .popular-posts .popular-post header .popular-category {
           padding: .3rem .2rem .1rem .2rem; }
 
@@ -202,6 +202,8 @@
 
   .page-nav {
     font-size: .5rem; }
+    .page-nav ul li {
+      margin: 0 .8rem; }
 
   .more-nav {
     font-size: .5rem; }

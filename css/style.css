@@ -328,8 +328,7 @@ footer {
   footer .footer-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 1rem; }
+    justify-content: space-between; }
     footer .footer-container .footer-logo {
       margin: 1.5rem 0;
       text-align: center; }
@@ -342,18 +341,16 @@ footer {
         font-size: .8em; }
     footer .footer-container .social ul {
       display: flex;
-      margin: 3rem 10.5rem 0 0; }
+      margin: 3rem 14rem 0 0; }
       footer .footer-container .social ul li {
         font-size: 1.3rem;
         letter-spacing: 2rem; }
     footer .footer-container .footer-nav ul {
-      text-align: right; }
+      text-align: right;
+      margin-right: 1.5rem; }
       footer .footer-container .footer-nav ul li {
-        border-bottom: 0.25rem dotted #83E3C2;
-        font-size: 1.1em;
-        margin-bottom: 1rem; }
-        footer .footer-container .footer-nav ul li:hover {
-          border-bottom: 0.25rem dotted #1c7e5c; }
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem; }
   footer .copyright {
     padding: .2rem;
     text-align: center; }
