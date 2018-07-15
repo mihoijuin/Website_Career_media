@@ -202,6 +202,8 @@
 
   .page-nav {
     font-size: .5rem; }
+    .page-nav ul li {
+      margin: 0 .8rem; }
 
   .more-nav {
     font-size: .5rem; }

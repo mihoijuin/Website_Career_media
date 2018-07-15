@@ -359,6 +359,12 @@
 
     .page-nav {
         font-size: .5rem;
+
+        ul {
+            li {
+                margin: 0 .8rem;
+            }
+        }
     }
 
     .more-nav {
