@@ -10,7 +10,6 @@
 
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css">
-    <link rel="icon" href="./images/favicon.ico">
 
     <meta property="og:title" content="なんででもだから">
 		<meta property="og:type" content="website">
