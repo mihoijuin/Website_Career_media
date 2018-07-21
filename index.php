@@ -1,4 +1,4 @@
-
+<?php get_header(); ?>
     <!-- main -->
     <main>
       <div class="main-wrapper">

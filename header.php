@@ -2,14 +2,14 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>なんででもだから</title>
+    <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css">
     <link rel="icon" href="./images/favicon.ico">
 
     <meta property="og:title" content="なんででもだから">
@@ -49,3 +49,4 @@
         </ul>
       </nav>
     </header>
+
