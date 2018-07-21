@@ -29,7 +29,7 @@
     <header id="header">
       <section class="header-logo">
         <a href="page.html">
-          <img class="header-icon" src="./images/Porin_icon.jpg" alt="" width="120" height="120">
+          <img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="120" height="120">
         </a>
         <div class="media-title">
           <h1>
