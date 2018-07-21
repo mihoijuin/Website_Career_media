@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css">
 
     <meta property="og:title" content="なんででもだから">
-		<meta property="og:type" content="website">
-		<meta property="og:image" content="https://mihoijuin.github.io/wp_nandedemodakara/images/Porin_icon.jpg">
-		<meta property="og:site_name" content="なんででもだから">
-		<meta property="og:description" content="ニートとHR業界サラリーマンが対話し、「なんで？」「でも〜」「だから〜」が飛び交う場所です">
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@iju_miho">
-		<meta name="twitter:title" content="なんででもだから">
-		<meta name="twitter:description" content="ニートとHR業界サラリーマンが対話し、「なんで？」「でも〜」「だから〜」が飛び交う場所です">
-		<meta name="twitter:image:src" content="https://mihoijuin.github.io/wp_nandedemodakara//images/Porin_icon.jpg">
-  <?php wp_head() ?>
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://mihoijuin.github.io/wp_nandedemodakara/images/Porin_icon.jpg">
+        <meta property="og:site_name" content="なんででもだから">
+        <meta property="og:description" content="ニートとHR業界サラリーマンが対話し、「なんで？」「でも〜」「だから〜」が飛び交う場所です">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@iju_miho">
+        <meta name="twitter:title" content="なんででもだから">
+        <meta name="twitter:description" content="ニートとHR業界サラリーマンが対話し、「なんで？」「でも〜」「だから〜」が飛び交う場所です">
+        <meta name="twitter:image:src" content="https://mihoijuin.github.io/wp_nandedemodakara//images/Porin_icon.jpg">
+    <?php wp_head() ?>
   </head>
 
   <body>
@@ -42,7 +42,7 @@
         </div>
       </section>
       <nav class="header-nav">
-      <?php wp_nav_menu(); ?>
+        <?php wp_nav_menu(); ?>
       </nav>
     </header>
 

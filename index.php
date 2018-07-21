@@ -4,11 +4,11 @@
       <div class="main-wrapper">
         <img class="heading" src="<?php echo get_template_directory_uri(); ?>/images/post-title.svg" alt="">
         <div class="posts">
-          <?php
-          if (have_posts()):
-            while(have_posts()):
-              the_post();
-          ?>
+            <?php
+            if (have_posts()) :
+                while(have_posts()):
+                    the_post();
+                    ?>
 
           <article class="post">
             <a href="<?php the_permalink(); ?>">
@@ -21,16 +21,16 @@
             </a>
           </article>
 
-          <?php
-            endwhile;
+                    <?php
+                endwhile;
           else:
-          ?>
+                ?>
 
           <p>記事はまだないみたいだ。</p>
 
-          <?php
+                <?php
           endif;
-          ?>
+            ?>
 
           <nav class="page-nav">
             <ul>
