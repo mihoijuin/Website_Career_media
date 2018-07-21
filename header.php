@@ -14,13 +14,6 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<!-- fontawesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
-		<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css">
-
 		<meta property="og:title" content="なんででもだから">
 		<meta property="og:type" content="website">
 		<meta property="og:image" content="https://mihoijuin.github.io/wp_nandedemodakara/images/Porin_icon.jpg">
