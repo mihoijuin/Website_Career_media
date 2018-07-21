@@ -13,7 +13,6 @@
 <html lang="ja">
 	<head>
 		<meta charset="utf-8">
-		<title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- fontawesome -->
@@ -32,7 +31,7 @@
 		<meta name="twitter:title" content="なんででもだから">
 		<meta name="twitter:description" content="ニートとHR業界サラリーマンが対話し、「なんで？」「でも〜」「だから〜」が飛び交う場所です">
 		<meta name="twitter:image:src" content="https://mihoijuin.github.io/wp_nandedemodakara//images/Porin_icon.jpg">
-		<?php wp_head() ?>
+		<?php wp_head(); ?>
 	</head>
 
 	<body>
