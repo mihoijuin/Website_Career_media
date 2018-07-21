@@ -42,11 +42,7 @@
         </div>
       </section>
       <nav class="header-nav">
-        <ul>
-          <li><a href="page.html">トップ</a></li>
-          <li><a href="index.html">記事一覧</a></li>
-          <li><a href="profile.html">管理人</a></li>
-        </ul>
+      <?php wp_nav_menu(); ?>
       </nav>
     </header>
 
