@@ -29,11 +29,11 @@
     <header id="header">
       <section class="header-logo">
         <a href="page.html">
-          <img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="120" height="120">
+          <img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/images/Porin_icon.jpg" alt="" width="120" height="120">
         </a>
         <div class="media-title">
           <h1>
-            <img class="title" src="./images/nandedemodakara_title.svg" alt="">
+            <img class="title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt="">
           </h1>
           <p>
             ニートとHR業界サラリーマンが対話し<br>

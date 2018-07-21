@@ -2,7 +2,7 @@
     <!-- main -->
     <main>
       <div class="main-wrapper">
-        <img class="heading" src="./images/post-title.svg" alt="">
+        <img class="heading" src="<?php echo get_template_directory_uri(); ?>/images/post-title.svg" alt="">
         <div class="posts">
           <article class="post">
             <a href="single.html">
@@ -122,9 +122,9 @@
       <div class="footer-container">
         <section class="footer-logo">
           <a href="page.html">
-            <img class="footer-icon" src="./images/Porin_icon.jpg" alt="" width="120" height="120">
+            <img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/images/Porin_icon.jpg" alt="" width="120" height="120">
           </a>
-          <h1><img class="footer-title" src="./images/nandedemodakara_title.svg" alt=""></h1>
+          <h1><img class="footer-title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt=""></h1>
           <p>
             ニートとHR業界サラリーマンが対話し<br>
             「なんで？」「でも〜」「だから〜」が飛び交う場所
