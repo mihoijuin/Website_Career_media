@@ -11,8 +11,6 @@
  * Nandedemodakara only works in WordPress 4.7 or later.
  */
 
-add_theme_support('menus');
+add_theme_support( 'menus' );
 
-add_filter('show_admin_bar', '__return_false');
-
-?>
+add_filter( 'show_admin_bar', '__return_false' );
