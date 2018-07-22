@@ -45,8 +45,8 @@
 
 					<?php the_posts_pagination( array(
 						'mid_size' =>  5,
-						'prev_text' => __( '前へ', 'nandedemodakara' ),
-						'next_text' => __( '次へ', 'nandedemodakara' ),
+						'prev_text' => __( 'prev', 'nandedemodakara' ),
+						'next_text' => __( 'next', 'nandedemodakara' ),
 						'screen_reader_text' => __( 'もっと見てみる？', 'nandedemodakara' ),
 					) ); ?>
 
