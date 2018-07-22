@@ -43,15 +43,14 @@
 								endif;
 							?>
 
-					<nav class="page-nav">
-						<ul>
-							<li>1</li>
-							<li>2</li>
-							<li>3</li>
-							<li>4</li>
-						</ul>
-					</nav>
-				</div>
+					<?php the_posts_pagination( array(
+						'mid_size' =>  5,
+						'prev_text' => __( '前へ', 'nandedemodakara' ),
+						'next_text' => __( '次へ', 'nandedemodakara' ),
+						'screen_reader_text' => __( 'もっと見てみる？', 'nandedemodakara' ),
+					) ); ?>
+
+			</div>
 			</div>
 		</main>
 
