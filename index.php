@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: posts
+ *
  * Nandedemodakara functions and definitions
  *
  * @package WordPress

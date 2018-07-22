@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: author
+ *
  * Nandedemodakara functions and definitions
  *
  * @package WordPress

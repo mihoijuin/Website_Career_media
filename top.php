@@ -1,5 +1,8 @@
 <?php
 /**
+ *
+ * Template Name: Toppage
+ *
  * Nandedemodakara functions and definitions
  *
  * @package WordPress
