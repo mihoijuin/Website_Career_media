@@ -35,7 +35,7 @@
 			</div>
 			<p class="copyright">
 				<small>
-					Copyright(c)2018<?php if (date("Y")!=2018) echo date("-Y"); ?> nandedemodakara All Rights Reserved.
+					Copyright&copy; <?php echo date( 'Y' ) . get_bloginfo( 'name' ); ?> All Rights Reserved.
 				</small>
 			</p>
 		</footer>
