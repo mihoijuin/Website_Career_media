@@ -1,4 +1,11 @@
 @charset "UTF-8";
+/*
+Theme Name: nandedemodakara
+Theme URI: https://nandedemodakara.main.jp/wp-content/themes/wp-nandedemodakara
+Author: Miho Ijuin
+Author URI: https://twitter.com/iju_miho
+Description: Original Theme for nandedemodakara
+*/
 /**
  * YUI 3.5.0 - reset.css (http://developer.yahoo.com/yui/3/cssreset/)
  * https://cssreset.com/
@@ -289,16 +296,31 @@ p {
 .released-date {
   margin-top: 1rem; }
 
-/* page-nav */
-.page-nav ul {
-  display: flex;
-  justify-content: center; }
-  .page-nav ul li {
-    border-bottom: 0.0625rem solid #FAF5CD;
-    margin: 0 1rem; }
-    .page-nav ul li:hover {
-      border-bottom: 0.0625rem solid black;
-      cursor: pointer; }
+.pagination {
+  background-color: transparent;
+  clear: both;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  overflow: hidden;
+  text-align: center; }
+  .pagination h2 {
+    display: none; }
+  .pagination a {
+    display: inline-block;
+    background-color: #d6f6eb;
+    border: solid 1px #ccc;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: .6rem 1rem; }
+    .pagination a:hover {
+      background-color: #adecd6; }
+  .pagination span {
+    display: inline-block;
+    background-color: #adecd6;
+    border: solid 1px #ccc;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: .6rem 1rem; }
 
 .more-nav {
   text-align: right; }
