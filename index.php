@@ -1,3 +1,14 @@
+<?php
+/**
+ * Nandedemodakara functions and definitions
+ *
+ * @package WordPress
+ * @subpackage Nandedemodakara
+ * @since 1.0
+ * @version 1.0
+ */
+
+?>
 <?php get_header(); ?>
     <!-- main -->
     <main>
