@@ -1,3 +1,14 @@
+<?php
+/**
+ * Nandedemodakara functions and definitions
+ *
+ * @package WordPress
+ * @subpackage Nandedemodakara
+ * @since 1.0
+ * @version 1.0
+ */
+
+?>
 		<!-- footer -->
 		<footer>
 			<!-- copyrightをflexの範囲外に置くためにfooter-containerでcopyright以外を囲む -->
