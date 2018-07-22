@@ -200,10 +200,14 @@
   .released-date {
     margin-top: .2rem; }
 
-  .page-nav {
-    font-size: .5rem; }
-    .page-nav ul li {
-      margin: 0 .8rem; }
+  .pagination {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: .8rem; }
+    .pagination a {
+      margin: 0; }
+    .pagination span {
+      margin: 0; }
 
   .more-nav {
     font-size: .5rem; }

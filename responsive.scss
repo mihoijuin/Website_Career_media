@@ -357,15 +357,19 @@
         margin-top: .2rem;
     }
 
-    .page-nav {
-        font-size: .5rem;
+    .pagination {
+			margin-top: 1rem;
+			margin-bottom: 4rem;
+			font-size: .8rem;
 
-        ul {
-            li {
-                margin: 0 .8rem;
-            }
-        }
-    }
+			a {
+				margin: 0;
+			}
+
+			span {
+				margin: 0;
+			}
+		}
 
     .more-nav {
         font-size: .5rem;

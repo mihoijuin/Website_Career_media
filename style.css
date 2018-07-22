@@ -296,6 +296,32 @@ p {
 .released-date {
   margin-top: 1rem; }
 
+.pagination {
+  background-color: transparent;
+  clear: both;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  overflow: hidden;
+  text-align: center; }
+  .pagination h2 {
+    display: none; }
+  .pagination a {
+    display: inline-block;
+    background-color: #d6f6eb;
+    border: solid 1px #ccc;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: .6rem 1rem; }
+    .pagination a:hover {
+      background-color: #adecd6; }
+  .pagination span {
+    display: inline-block;
+    background-color: #adecd6;
+    border: solid 1px #ccc;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: .6rem 1rem; }
+
 .more-nav {
   text-align: right; }
 

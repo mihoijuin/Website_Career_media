@@ -383,6 +383,41 @@ p {
   margin-top: 1rem;
 }
 
+.pagination {
+	background-color: transparent;
+	clear: both;
+	margin-top: 3rem;
+	margin-bottom: 8rem;
+	overflow: hidden;
+	text-align: center;
+
+	h2 {
+		display: none;
+	}
+
+	a {
+		display: inline-block;
+		background-color: lighten($basic_color, 20%);
+		border: solid 1px #ccc;
+		border-radius: .3rem;
+		margin: 0 .2rem;
+		padding: .6rem 1rem;
+
+		&:hover {
+			background-color: lighten($basic_color, 10%);
+		}
+	}
+
+	span {
+		display: inline-block;
+		background-color: lighten($basic_color, 10%);
+		border: solid 1px #ccc;
+		border-radius: .3rem;
+		margin: 0 .2rem;
+		padding: .6rem 1rem;
+	}
+}
+
 .more-nav {
   text-align: right;
 }
