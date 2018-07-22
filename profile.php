@@ -15,11 +15,11 @@
 		<!-- main -->
 		<main>
 			<div class="main-wrapper">
-				<img class="heading" src="./images/profile-title.svg" alt="">
+				<img class="heading" src="<?php echo get_template_directory_uri(); ?>/images/profile-title.svg" alt="">
 				<div class="profiles">
 					<section class="profile">
 						<h3>ぽりん</h3>
-						<img src="./images/porin-wanko.png" alt="" width="200" height="200">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="200" height="200">
 						<p>
 							自己紹介的なものをだいたい<br>
 							3行くらいで書くのがいいかな<br>
@@ -29,7 +29,7 @@
 					</section>
 					<section class="profile">
 						<h3>けんと</h3>
-						<img src="./images/kento-nyanko.png" alt="" width="200" height="200">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/kento-nyanko.png" alt="" width="200" height="200">
 						<p>
 							自己紹介的なものをだいたい<br>
 							3行くらいで書くのがいいかな<br>
