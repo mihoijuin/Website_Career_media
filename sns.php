@@ -11,11 +11,6 @@
 
 ?>
 
-<?php
-$url_encode   = rawurlencode( get_permalink() );
-$title_encode = rawurlencode( get_the_title() ) . '｜' . get_bloginfo( 'name' );
-?>
-
 <div class="share">
 	<ul>
 		<!--ツイートボタン-->
