@@ -14,7 +14,7 @@
 			<!-- copyrightをflexの範囲外に置くためにfooter-containerでcopyright以外を囲む -->
 			<div class="footer-container">
 				<section class="footer-logo">
-					<a href="page.html">
+					<a href="<?php echo home_url(); ?>">
 						<img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/images/Porin_icon.jpg" alt="" width="120" height="120">
 					</a>
 					<h1><img class="footer-title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt=""></h1>

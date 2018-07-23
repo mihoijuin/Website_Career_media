@@ -31,7 +31,7 @@
 		<!-- header -->
 		<header id="header">
 			<section class="header-logo">
-				<a href="page.html">
+				<a href="<?php echo home_url(); ?>">
 				<img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/images/Porin_icon.jpg" alt="" width="120" height="120">
 				</a>
 				<div class="media-title">
