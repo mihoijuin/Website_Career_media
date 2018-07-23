@@ -258,7 +258,7 @@ p {
     .single .single-post header {
       display: flex;
       justify-content: space-between;
-      padding: 2rem 3rem; }
+      padding: 4rem 3rem 0 3rem; }
       .single .single-post header .single-title {
         font-weight: bold;
         font-size: 1.8rem; }
@@ -267,15 +267,14 @@ p {
         border-radius: .2rem;
         padding: .6rem .3rem; }
     .single .single-post .txt-content {
-      margin: 5rem 0;
+      margin: 3rem 0;
       padding: 0 3rem; }
     .single .single-post .released-date {
       padding: 0 3rem; }
     .single .single-post .share ul {
       display: flex;
       justify-content: flex-end;
-      margin-top: 1rem;
-      padding: 2rem 3rem; }
+      padding: 0 3rem 4rem 0; }
       .single .single-post .share ul li {
         margin-left: .8rem; }
 
