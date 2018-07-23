@@ -265,7 +265,7 @@ p {
       .single .single-post header .post-categories li {
         background-color: #f7bca0;
         border-radius: .2rem;
-        padding: .6rem .3rem 0 .3rem; }
+        padding: .6rem .3rem; }
     .single .single-post .txt-content {
       margin: 5rem 0;
       padding: 0 3rem; }
