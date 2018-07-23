@@ -18,6 +18,11 @@ $title_encode = rawurlencode( get_the_title() ) . '｜' . get_bloginfo( 'name' )
 
 <div class="share">
 	<ul>
+		<!--ツイートボタン-->
+		<li class="tweet">
+			<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+		</li>
+
 		<!--Facebookボタン-->
 		<li class="facebook">
 			<a href="http://www.facebook.com/sharer.php?src=bm&u=<?php echo $url_encode; ?>&t=<?php echo $title_encode; ?>"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
@@ -25,12 +30,6 @@ $title_encode = rawurlencode( get_the_title() ) . '｜' . get_bloginfo( 'name' )
 			</a>
 		</li>
 
-		<!--ツイートボタン-->
-		<li class="tweet">
-			<a href="http://twitter.com/intent/tweet?url=<?php echo $url_encode; ?>&text=<?php echo $title_encode; ?>&tw_p=tweetbutton" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
-				<span class="icon-twitter fab fa-twitter">tweet<?php if (function_exists( 'scc_get_share_twitter' )) echo ( scc_get_share_twitter() === 0 ) ? '' : scc_get_share_twitter(); ?></span>
-			</a>
-		</li>
 
 		<!--はてなボタン-->
 		<li class="hatena">
