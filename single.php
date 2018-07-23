@@ -21,8 +21,8 @@
 					?>
 
 			<div class="single-content">
-				<img src="http://placehold.jp/1000x350.png" alt="" width="100%">
 				<div class="single-post">
+					<?php the_post_thumbnail( 'full' ); ?>
 					<header>
 						<h2 class="single-title"><?php the_title(); ?></h2>
 						<div class="single-category"><?php the_category(); ?></div>
