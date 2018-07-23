@@ -330,7 +330,7 @@ p {
         font-size: 1.8rem;
       }
 
-      .single-category {
+      .post-categories li {
         background-color: lighten($orange, 5%);
         border-radius: .2rem;
         padding: .6rem .3rem 0 .3rem;
@@ -338,7 +338,7 @@ p {
     }
 
     .txt-content {
-      margin: 3rem 0;
+      margin: 5rem 0;
     }
 
     .share {
