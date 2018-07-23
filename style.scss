@@ -355,28 +355,36 @@ p {
   }
 }
 
-.sidebar {
-  width: 85%;
+#sidebar {
+  width: 90%;
   margin: 0 auto;
 
   .side-content {
     background-color: lighten($basic_color, 15%);
     border-radius: .5rem;
-    margin-bottom: 2rem;
-    padding: 2.5rem 0;
-    text-align: center;
-  }
+    padding: 4rem 2rem;
+
+	}
+
+	.widget {
+		margin-bottom: 5rem;
+	}
 
   h3 {
-    font-size: 1.3rem;
-  }
+		border-bottom: dashed rem(6px) $orange;
+		font-size: 1.3rem;
+		font-weight: bold;
+		margin-bottom: 1.5rem;
+		padding-bottom: .5rem;
+	}
 
-  ul {
-    margin: 2rem 0;
-    li {
-      margin: 1rem 0;
-    }
-  }
+	li {
+		padding: .3rem;
+		&:hover {
+			background-color: $basic_color;
+		}
+	}
+
 }
 
 .released-date {

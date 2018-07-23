@@ -65,12 +65,11 @@
         margin: 2rem 0; }
       .single .single-post .share ul {
         margin-top: 1rem; }
-    .single .sidebar .side-content {
-      margin-bottom: 1rem;
-      padding: 1rem; }
-    .single .sidebar ul li {
-      font-size: .8rem;
-      margin: .5rem 0; }
+    .single #sidebar .side-content {
+      margin: 5rem 1rem;
+      padding: 3rem 6rem; }
+    .single #sidebar .widget {
+      margin-bottom: 3rem; }
 
   .released-date {
     margin-top: .5rem; }
@@ -186,16 +185,14 @@
         .single .single-post .share ul li {
           font-size: .5rem;
           margin-left: 1rem; }
-    .single .sidebar .side-content {
-      margin-bottom: 1rem;
+    .single #sidebar .side-content {
+      margin: 3rem 0;
       padding: 1rem; }
-    .single .sidebar h3 {
-      font-size: 1rem; }
-    .single .sidebar ul {
-      margin: 1rem 0; }
-      .single .sidebar ul li {
-        font-size: .8rem;
-        margin: .1rem 0; }
+    .single #sidebar h3 {
+      font-size: 1rem;
+      margin-bottom: 1rem; }
+    .single #sidebar .widget {
+      margin-bottom: 2rem; }
 
   .released-date {
     margin-top: .2rem; }

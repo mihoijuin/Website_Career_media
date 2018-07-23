@@ -277,21 +277,25 @@ p {
       .single .single-post .share ul li {
         margin-left: 1.5rem; }
 
-.sidebar {
-  width: 85%;
+#sidebar {
+  width: 90%;
   margin: 0 auto; }
-  .sidebar .side-content {
+  #sidebar .side-content {
     background-color: #c1f1e1;
     border-radius: .5rem;
-    margin-bottom: 2rem;
-    padding: 2.5rem 0;
-    text-align: center; }
-  .sidebar h3 {
-    font-size: 1.3rem; }
-  .sidebar ul {
-    margin: 2rem 0; }
-    .sidebar ul li {
-      margin: 1rem 0; }
+    padding: 4rem 2rem; }
+  #sidebar .widget {
+    margin-bottom: 5rem; }
+  #sidebar h3 {
+    border-bottom: dashed 0.375rem #F5AC88;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    padding-bottom: .5rem; }
+  #sidebar li {
+    padding: .3rem; }
+    #sidebar li:hover {
+      background-color: #83E3C2; }
 
 .released-date {
   margin-top: 1rem; }

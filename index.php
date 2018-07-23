@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: posts
+ *
  * Nandedemodakara functions and definitions
  *
  * @package WordPress
@@ -43,12 +45,14 @@
 								endif;
 							?>
 
-					<?php the_posts_pagination( array(
-						'mid_size' =>  5,
-						'prev_text' => __( 'prev', 'nandedemodakara' ),
-						'next_text' => __( 'next', 'nandedemodakara' ),
+					<?php
+					the_posts_pagination( array(
+						'mid_size'           => 5,
+						'prev_text'          => __( 'prev', 'nandedemodakara' ),
+						'next_text'          => __( 'next', 'nandedemodakara' ),
 						'screen_reader_text' => __( 'もっと見てみる？', 'nandedemodakara' ),
-					) ); ?>
+					) );
+					?>
 
 			</div>
 			</div>
