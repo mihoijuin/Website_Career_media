@@ -114,16 +114,13 @@
 
         #sidebar {
             .side-content {
-                margin-bottom: 1rem;
-                padding: 1rem;
-            }
+                margin: 5rem 1rem;
+                padding: 3rem 6rem;
+						}
 
-            ul {
-                li {
-                    font-size: .8rem;
-                    margin: .5rem 0;
-                }
-            }
+						.widget {
+							margin-bottom: 3rem;
+						}
         }
     }
 
@@ -334,22 +331,18 @@
 
         #sidebar {
             .side-content {
-                margin-bottom: 1rem;
+                margin: 3rem 0;
                 padding: 1rem;
             }
 
             h3 {
-                font-size: 1rem;
+								font-size: 1rem;
+								margin-bottom: 1rem;
             }
 
-            ul {
-                margin: 1rem 0;
-
-                li {
-                    font-size: .8rem;
-                    margin: .1rem 0;
-                }
-            }
+            .widget {
+							margin-bottom: 2rem;
+						}
         }
     }
 
