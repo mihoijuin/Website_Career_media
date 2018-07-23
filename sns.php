@@ -32,11 +32,10 @@ $title_encode = rawurlencode( get_the_title() ) . '｜' . get_bloginfo( 'name' )
 			</a>
 		</li>
 
-
 		<!--はてなボタン-->
 		<li class="hatena">
-			<a href="http://b.hatena.ne.jp/add?mode=confirm&url=<?php echo $url_encode; ?>"  onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=510');return false;">
-				<span class="icon-hatebu">はてブ<?php if (function_exists( 'scc_get_share_hatebu' )) echo ( scc_get_share_hatebu() === 0 ) ? '' : scc_get_share_hatebu(); ?></span>
+			<a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加">
+				<img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" />
 			</a>
 		</li>
 
