@@ -65,10 +65,10 @@
         margin: 2rem 0; }
       .single .single-post .share ul {
         margin-top: 1rem; }
-    .single .sidebar .side-content {
+    .single #sidebar .side-content {
       margin-bottom: 1rem;
       padding: 1rem; }
-    .single .sidebar ul li {
+    .single #sidebar ul li {
       font-size: .8rem;
       margin: .5rem 0; }
 
@@ -186,14 +186,14 @@
         .single .single-post .share ul li {
           font-size: .5rem;
           margin-left: 1rem; }
-    .single .sidebar .side-content {
+    .single #sidebar .side-content {
       margin-bottom: 1rem;
       padding: 1rem; }
-    .single .sidebar h3 {
+    .single #sidebar h3 {
       font-size: 1rem; }
-    .single .sidebar ul {
+    .single #sidebar ul {
       margin: 1rem 0; }
-      .single .sidebar ul li {
+      .single #sidebar ul li {
         font-size: .8rem;
         margin: .1rem 0; }
 

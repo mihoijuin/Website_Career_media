@@ -277,20 +277,20 @@ p {
       .single .single-post .share ul li {
         margin-left: 1.5rem; }
 
-.sidebar {
+#sidebar {
   width: 85%;
   margin: 0 auto; }
-  .sidebar .side-content {
+  #sidebar .side-content {
     background-color: #c1f1e1;
     border-radius: .5rem;
     margin-bottom: 2rem;
     padding: 2.5rem 0;
     text-align: center; }
-  .sidebar h3 {
+  #sidebar h3 {
     font-size: 1.3rem; }
-  .sidebar ul {
+  #sidebar ul {
     margin: 2rem 0; }
-    .sidebar ul li {
+    #sidebar ul li {
       margin: 1rem 0; }
 
 .released-date {

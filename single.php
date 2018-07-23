@@ -44,28 +44,8 @@
 			</div>
 
 			<!-- sidebar -->
-			<div class="sidebar">
-				<section class="side-content">
-					<h3>人気記事</h3>
-					<ul>
-						<li><a href="single.html">記事タイトル</a></li>
-						<li><a href="single.html">記事タイトル</a></li>
-						<li><a href="single.html">記事タイトル</a></li>
-						<li><a href="single.html">記事タイトル</a></li>
-						<li><a href="single.html">記事タイトル</a></li>
-					</ul>
-				</section>
-				<section class="side-content">
-					<h3>最新記事</h3>
-					<ul>
-						<li><a href="single.html">記事タイトル</a></li>
-						<li><a href="single.html">記事タイトル</a></li>
-						<li><a href="single.html">記事タイトル</a></li>
-						<li><a href="single.html">記事タイトル</a></li>
-						<li><a href="single.html">記事タイトル</a></li>
-					</ul>
-				</section>
-			</div>
+			<?php get_sidebar(); ?>
+
 		</div>
 
 <?php get_footer(); ?>
