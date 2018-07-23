@@ -1,6 +1,5 @@
 <?php
 /**
- * Template Name: author
  *
  * Nandedemodakara functions and definitions
  *
@@ -15,25 +14,23 @@
 
 		<!-- single -->
 		<div class="single">
+			<?php
+			if ( have_posts() ) :
+				while ( have_posts() ) :
+					the_post();
+					?>
+
 			<div class="single-content">
 				<img src="http://placehold.jp/1000x350.png" alt="" width="100%">
 				<div class="single-post">
 					<header>
-						<h2 class="single-title">記事タイトル</h2>
-						<p class="single-category">カテゴリ</p>
+						<h2 class="single-title"><?php the_title(); ?></h2>
+						<div class="single-category"><?php the_category(); ?></div>
 					</header>
-					<p class="txt-content">
-						記事本文。だあああああああああああああああああああああああああああああああああああああああああああああああああああああ
-						記事本文。だあああああああああああああああああああああああああああああああああああああああああああああああああああああ
-						記事本文。だあああああああああああああああああああああああああああああああああああああああああああああああああああああ
-						記事本文。だあああああああああああああああああああああああああああああああああああああああああああああああああああああ
-						記事本文。だあああああああああああああああああああああああああああああああああああああああああああああああああああああ
-						記事本文。だあああああああああああああああああああああああああああああああああああああああああああああああああああああ
-						記事本文。だあああああああああああああああああああああああああああああああああああああああああああああああああああああ
-						記事本文。だあああああああああああああああああああああああああああああああああああああああああああああああああああああ
-						記事本文。だあああああああああああああああああああああああああああああああああああああああああああああああああああああ
-					</p>
-					<p class="released-date">2018/07/08</p>
+					<div class="txt-content">
+						<?php the_content(); ?>
+					</div>
+					<p class="released-date"><?php echo get_the_date(); ?></p>
 					<div class="share">
 						<ul>
 							<li><a href=""><span class="fab fa-twitter"></span></a></li>
@@ -42,6 +39,17 @@
 					</div>
 				</div>
 			</div>
+
+					<?php
+						endwhile;
+					else :
+						?>
+
+			<p>記事はまだないようだ。</p>
+
+						<?php
+						endif;
+					?>
 
 			<!-- sidebar -->
 			<?php get_sidebar(); ?>
