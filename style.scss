@@ -314,16 +314,16 @@ p {
   width: 95%;
 
   .single-content {
-    background-color: #fff;
+
   }
 
   .single-post {
-    margin: 3rem auto;
-    width: 90%;
+		background-color: #fff;
 
     header {
       display: flex;
-      justify-content: space-between;
+			justify-content: space-between;
+			padding: 2rem 3rem;
 
       .single-title {
         font-weight: bold;
@@ -338,14 +338,20 @@ p {
     }
 
     .txt-content {
-      margin: 5rem 0;
-    }
+			margin: 5rem 0;
+			padding: 0 3rem;
+		}
+
+		.released-date {
+			padding: 0 3rem;
+		}
 
     .share {
       ul {
         display: flex;
         justify-content: flex-end;
-        margin-top: 1rem;
+				margin-top: 1rem;
+				padding: 2rem 3rem;
 
         li {
           margin-left: 1.5rem;
