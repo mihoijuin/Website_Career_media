@@ -16,7 +16,7 @@
 		<!-- main -->
 		<main>
 			<div class="main-wrapper">
-				<img class="heading" src="./images/popular-title.svg" alt="">
+				<img class="heading" src="<?php echo get_template_directory_uri(); ?>/images/popular-title.svg" alt="">
 				<div class="popular-posts">
 					<article class="popular-post">
 						<a href="single.html">
@@ -50,7 +50,7 @@
 					</article>
 				</div>
 
-				<img class="heading" src="./images/post-title.svg" alt="">
+				<img class="heading" src="<?php echo get_template_directory_uri(); ?>/images/post-title.svg" alt="">
 				<div class="posts">
 					<article class="post">
 						<a href="single.html">
