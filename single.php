@@ -31,12 +31,8 @@
 						<?php the_content(); ?>
 					</div>
 					<p class="released-date"><?php echo get_the_date(); ?></p>
-					<div class="share">
-						<ul>
-							<li><a href=""><span class="fab fa-twitter"></span></a></li>
-							<li><a href=""><span class="fab fa-facebook"></span></a></li>
-						</ul>
-					</div>
+					<!-- share -->
+					<?php get_template_part( 'sns' ); ?>
 				</div>
 			</div>
 
