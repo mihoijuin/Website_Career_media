@@ -12,7 +12,7 @@
 ?>
 
 <div id="sidebar">
-	<ul class="side-content">
+	<div class="side-content">
 		<?php dynamic_sidebar(); ?>
-	</ul>
+	</div>
 </div>
