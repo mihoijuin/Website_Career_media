@@ -203,7 +203,7 @@ p {
   .popular-posts .popular-post:nth-child(3) {
     grid-area: area3; }
   .popular-posts .popular-post {
-    background-image: url(http://placehold.jp/150x50.png);
+    background-color: #83E3C2;
     border-radius: .3rem;
     opacity: 0.8;
     padding: 2.5rem; }
