@@ -16,7 +16,8 @@
 
 		.header-logo {
 			display: block;
-			margin: 0;
+			margin-top: 0;
+			padding-top: 3rem;
 
 			.top-icon {
 					margin: 1.5rem 0;
@@ -193,6 +194,7 @@
 		.header-logo {
 			display: block;
 			margin: 0;
+			padding-top: 1rem;
 
 			.header-icon {
 				margin: 1rem 0;
@@ -307,7 +309,6 @@
 	}
 
 	.single {
-
 		display: block;
 		margin: 0 auto;
 		width: 95%;
