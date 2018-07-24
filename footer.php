@@ -14,7 +14,7 @@
 			<!-- copyrightをflexの範囲外に置くためにfooter-containerでcopyright以外を囲む -->
 			<div class="footer-container">
 				<section class="footer-logo">
-					<a href="page.html">
+					<a href="<?php echo home_url(); ?>">
 						<img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/images/Porin_icon.jpg" alt="" width="120" height="120">
 					</a>
 					<h1><img class="footer-title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt=""></h1>
@@ -26,7 +26,7 @@
 				<div class="social">
 					<ul>
 						<li><a href="https://twitter.com/iju_miho" target="_blank"><span class="fab fa-twitter"></span></a></li>
-						<li><a href="#" target="_blank"><span class="fas fa-rss"></span></a></li>
+						<li><a href="<?php bloginfo( 'rss2_url' ); ?>" title="<?php _e( 'Syndicate this site using RSS' ); ?>" target="_blank"><span class="fas fa-rss"></span></a></li>
 					</ul>
 				</div>
 				<nav class="footer-nav">
