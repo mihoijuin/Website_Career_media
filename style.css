@@ -334,7 +334,12 @@ p {
     padding: .6rem 1rem; }
 
 .more-nav {
-  text-align: right; }
+  font-size: 1.2rem;
+  text-align: right;
+  margin-top: 2rem;
+  margin-bottom: 10rem; }
+  .more-nav a:hover {
+    font-weight: bold; }
 
 /* profiles */
 .profiles {

@@ -226,7 +226,9 @@
       padding: .4rem .8rem; }
 
   .more-nav {
-    font-size: .5rem; }
+    font-size: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem; }
 
   .profiles {
     display: block;

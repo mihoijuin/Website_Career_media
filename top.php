@@ -83,7 +83,7 @@
 								endif;
 				?>
 					<div class="more-nav">
-						<a href="<?php echo home_url(); ?>">More...</a>
+						<a href="<?php echo home_url(); ?>">＞もっと見てみる</a>
 					</div>
 				</div>
 			</div>
