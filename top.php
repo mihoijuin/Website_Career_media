@@ -41,17 +41,18 @@
 						'stats_category' => 1,
 						'stats_date' => 1,
 						'excerpt_length' => 20,
-						'thumbnail_width' => 100,
-						'thumbnail_height' => 100,
+						'thumbnail_width' => 300,
+						'thumbnail_height' => 300,
 						'wpp_start' => '<div class="popular-posts">',
 						'wpp_end' => '</div>',
 						'post_html' => '<article class="popular-post">
 															<a href="{url}">
+																{thumb_img}
 																<header>
 																	<h3 class="popular-title">{text_title}</h3>
 																	<p class="popular-category">{category}</p>
 																</header>
-																<p>{summary}</p>
+																<p class="popular-txt">{summary}</p>
 																<p class="released-date">{date}</p>
 															</a>
 														</article>',

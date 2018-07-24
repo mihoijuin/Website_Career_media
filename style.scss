@@ -241,24 +241,30 @@ p {
   }
 
   .popular-post {
-    background-color: $basic_color;
+    background-color: lighten($basic_color, 10%);
     border-radius: .3rem;
     opacity: 0.8;
-    padding: 2.5rem;
 
     &:hover {
       cursor: pointer;
       opacity: 1;
-    }
+		}
+
+		img {
+			margin-right: 1rem;
+			height: 100%;
+		}
 
     header {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 2rem;
+			margin-bottom: 2rem;
+			padding-top: 2rem;
+			padding-right: 1rem;
 
       .popular-title {
         font-weight: bold;
-        font-size: 1.7rem;
+				font-size: 1.7rem;
       }
 
       .popular-category {

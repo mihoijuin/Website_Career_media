@@ -203,17 +203,21 @@ p {
   .popular-posts .popular-post:nth-child(3) {
     grid-area: area3; }
   .popular-posts .popular-post {
-    background-color: #83E3C2;
+    background-color: #adecd6;
     border-radius: .3rem;
-    opacity: 0.8;
-    padding: 2.5rem; }
+    opacity: 0.8; }
     .popular-posts .popular-post:hover {
       cursor: pointer;
       opacity: 1; }
+    .popular-posts .popular-post img {
+      margin-right: 1rem;
+      height: 100%; }
     .popular-posts .popular-post header {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 2rem; }
+      margin-bottom: 2rem;
+      padding-top: 2rem;
+      padding-right: 1rem; }
       .popular-posts .popular-post header .popular-title {
         font-weight: bold;
         font-size: 1.7rem; }
