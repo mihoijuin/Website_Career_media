@@ -26,7 +26,7 @@
 				<div class="social">
 					<ul>
 						<li><a href="https://twitter.com/iju_miho" target="_blank"><span class="fab fa-twitter"></span></a></li>
-						<li><a href="#" target="_blank"><span class="fas fa-rss"></span></a></li>
+						<li><a href="<?php bloginfo( 'rss2_url' ); ?>" title="<?php _e( 'Syndicate this site using RSS' ); ?>" target="_blank"><span class="fas fa-rss"></span></a></li>
 					</ul>
 				</div>
 				<nav class="footer-nav">
