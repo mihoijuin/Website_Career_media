@@ -155,7 +155,7 @@ p {
   align-items: flex-end;
   background-color: #83E3C2;
   justify-content: space-between;
-  padding: 0 1.5rem 1rem 1.5rem; }
+  padding: 0 1rem 1rem 1rem; }
   #header .header-logo {
     display: flex;
     align-items: center;
@@ -163,10 +163,8 @@ p {
     margin-top: 2.5rem; }
     #header .header-logo .header-icon {
       border-radius: 50%; }
-    #header .header-logo .media-title {
-      margin-left: .5rem; }
-      #header .header-logo .media-title p {
-        margin-top: 1rem; }
+    #header .header-logo .media-title p {
+      margin-top: 1rem; }
   #header .header-nav ul {
     display: flex; }
     #header .header-nav ul li {

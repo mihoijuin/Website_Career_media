@@ -164,7 +164,7 @@ p {
   align-items: flex-end;
   background-color: $basic_color;
   justify-content: space-between;
-  padding: 0 1.5rem 1rem 1.5rem;
+  padding: 0 1rem 1rem 1rem;
 
   .header-logo {
     display: flex;
@@ -176,8 +176,6 @@ p {
       border-radius: 50%;
     }
     .media-title {
-      margin-left: .5rem;
-
       p {
         margin-top: 1rem;
       }
