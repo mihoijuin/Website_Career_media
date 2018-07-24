@@ -37,8 +37,7 @@
   .popular-posts {
     display: block; }
     .popular-posts .popular-post {
-      margin-bottom: 2rem;
-      padding: 2rem; }
+      margin-bottom: 2rem; }
       .popular-posts .popular-post header {
         margin-bottom: .8rem; }
         .popular-posts .popular-post header .popular-title {

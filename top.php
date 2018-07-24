@@ -31,7 +31,7 @@
 						'stats_date'       => 1,
 						'excerpt_length'   => 20,
 						'thumbnail_width'  => 1000,
-						'thumbnail_height' => 350,
+						'thumbnail_height' => 250,
 						'wpp_start'        => '<div class="popular-posts">',
 						'wpp_end'          => '</div>',
 						'post_html'        => '<article class="popular-post">
