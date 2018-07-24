@@ -21,7 +21,7 @@
 				<img class="heading" src="<?php echo get_template_directory_uri(); ?>/images/popular-title.svg" alt="">
 				<!-- 人気記事 -->
 				<?php
-					$arg = array (
+					$arg = array(
 						'post_type'        => 'post',
 						'limit'            => 4,
 						'range'            => 'monthry',
@@ -54,11 +54,11 @@
 					<?php
 					$args      = array(
 						'posts_per_page' => 5,
-						'paged' => $paged,
-						'orderby' => 'post_date',
-						'order' => 'DESC',
-						'post_type' => 'post',
-						'post_status' => 'publish'
+						'paged'          => $paged,
+						'orderby'        => 'post_date',
+						'order'          => 'DESC',
+						'post_type'      => 'post',
+						'post_status'    => 'publish',
 					);
 					$the_query = new WP_Query( $args );
 					// 記事一覧のループスタート.
