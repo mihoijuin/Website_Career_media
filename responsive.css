@@ -58,16 +58,19 @@
     display: block; }
     .single .single-post {
       margin: 2rem auto;
-      padding: .5rem; }
+      padding: 0; }
+      .single .single-post img {
+        width: 100%;
+        height: auto; }
       .single .single-post header .single-title {
         font-size: 1.6rem; }
       .single .single-post .txt-content {
         margin: 2rem 0; }
       .single .single-post .share ul {
-        margin-top: 1rem; }
+        padding-bottom: 3rem; }
     .single #sidebar .side-content {
       margin: 5rem 1rem;
-      padding: 3rem 6rem; }
+      padding: 3rem 4rem; }
     .single #sidebar .widget {
       margin-bottom: 3rem; }
 
@@ -179,24 +182,34 @@
 
   .single {
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 95%; }
     .single .single-post {
       margin: 1.5rem auto;
-      padding: .2rem; }
-      .single .single-post header .single-title {
-        font-size: 1.2rem; }
-      .single .single-post header .single-category {
-        padding-top: .6rem; }
-      .single .single-post .txt-content {
-        margin: 2rem 0; }
-      .single .single-post .share ul {
-        margin-top: 1rem; }
-        .single .single-post .share ul li {
+      padding: 0; }
+      .single .single-post img {
+        width: 100%;
+        height: auto; }
+      .single .single-post header {
+        margin: 1rem;
+        padding: 0; }
+        .single .single-post header .single-title {
+          font-size: 1.2rem; }
+        .single .single-post header .post-categories li {
           font-size: .5rem;
-          margin-left: 1rem; }
+          padding: .2rem; }
+      .single .single-post .txt-content {
+        margin: 1rem 0;
+        padding: 0 1rem; }
+      .single .single-post .released-date {
+        padding: 1rem; }
+      .single .single-post .share ul {
+        margin: 0; }
+        .single .single-post .share ul li {
+          margin-left: .3rem; }
     .single #sidebar .side-content {
       margin: 3rem 0;
-      padding: 1rem; }
+      padding: 2rem; }
     .single #sidebar h3 {
       font-size: 1rem;
       margin-bottom: 1rem; }

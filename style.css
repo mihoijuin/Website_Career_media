@@ -278,7 +278,7 @@ p {
     .single .single-post .share ul {
       display: flex;
       justify-content: flex-end;
-      padding: 0 3rem 4rem 0; }
+      margin: 0 3rem 4rem 0; }
       .single .single-post .share ul li {
         margin-left: .8rem; }
 

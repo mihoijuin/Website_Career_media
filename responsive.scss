@@ -89,39 +89,44 @@
     }
 
     .single {
-        display: block;
+			display: block;
 
-        .single-post {
-            margin: 2rem auto;
-            padding: .5rem;
+			.single-post {
+				margin: 2rem auto;
+				padding: 0;
 
-            header {
-                .single-title {
-                    font-size: 1.6rem;
-                }
-            }
+				img {
+					width: 100%;
+					height: auto;
+				}
 
-            .txt-content {
-                margin: 2rem 0;
-            }
+				header {
+					.single-title {
+							font-size: 1.6rem;
+					}
+				}
 
-            .share {
-                ul {
-                    margin-top: 1rem;
-                }
-            }
-        }
+				.txt-content {
+					margin: 2rem 0;
+				}
 
-        #sidebar {
-            .side-content {
-                margin: 5rem 1rem;
-                padding: 3rem 6rem;
-						}
+				.share {
+					ul {
+						padding-bottom: 3rem;
+					}
+				}
+		}
 
-						.widget {
-							margin-bottom: 3rem;
-						}
-        }
+		#sidebar {
+			.side-content {
+					margin: 5rem 1rem;
+					padding: 3rem 4rem;
+			}
+
+			.widget {
+				margin-bottom: 3rem;
+			}
+			}
     }
 
     .released-date {
@@ -310,58 +315,72 @@
     }
 
     .single {
-        display: block;
-        margin: 0 auto;
 
-        .single-post {
-            margin: 1.5rem auto;
-            padding: .2rem;
+			display: block;
+			margin: 0 auto;
+			width: 95%;
 
-            header {
-                .single-title {
-                    font-size: 1.2rem;
-                }
+			.single-post {
+					margin: 1.5rem auto;
+					padding: 0;
 
-                .single-category {
-                    padding-top: .6rem;
-                }
-            }
+					img {
+						width: 100%;
+						height: auto;
+					}
 
-            .txt-content {
-                margin: 2rem 0;
-            }
+					header {
+						margin: 1rem;
+						padding: 0;
 
-            .share {
-                ul {
-                    margin-top: 1rem;
+							.single-title {
+								font-size: 1.2rem;
+							}
 
-                    li {
-                        font-size: .5rem;
-                        margin-left: 1rem;
-                    }
-                }
-            }
-        }
+							.post-categories li {
+								font-size: .5rem;
+								padding: .2rem;
+							}
+					}
 
-        #sidebar {
-            .side-content {
-                margin: 3rem 0;
-                padding: 1rem;
-            }
+					.txt-content {
+							margin: 1rem 0;
+							padding: 0 1rem;
+					}
 
-            h3 {
-								font-size: 1rem;
-								margin-bottom: 1rem;
-            }
+					.released-date {
+						padding: 1rem;
+					}
 
-            .widget {
-							margin-bottom: 2rem;
+					.share {
+						ul {
+							margin: 0;
+							li {
+								margin-left: .3rem;
+							}
 						}
-        }
+					}
+			}
+
+			#sidebar {
+				.side-content {
+					margin: 3rem 0;
+					padding: 2rem;
+				}
+
+				h3 {
+					font-size: 1rem;
+					margin-bottom: 1rem;
+				}
+
+				.widget {
+					margin-bottom: 2rem;
+				}
+			}
     }
 
     .released-date {
-        margin-top: .2rem;
+      margin-top: .2rem;
     }
 
     .pagination {
