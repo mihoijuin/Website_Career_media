@@ -205,7 +205,7 @@ p {
   .popular-posts .popular-post:nth-child(4) {
     grid-area: area4; }
   .popular-posts .popular-post {
-    background-color: #adecd6;
+    background-color: #c1f1e1;
     border-radius: .3rem;
     opacity: 0.8; }
     .popular-posts .popular-post:hover {
@@ -217,9 +217,7 @@ p {
     .popular-posts .popular-post header {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 2rem;
-      padding-top: 2rem;
-      padding-right: 1rem; }
+      padding: 1rem; }
       .popular-posts .popular-post header .popular-title {
         font-weight: bold;
         font-size: 1.7rem; }
@@ -227,6 +225,8 @@ p {
         background-color: #f7bca0;
         border-radius: .2rem;
         padding: .4rem; }
+    .popular-posts .popular-post .released-date {
+      padding: 1rem; }
 
 /* posts */
 .posts {

@@ -245,7 +245,7 @@ p {
   }
 
   .popular-post {
-    background-color: lighten($basic_color, 10%);
+    background-color: lighten($basic_color, 15%);
     border-radius: .3rem;
     opacity: 0.8;
 
@@ -262,9 +262,7 @@ p {
     header {
       display: flex;
       justify-content: space-between;
-			margin-bottom: 2rem;
-			padding-top: 2rem;
-			padding-right: 1rem;
+			padding: 1rem;
 
       .popular-title {
         font-weight: bold;
@@ -276,7 +274,11 @@ p {
         border-radius: .2rem;
         padding: .4rem;
       }
-    }
+		}
+
+		.released-date {
+			padding: 1rem;
+		}
   }
 }
 
