@@ -33,7 +33,7 @@
 
   .main-wrapper .heading {
     font-size: 2rem;
-    width: 30%; }
+    width: 25%; }
 
   .popular-posts {
     display: block; }
@@ -141,8 +141,6 @@
       margin-bottom: 0;
       padding-bottom: .5rem;
       width: 25%; }
-      .main-wrapper .heading svg {
-        width: 70%; }
 
   .popular-posts {
     display: block;
