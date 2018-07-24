@@ -51,61 +51,40 @@
 
 				<img class="heading" src="<?php echo get_template_directory_uri(); ?>/images/post-title.svg" alt="">
 				<div class="posts">
+				<?php
+				$args      = array(
+					'posts_per_page' => 5,
+					'paged' => $paged,
+					'orderby' => 'post_date',
+					'order' => 'DESC',
+					'post_type' => 'post',
+					'post_status' => 'publish'
+				);
+				$the_query = new WP_Query( $args );
+				// 記事一覧のループスタート.
+				if ( $the_query->have_posts() ) :
+					while ( $the_query->have_posts() ) :
+						$the_query->the_post();
+						?>
+
 					<article class="post">
-						<a href="single.html">
+						<a href="<?php the_permalink(); ?>">
 							<header>
-								<h3 class="post-title">記事タイトル</h3>
-								<p class="post-category">カテゴリ</p>
+								<h3 class="post-title"><?php the_title(); ?></h3>
+								<p class="post-category"><?php the_category( ',' ); ?></p>
 							</header>
-							<p class="post-txt">記事の冒頭部分がここに来るよおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</p>
-							<p class="released-date">2018/07/08</p>
+							<p class="post-txt"><?php the_excerpt(); ?></p>
+							<p class="released-date"><?php echo get_the_date(); ?></p>
 						</a>
 					</article>
-					<article class="post">
-						<a href="single.html">
-							<header>
-								<h3 class="post-title">記事タイトル</h3>
-								<p class="post-category">カテゴリ</p>
-							</header>
-							<p class="post-txt">記事の冒頭部分がここに来るよおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</p>
-							<p class="released-date">2018/07/08</p>
-						</a>
-					</article>
-					<article class="post">
-						<a href="single.html">
-							<header>
-								<h3 class="post-title">記事タイトル</h3>
-								<p class="post-category">カテゴリ</p>
-							</header>
-							<p class="post-txt">記事の冒頭部分がここに来るよおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</p>
-							<p class="released-date">2018/07/08</p>
-						</a>
-					</article>
-					<article class="post">
-						<a href="single.html">
-							<header>
-								<h3 class="post-title">記事タイトル</h3>
-								<p class="post-category">カテゴリ</p>
-							</header>
-							<p class="post-txt">記事の冒頭部分がここに来るよおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</p>
-							<p class="released-date">2018/07/08</p>
-						</a>
-					</article>
-					<article class="post">
-						<a href="single.html">
-							<header>
-								<h3 class="post-title">記事タイトル</h3>
-								<p class="post-category">カテゴリ</p>
-							</header>
-							<p class="post-txt">記事の冒頭部分がここに来るよおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお</p>
-							<p class="released-date">2018/07/08</p>
-						</a>
-					</article>
-					<nav class="more-nav">
-						<ul>
-							<li><a href="index.html">More...</a></li>
-						</ul>
-					</nav>
+
+							<?php
+								endwhile;
+								endif;
+				?>
+					<div class="more-nav">
+						<a href="<?php echo home_url(); ?>">More...</a>
+					</div>
 				</div>
 			</div>
 		</main>
