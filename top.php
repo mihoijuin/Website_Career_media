@@ -51,21 +51,21 @@
 
 				<img class="heading" src="<?php echo get_template_directory_uri(); ?>/images/post-title.svg" alt="">
 				<div class="posts">
-				<?php
-				$args      = array(
-					'posts_per_page' => 5,
-					'paged' => $paged,
-					'orderby' => 'post_date',
-					'order' => 'DESC',
-					'post_type' => 'post',
-					'post_status' => 'publish'
-				);
-				$the_query = new WP_Query( $args );
-				// 記事一覧のループスタート.
-				if ( $the_query->have_posts() ) :
-					while ( $the_query->have_posts() ) :
-						$the_query->the_post();
-						?>
+					<?php
+					$args      = array(
+						'posts_per_page' => 5,
+						'paged' => $paged,
+						'orderby' => 'post_date',
+						'order' => 'DESC',
+						'post_type' => 'post',
+						'post_status' => 'publish'
+					);
+					$the_query = new WP_Query( $args );
+					// 記事一覧のループスタート.
+					if ( $the_query->have_posts() ) :
+						while ( $the_query->have_posts() ) :
+							$the_query->the_post();
+							?>
 
 					<article class="post">
 						<a href="<?php the_permalink(); ?>">
@@ -81,7 +81,7 @@
 							<?php
 								endwhile;
 								endif;
-				?>
+					?>
 					<div class="more-nav">
 						<a href="<?php echo home_url(); ?>">＞もっと見てみる</a>
 					</div>
