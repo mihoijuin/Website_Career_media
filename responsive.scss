@@ -289,29 +289,25 @@
     }
 
     .posts {
-        margin: 1.5rem auto;
-        width: 100%;
+			margin: 1.5rem auto;
+			width: 100%;
 
-        .post {
-            margin-bottom: .5rem;
-            padding: .5rem;
+			.post {
+				margin-bottom: .5rem;
+				padding: .5rem;
 
-            header {
-                margin-bottom: .5rem;
+				header {
+					margin-bottom: .5rem;
 
-                .post-title {
-                    font-size: .7rem;
-                }
+					.post-title {
+							font-size: .7rem;
+					}
 
-                .post-category {
-                    padding: .3rem .1rem .2rem .2rem;
-                }
-            }
-
-            .post-txt {
-                display: none;
-            }
-        }
+					.post-category {
+							padding: .3rem .1rem .2rem .2rem;
+					}
+				}
+			}
     }
 
     .single {
