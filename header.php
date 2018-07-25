@@ -31,19 +31,19 @@
 		<!-- header -->
 		<header id="header">
 			<section class="header-logo">
-				<a href="<?php echo home_url(); ?>">
-				<img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="100" height="100">
-				</a>
+				<img class="header-icon1" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="130" height="130">
 				<div class="media-title">
 					<h1>
-						<img class="title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt="">
+						<a href="<?php echo home_url(); ?>">
+							<img class="title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt="">
+						</a>
 					</h1>
 					<p>
 						ニートとHR業界サラリーマンが対話し<br>
 						「なんで？」「でも〜」「だから〜」が飛び交う場
 					</p>
 				</div>
-				<img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/images/kento-nyanko.png" alt="" width="100" height="100">
+				<img class="header-icon2" src="<?php echo get_template_directory_uri(); ?>/images/kento-nyanko.png" alt="" width="130" height="130">
 			</section>
 			<nav class="header-nav">
 				<?php wp_nav_menu(); ?>

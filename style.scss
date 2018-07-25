@@ -160,40 +160,44 @@ p {
 
 /* Header */
 #header {
-  display: flex;
-  align-items: flex-end;
-  background-color: $basic_color;
-  justify-content: space-between;
-  padding: 0 1rem 1rem 1rem;
+	background-color: $basic_color;
 
   .header-logo {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-top: 2.5rem;
+		display: flex;
+		text-align: center;
+		padding-top: 4rem;
+		padding-bottom: 2rem;
+		padding-left: 4rem;
 
-    .header-icon {
-      border-radius: 50%;
-    }
+		.header-icon1 {
+			transform: rotate(-25deg);
+		}
+
+		.header-icon2 {
+			transform: rotate(25deg);
+		}
+
     .media-title {
       p {
+				font-size: .9rem;
+				font-weight: bold;
         margin-top: 1rem;
-      }
+			}
     }
   }
 
   .header-nav {
     ul {
-      display: flex;
+			display: flex;
+			background-color: darken($basic_color, 10%);
+			padding-left: 4rem;
 
       li {
-        // hover時のレイアウト防止用
-        border-bottom: rem(5px) dotted $basic_color;
-        font-size: 1.2rem;
-        margin-left: 3rem;
+				font-size: 1.2rem;
+				padding: 1.5rem 2.5rem;
 
         &:hover {
-          border-bottom: rem(5px) dotted darken($basic_color, 40%);
+          background-color: darken($basic_color, 20%);
         }
       }
     }
@@ -203,7 +207,7 @@ p {
 /* main */
 .main-wrapper {
   margin: 3rem auto;
-  width: 95%;
+  width: 85%;
 
   .heading{
     width: 10%;
@@ -318,10 +322,10 @@ p {
 
 .single {
   display: grid;
-  grid-template-columns: auto 25%;
+  grid-template-columns: auto 20%;
   grid-gap: 2rem;
   margin: 4rem auto;
-  width: 95%;
+  width: 90%;
 
   .single-post {
 		background-color: #fff;
