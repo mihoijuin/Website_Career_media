@@ -22,28 +22,29 @@
 				<!-- 人気記事 -->
 				<?php
 					$arg = array(
-						'post_type'        => 'post',
-						'limit'            => 4,
-						'range'            => 'last30days',
-						'order_by'         => 'views',
-						'stats_views'      => 0, // view数を表示しない.
-						'stats_category'   => 1,
-						'stats_date'       => 1,
-						'excerpt_length'   => 20,
-						'thumbnail_width'  => 1000,
-						'thumbnail_height' => 250,
-						'wpp_start'        => '<div class="popular-posts">',
-						'wpp_end'          => '</div>',
-						'post_html'        => '<article class="popular-post">
-																		<a href="{url}">
-																			{thumb_img}
-																			<header>
-																				<h3 class="popular-title">{text_title}</h3>
-																				<p class="popular-category">{category}</p>
-																			</header>
-																			<p class="released-date">{date}</p>
-																		</a>
-																	</article>',
+						'post_type'         => 'post',
+						'limit'             => 4,
+						'range'             => 'last30days',
+						'order_by'          => 'views',
+						'stats_views'       => 0, // view数を表示しない.
+						'stats_category'    => 1,
+						'stats_date'        => 1,
+						'stats_date_format' => 'Y F j',
+						'excerpt_length'    => 20,
+						'thumbnail_width'   => 1000,
+						'thumbnail_height'  => 250,
+						'wpp_start'         => '<div class="popular-posts">',
+						'wpp_end'           => '</div>',
+						'post_html'         => '<article class="popular-post">
+																			<a href="{url}">
+																				{thumb_img}
+																				<header>
+																					<h3 class="popular-title">{text_title}</h3>
+																					<p class="popular-category">{category}</p>
+																				</header>
+																				<p class="released-date">{date}</p>
+																			</a>
+																		</article>',
 					);
 					wpp_get_mostpopular( $arg );
 					?>
