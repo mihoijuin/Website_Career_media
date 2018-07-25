@@ -488,7 +488,9 @@ p {
 
 /* footer */
 footer {
-  background-color: $basic_color;
+	background-color: $basic_color;
+	padding: 0 4.5rem;
+
   // copyrightをflexの範囲外に置くためにfooter-containerでcopyright以外を囲んだ
   .footer-container {
     display: flex;
@@ -496,20 +498,29 @@ footer {
     justify-content: space-between;
 
     .footer-logo {
-      margin: 1.5rem 0;
+			margin-top: 5rem;
+			margin-bottom: 3rem;
       text-align: center;
 
-      .footer-icon {
-        border-radius: 50%;
-      }
+      .footer-icon1 {
+				transform: rotate(-25deg);
+				width: 25%;
+				height: 25%;
+			}
+
+			.footer-icon2 {
+				transform: rotate(25deg);
+				width: 25%;
+				height: 25%;
+			}
 
       .footer-title {
-        margin: 1rem 0;
-        width: 70%;
+        width: 85%;
       }
 
       p {
-        font-size: .8em;
+				font-size: .8em;
+				margin-top: 1rem;
       }
     }
 
@@ -528,7 +539,6 @@ footer {
     .footer-nav {
       ul {
         text-align: right;
-        margin-right: 1.5rem;
 
         li {
           font-size: 1.3rem;
