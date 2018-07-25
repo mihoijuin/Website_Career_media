@@ -295,6 +295,8 @@ p {
     padding: 4rem 2rem; }
   #sidebar .widget {
     margin-bottom: 5rem; }
+    #sidebar .widget label {
+      display: none; }
   #sidebar h3 {
     border-bottom: dashed 0.375rem #F5AC88;
     font-size: 1.3rem;
