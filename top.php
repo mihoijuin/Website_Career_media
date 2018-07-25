@@ -74,7 +74,7 @@
 								<h3 class="post-title"><?php the_title(); ?></h3>
 								<p class="post-category"><?php the_category( ',' ); ?></p>
 							</header>
-							<p class="post-txt"><?php the_excerpt(); ?></p>
+							<div class="post-txt"><?php the_excerpt(); ?></div>
 							<p class="released-date"><?php echo get_the_date(); ?></p>
 						</a>
 					</article>
