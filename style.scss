@@ -160,42 +160,48 @@ p {
 
 /* Header */
 #header {
-  display: flex;
-  align-items: flex-end;
-  background-color: $basic_color;
-  justify-content: space-between;
-  padding: 0 1.5rem 1rem 1.5rem;
+	background-color: $basic_color;
 
   .header-logo {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-top: 2.5rem;
+		display: flex;
+		text-align: center;
+		padding-top: 4rem;
+		padding-bottom: 2rem;
+		padding-left: 4rem;
 
-    .header-icon {
-      border-radius: 50%;
-    }
+		.header-icon1 {
+			transform: rotate(-25deg);
+		}
+
+		.header-icon2 {
+			transform: rotate(25deg);
+		}
+
+		.smartimg {
+			display: none;
+		}
+
     .media-title {
-      margin-left: .5rem;
-
       p {
+				font-size: .9rem;
+				font-weight: bold;
         margin-top: 1rem;
-      }
+			}
     }
   }
 
   .header-nav {
     ul {
-      display: flex;
+			display: flex;
+			background-color: darken($basic_color, 10%);
+			padding-left: 4rem;
 
       li {
-        // hover時のレイアウト防止用
-        border-bottom: rem(5px) dotted $basic_color;
-        font-size: 1.2rem;
-        margin-left: 3rem;
+				font-size: 1.2rem;
+				padding: 1.5rem 2.5rem;
 
         &:hover {
-          border-bottom: rem(5px) dotted darken($basic_color, 40%);
+          background-color: darken($basic_color, 20%);
         }
       }
     }
@@ -205,7 +211,7 @@ p {
 /* main */
 .main-wrapper {
   margin: 3rem auto;
-  width: 95%;
+  width: 85%;
 
   .heading{
     width: 10%;
@@ -320,10 +326,10 @@ p {
 
 .single {
   display: grid;
-  grid-template-columns: auto 25%;
+  grid-template-columns: auto 20%;
   grid-gap: 2rem;
   margin: 4rem auto;
-  width: 95%;
+  width: 90%;
 
   .single-post {
 		background-color: #fff;
@@ -482,7 +488,9 @@ p {
 
 /* footer */
 footer {
-  background-color: $basic_color;
+	background-color: $basic_color;
+	padding: 0 4.5rem;
+
   // copyrightをflexの範囲外に置くためにfooter-containerでcopyright以外を囲んだ
   .footer-container {
     display: flex;
@@ -490,20 +498,29 @@ footer {
     justify-content: space-between;
 
     .footer-logo {
-      margin: 1.5rem 0;
+			margin-top: 5rem;
+			margin-bottom: 3rem;
       text-align: center;
 
-      .footer-icon {
-        border-radius: 50%;
-      }
+      .footer-icon1 {
+				transform: rotate(-25deg);
+				width: 25%;
+				height: 25%;
+			}
+
+			.footer-icon2 {
+				transform: rotate(25deg);
+				width: 25%;
+				height: 25%;
+			}
 
       .footer-title {
-        margin: 1rem 0;
-        width: 70%;
+        width: 85%;
       }
 
       p {
-        font-size: .8em;
+				font-size: .8em;
+				margin-top: 1rem;
       }
     }
 
@@ -522,7 +539,6 @@ footer {
     .footer-nav {
       ul {
         text-align: right;
-        margin-right: 1.5rem;
 
         li {
           font-size: 1.3rem;

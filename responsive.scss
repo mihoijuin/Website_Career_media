@@ -10,18 +10,13 @@
 
 	/* header */
 	#header {
-		display: block;
-		padding: 0;
-
+		padding-top: 5rem;
 
 		.header-logo {
-			display: block;
+			justify-content: center;
 			margin-top: 0;
-			padding-top: 3rem;
+			padding: 0;
 
-			.top-icon {
-				margin: 1.5rem 0;
-			}
 		}
 
 		.header-nav {
@@ -30,6 +25,7 @@
 				justify-content: center;
 				margin: 3rem auto;
 				width: 100%;
+				padding: 0;
 
 				li {
 					border-bottom: none;
@@ -187,25 +183,41 @@
 
 	/* header */
 	#header {
-		display: block;
 		padding: 0;
-
 
 		.header-logo {
 			display: block;
 			margin: 0;
-			padding-top: 1rem;
+			padding-top: 6rem;
 
-			.header-icon {
-				margin: 1rem 0;
+			.header-icon1 {
+				width: 25%;
+				height: 25%;
+			}
+
+			.header-icon2 {
+				width: 25%;
+				height: 25%;
+			}
+
+			.pcimg {
+				display: none;
+			}
+
+			.smartimg {
+				display: inline-block;
 			}
 
 			.media-title {
+				margin-bottom: 1rem;
+
 				.title {
-					width: 75%;
+					width: 85%;
 				}
 
 				p {
+					font-weight: normal;
+					font-size: .7rem;
 					margin-top: .5rem;
 				}
 			}

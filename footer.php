@@ -14,14 +14,19 @@
 			<!-- copyrightをflexの範囲外に置くためにfooter-containerでcopyright以外を囲む -->
 			<div class="footer-container">
 				<section class="footer-logo">
-					<a href="<?php echo home_url(); ?>">
-						<img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/images/Porin_icon.jpg" alt="" width="120" height="120">
-					</a>
-					<h1><img class="footer-title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt=""></h1>
+					<h1>
+						<a href="<?php echo home_url(); ?>/top">
+							<img class="footer-title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt="">
+						</a>
+					</h1>
 					<p>
 						ニートとHR業界サラリーマンが対話し<br>
 						「なんで？」「でも〜」「だから〜」が飛び交う場所
 					</p>
+					<a href="<?php echo home_url(); ?>/top">
+						<img class="footer-icon1" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="120" height="120">
+						<img class="footer-icon2" src="<?php echo get_template_directory_uri(); ?>/images/kento-nyanko.png" alt="" width="120" height="120">
+					</a>
 				</section>
 				<div class="social">
 					<ul>

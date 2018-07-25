@@ -24,7 +24,7 @@
 					$arg = array(
 						'post_type'        => 'post',
 						'limit'            => 4,
-						'range'            => 'monthry',
+						'range'            => 'last30days',
 						'order_by'         => 'views',
 						'stats_views'      => 0, // view数を表示しない.
 						'stats_category'   => 1,
