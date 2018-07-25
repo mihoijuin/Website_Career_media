@@ -14,16 +14,6 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta property="og:title" content="なんででもだから">
-		<meta property="og:type" content="website">
-		<meta property="og:image" content="https://mihoijuin.github.io/wp_nandedemodakara/images/Porin_icon.jpg">
-		<meta property="og:site_name" content="なんででもだから">
-		<meta property="og:description" content="ニートとHR業界サラリーマンが対話し、「なんで？」「でも〜」「だから〜」が飛び交う場所です">
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@iju_miho">
-		<meta name="twitter:title" content="なんででもだから">
-		<meta name="twitter:description" content="ニートとHR業界サラリーマンが対話し、「なんで？」「でも〜」「だから〜」が飛び交う場所です">
-		<meta name="twitter:image:src" content="https://mihoijuin.github.io/wp_nandedemodakara//images/Porin_icon.jpg">
 		<?php wp_head(); ?>
 	</head>
 
