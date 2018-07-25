@@ -34,7 +34,7 @@
 				<img class="header-icon1 pcimg" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="130" height="130">
 				<div class="media-title">
 					<h1>
-						<a href="<?php echo home_url(); ?>">
+						<a href="<?php echo home_url(); ?>/top">
 							<img class="title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt="">
 						</a>
 					</h1>

@@ -15,7 +15,7 @@
 			<div class="footer-container">
 				<section class="footer-logo">
 					<h1>
-						<a href="<?php echo home_url(); ?>">
+						<a href="<?php echo home_url(); ?>/top">
 							<img class="footer-title" src="<?php echo get_template_directory_uri(); ?>/images/nandedemodakara_title.svg" alt="">
 						</a>
 					</h1>
@@ -23,7 +23,7 @@
 						ニートとHR業界サラリーマンが対話し<br>
 						「なんで？」「でも〜」「だから〜」が飛び交う場所
 					</p>
-					<a href="<?php echo home_url(); ?>">
+					<a href="<?php echo home_url(); ?>/top">
 						<img class="footer-icon1" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="120" height="120">
 						<img class="footer-icon2" src="<?php echo get_template_directory_uri(); ?>/images/kento-nyanko.png" alt="" width="120" height="120">
 					</a>
