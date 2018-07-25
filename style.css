@@ -162,6 +162,8 @@ p {
       transform: rotate(-25deg); }
     #header .header-logo .header-icon2 {
       transform: rotate(25deg); }
+    #header .header-logo .smartimg {
+      display: none; }
     #header .header-logo .media-title p {
       font-size: .9rem;
       font-weight: bold;

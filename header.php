@@ -31,7 +31,7 @@
 		<!-- header -->
 		<header id="header">
 			<section class="header-logo">
-				<img class="header-icon1" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="130" height="130">
+				<img class="header-icon1 pcimg" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="130" height="130">
 				<div class="media-title">
 					<h1>
 						<a href="<?php echo home_url(); ?>">
@@ -43,6 +43,7 @@
 						「なんで？」「でも〜」「だから〜」が飛び交う場
 					</p>
 				</div>
+				<img class="header-icon1 smartimg" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="130" height="130">
 				<img class="header-icon2" src="<?php echo get_template_directory_uri(); ?>/images/kento-nyanko.png" alt="" width="130" height="130">
 			</section>
 			<nav class="header-nav">
