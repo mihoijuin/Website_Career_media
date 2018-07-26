@@ -104,7 +104,7 @@
 		width: 95%;
 
 		p {
-			font-size: 2rem;
+			font-size: 1.2rem;
 		}
 
 		.single-post {
@@ -151,6 +151,10 @@
 
 			.widget {
 				margin-bottom: 3rem;
+			}
+
+			li {
+				font-size: 1.3rem;
 			}
 		}
 	}
@@ -374,7 +378,7 @@
 		width: 95%;
 
 		p {
-			font-size: 1.2rem;
+			font-size: 1.1rem;
 		}
 
 		.single-post {
@@ -391,7 +395,7 @@
 				padding: 0;
 
 				.single-title {
-					font-size: 2rem;
+					font-size: 1.5rem;
 				}
 
 				.single-category {
@@ -405,12 +409,12 @@
 			}
 
 			.txt-content {
-				margin: 1rem 0;
-				padding: 0 1rem;
+				margin: 3rem 0;
+				padding: 0 .8rem;
 			}
 
 			.released-date {
-				font-size: 1.3rem;
+				font-size: 1rem;
 				padding: 1rem;
 			}
 

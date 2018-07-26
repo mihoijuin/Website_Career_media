@@ -62,7 +62,7 @@
     display: block;
     width: 95%; }
     .single p {
-      font-size: 2rem; }
+      font-size: 1.2rem; }
     .single .single-post {
       margin: 2rem auto;
       padding: 0; }
@@ -87,6 +87,8 @@
       font-size: 2rem; }
     .single #sidebar .widget {
       margin-bottom: 3rem; }
+    .single #sidebar li {
+      font-size: 1.3rem; }
 
   .released-date {
     margin-top: .5rem; }
@@ -219,7 +221,7 @@
     margin: 0 auto;
     width: 95%; }
     .single p {
-      font-size: 1.2rem; }
+      font-size: 1.1rem; }
     .single .single-post {
       margin: 1.5rem auto;
       padding: 0; }
@@ -230,17 +232,17 @@
         margin-top: 0;
         padding: 0; }
         .single .single-post header .single-title {
-          font-size: 2rem; }
+          font-size: 1.5rem; }
         .single .single-post header .single-category {
           margin-bottom: 0; }
         .single .single-post header .post-categories a {
           font-size: .8rem;
           padding: .3rem; }
       .single .single-post .txt-content {
-        margin: 1rem 0;
-        padding: 0 1rem; }
+        margin: 3rem 0;
+        padding: 0 .8rem; }
       .single .single-post .released-date {
-        font-size: 1.3rem;
+        font-size: 1rem;
         padding: 1rem; }
       .single .single-post .share ul {
         margin: 0;
