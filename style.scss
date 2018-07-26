@@ -253,12 +253,6 @@ p {
   .popular-post {
     background-color: lighten($basic_color, 15%);
     border-radius: .3rem;
-    opacity: 0.8;
-
-    &:hover {
-      cursor: pointer;
-      opacity: 1;
-		}
 
 		img {
 			margin-right: 1rem;
@@ -271,6 +265,10 @@ p {
       .popular-title {
         font-weight: bold;
 				font-size: 1.8rem;
+
+				&:hover {
+					color: darken($basic_color, 20%);
+				}
       }
 
 			.popular-category {
@@ -302,19 +300,17 @@ p {
     background-color: lighten($basic_color, 15%);
     border-radius: .3rem;
     margin-bottom: 1.7rem;
-    opacity: 0.8;
     padding: 1rem;
-
-    &:hover {
-      cursor: pointer;
-      opacity: 1;
-    }
 
     header {
       .post-title {
         font-weight: bold;
-				font-size: 1.8rem;
+				font-size: 1.7rem;
 				margin-top: .5rem;
+
+				&:hover {
+					color: darken($basic_color, 20%);
+				}
       }
 
       .post-category {

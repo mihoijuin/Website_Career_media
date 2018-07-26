@@ -36,14 +36,12 @@
 						'wpp_start'         => '<div class="popular-posts">',
 						'wpp_end'           => '</div>',
 						'post_html'         => '<article class="popular-post">
-																			<a href="{url}">
-																				{thumb_img}
-																				<header>
-																					<div class="popular-category">{category}</div>
-																					<h3 class="popular-title">{text_title}</h3>
+																			{thumb_img}
+																			<header>
+																				<a href="{url}"><div class="popular-category">{category}</div>
+																				<a href="{url}"><h3 class="popular-title">{text_title}</h3></a>
 																				</header>
-																				<p class="released-date">{date}</p>
-																			</a>
+																			<p class="released-date">{date}</p>
 																		</article>',
 					);
 					wpp_get_mostpopular( $arg );
@@ -69,14 +67,14 @@
 							?>
 
 					<article class="post">
-						<a href="<?php the_permalink(); ?>">
-							<header>
-								<div class="post-category"><?php the_category( ',' ); ?></div>
+						<header>
+							<div class="post-category"><?php the_category( ',' ); ?></div>
+							<a href="<?php the_permalink(); ?>">
 								<h3 class="post-title"><?php the_title(); ?></h3>
-							</header>
-							<div class="post-txt"><?php the_excerpt(); ?></div>
-							<p class="released-date"><?php echo get_the_date(); ?></p>
-						</a>
+							</a>
+						</header>
+						<div class="post-txt"><?php the_excerpt(); ?></div>
+						<p class="released-date"><?php echo get_the_date(); ?></p>
 					</article>
 
 							<?php

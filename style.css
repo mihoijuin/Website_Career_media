@@ -208,11 +208,7 @@ p {
     grid-area: area4; }
   .popular-posts .popular-post {
     background-color: #c1f1e1;
-    border-radius: .3rem;
-    opacity: 0.8; }
-    .popular-posts .popular-post:hover {
-      cursor: pointer;
-      opacity: 1; }
+    border-radius: .3rem; }
     .popular-posts .popular-post img {
       margin-right: 1rem;
       width: 100%; }
@@ -221,6 +217,8 @@ p {
       .popular-posts .popular-post header .popular-title {
         font-weight: bold;
         font-size: 1.8rem; }
+        .popular-posts .popular-post header .popular-title:hover {
+          color: #30d099; }
       .popular-posts .popular-post header .popular-category {
         text-align: right; }
         .popular-posts .popular-post header .popular-category .category {
@@ -241,15 +239,13 @@ p {
     background-color: #c1f1e1;
     border-radius: .3rem;
     margin-bottom: 1.7rem;
-    opacity: 0.8;
     padding: 1rem; }
-    .posts .post:hover {
-      cursor: pointer;
-      opacity: 1; }
     .posts .post header .post-title {
       font-weight: bold;
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       margin-top: .5rem; }
+      .posts .post header .post-title:hover {
+        color: #30d099; }
     .posts .post header .post-category {
       text-align: right; }
       .posts .post header .post-category a {
