@@ -531,28 +531,28 @@ footer {
     justify-content: space-between;
 
     .footer-logo {
-			margin-top: 5rem;
+			margin-top: 4rem;
 			margin-bottom: 3rem;
-      text-align: center;
+			text-align: center;
 
       .footer-icon1 {
 				transform: rotate(-25deg);
-				width: 25%;
-				height: 25%;
+				width: 30%;
+				height: 30%;
 			}
 
 			.footer-icon2 {
 				transform: rotate(25deg);
-				width: 25%;
-				height: 25%;
+				width: 30%;
+				height: 30%;
 			}
 
       .footer-title {
-        width: 85%;
+        width: 90%;
       }
 
       p {
-				font-size: .8em;
+				font-size: .8rem;
 				margin-top: 1rem;
       }
     }
