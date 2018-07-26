@@ -219,7 +219,7 @@
     margin: 0 auto;
     width: 95%; }
     .single p {
-      font-size: 1.5rem; }
+      font-size: 1.2rem; }
     .single .single-post {
       margin: 1.5rem auto;
       padding: 0; }
@@ -230,7 +230,7 @@
         margin-top: 0;
         padding: 0; }
         .single .single-post header .single-title {
-          font-size: 1.5rem; }
+          font-size: 2rem; }
         .single .single-post header .single-category {
           margin-bottom: 0; }
         .single .single-post header .post-categories a {

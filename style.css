@@ -291,12 +291,12 @@ p {
         margin-left: .8rem; }
 
 #sidebar {
-  width: 90%;
+  width: 95%;
   margin: 0 auto; }
   #sidebar .side-content {
     background-color: #c1f1e1;
     border-radius: .5rem;
-    padding: 4rem 2rem; }
+    padding: 4rem 1rem; }
   #sidebar .widget {
     margin-bottom: 5rem; }
     #sidebar .widget label {
@@ -308,7 +308,9 @@ p {
     margin-bottom: 1.5rem;
     padding-bottom: .5rem; }
   #sidebar li {
-    padding: .3rem; }
+    padding: .3rem;
+    padding-top: 1rem;
+    border-bottom: solid 0.0625rem #ccc; }
     #sidebar li:hover {
       background-color: #83E3C2; }
 
