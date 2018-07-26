@@ -284,6 +284,8 @@ p {
     .single .single-post .txt-content {
       margin: 3rem 0;
       padding: 0 3rem; }
+      .single .single-post .txt-content p {
+        font-size: 1.2rem; }
     .single .single-post .released-date {
       padding: 0 3rem; }
     .single .single-post .share ul {
