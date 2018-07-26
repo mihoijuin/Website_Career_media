@@ -154,7 +154,7 @@ a {
 }
 
 p {
-  font-size: 1rem;
+	font-size: 1.4rem;
   line-height: 1.7;
 }
 
@@ -214,7 +214,7 @@ p {
   width: 85%;
 
   .heading{
-    width: 10%;
+    width: 14%;
     text-align: center;
     border-bottom: rem(7px) dashed $orange;
     padding-bottom: .8rem;
@@ -266,24 +266,29 @@ p {
 		}
 
     header {
-      display: flex;
-      justify-content: space-between;
-			padding: 1rem;
+			padding: 0 1rem;
 
       .popular-title {
         font-weight: bold;
-				font-size: 1.7rem;
+				font-size: 1.8rem;
       }
 
-      .popular-category {
-        background-color: lighten($orange, 5%);
-        border-radius: .2rem;
-        padding: .4rem;
-      }
+			.popular-category {
+				text-align: right;
+
+				.category {
+					display: inline-block;
+        	background-color: lighten($orange, 5%);
+					border-radius: .2rem;
+					margin: .5rem 0;
+					padding: .3rem;
+				}
+			}
 		}
 
 		.released-date {
-			padding: 1rem;
+			margin-top: 0;
+			padding: .5rem 1rem;
 		}
   }
 }
@@ -291,7 +296,7 @@ p {
 /* posts */
 .posts {
   margin: 1rem auto;
-  width: 85%;
+  width: 90%;
 
   .post {
     background-color: lighten($basic_color, 15%);
@@ -306,21 +311,30 @@ p {
     }
 
     header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: .8rem;
-
       .post-title {
         font-weight: bold;
-        font-size: 1.3rem;
+				font-size: 1.8rem;
+				margin-top: .5rem;
       }
 
       .post-category {
-        background-color: lighten($orange, 5%);
-        border-radius: .2rem;
-        padding: .1rem;
+				text-align: right;
+
+				a {
+					background-color: lighten($orange, 5%);
+        	border-radius: .2rem;
+        	padding: .3rem;
+				}
       }
-    }
+		}
+
+		.post-txt {
+			margin: .8rem 0;
+		}
+
+		.released-date {
+			margin-top: 0;
+		}
   }
 }
 
@@ -335,19 +349,23 @@ p {
 		background-color: #fff;
 
     header {
-      display: flex;
-			justify-content: space-between;
-			padding: 4rem 3rem 0 3rem;
+			padding: 2rem 3rem 0 3rem;
 
       .single-title {
         font-weight: bold;
-        font-size: 1.8rem;
+        font-size: 2.5rem;
       }
 
-      .post-categories li {
-        background-color: lighten($orange, 5%);
-        border-radius: .2rem;
-        padding: .6rem .3rem;
+      .post-categories {
+				margin-bottom: 1.5rem;
+				text-align: right;
+
+				a {
+					display: inline-block;
+        	background-color: lighten($orange, 5%);
+					border-radius: .2rem;
+					padding: .6rem .3rem;
+				}
       }
     }
 
@@ -467,7 +485,7 @@ p {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
 
   .profile {
     text-align: center;
@@ -479,9 +497,12 @@ p {
     }
 
     img {
-      border-radius: 50%;
-      margin: 1.7rem 0;
+      margin: 1rem 0;
     }
+
+		p {
+			font-size: 1rem;
+		}
 
     a {
       display: inline-block;

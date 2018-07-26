@@ -39,8 +39,8 @@
 																			<a href="{url}">
 																				{thumb_img}
 																				<header>
+																					<div class="popular-category">{category}</div>
 																					<h3 class="popular-title">{text_title}</h3>
-																					<p class="popular-category">{category}</p>
 																				</header>
 																				<p class="released-date">{date}</p>
 																			</a>
@@ -71,8 +71,8 @@
 					<article class="post">
 						<a href="<?php the_permalink(); ?>">
 							<header>
+								<div class="post-category"><?php the_category( ',' ); ?></div>
 								<h3 class="post-title"><?php the_title(); ?></h3>
-								<p class="post-category"><?php the_category( ',' ); ?></p>
 							</header>
 							<div class="post-txt"><?php the_excerpt(); ?></div>
 							<p class="released-date"><?php echo get_the_date(); ?></p>
