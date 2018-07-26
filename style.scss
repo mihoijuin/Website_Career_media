@@ -182,8 +182,11 @@ p {
 		}
 
     .media-title {
+			.title {
+				width: 100%;
+			}
       p {
-				font-size: .9rem;
+				font-size: 1rem;
 				font-weight: bold;
         margin-top: 1rem;
 			}
