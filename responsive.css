@@ -133,7 +133,8 @@
     #header .header-logo {
       display: block;
       margin: 0;
-      padding-top: 1rem; }
+      padding-top: 5rem;
+      padding-bottom: 2rem; }
       #header .header-logo .header-icon1 {
         width: 25%;
         height: 25%; }
