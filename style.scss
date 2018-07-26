@@ -336,13 +336,18 @@ p {
 
 .single {
   display: grid;
-  grid-template-columns: auto 20%;
+  grid-template-columns: auto 30%;
   grid-gap: 2rem;
   margin: 4rem auto;
   width: 90%;
 
   .single-post {
 		background-color: #fff;
+		width: 100%;
+
+		img {
+			width: 100%;
+		}
 
     header {
 			padding: 2rem 3rem 0 3rem;
@@ -389,18 +394,18 @@ p {
 }
 
 #sidebar {
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
 
   .side-content {
     background-color: lighten($basic_color, 15%);
     border-radius: .5rem;
-    padding: 4rem 1rem;
+    padding: 1rem 1.5rem;
 
 	}
 
 	.widget {
-		margin-bottom: 5rem;
+		margin: 4rem 0;
 
 		label {
 			display: none;

@@ -259,12 +259,15 @@ p {
 
 .single {
   display: grid;
-  grid-template-columns: auto 20%;
+  grid-template-columns: auto 30%;
   grid-gap: 2rem;
   margin: 4rem auto;
   width: 90%; }
   .single .single-post {
-    background-color: #fff; }
+    background-color: #fff;
+    width: 100%; }
+    .single .single-post img {
+      width: 100%; }
     .single .single-post header {
       padding: 2rem 3rem 0 3rem; }
       .single .single-post header .single-title {
@@ -291,14 +294,14 @@ p {
         margin-left: .8rem; }
 
 #sidebar {
-  width: 95%;
+  width: 80%;
   margin: 0 auto; }
   #sidebar .side-content {
     background-color: #c1f1e1;
     border-radius: .5rem;
-    padding: 4rem 1rem; }
+    padding: 1rem 1.5rem; }
   #sidebar .widget {
-    margin-bottom: 5rem; }
+    margin: 4rem 0; }
     #sidebar .widget label {
       display: none; }
   #sidebar h3 {
