@@ -24,14 +24,14 @@
 							?>
 
 					<article class="post">
-						<a href="<?php the_permalink(); ?>">
-							<header>
+						<header>
+							<div class="post-category"><?php the_category( ',' ); ?></div>
+							<a href="<?php the_permalink(); ?>">
 								<h3 class="post-title"><?php the_title(); ?></h3>
-								<div class="post-category"><?php the_category( ',' ); ?></div>
-							</header>
-							<div class="post-txt"><?php the_excerpt(); ?></div>
-							<p class="released-date"><?php echo get_the_date(); ?></p>
-						</a>
+							</a>
+						</header>
+						<div class="post-txt"><?php the_excerpt(); ?></div>
+						<p class="released-date"><?php echo get_the_date(); ?></p>
 					</article>
 
 							<?php
