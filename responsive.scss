@@ -387,6 +387,7 @@
 
 			header {
 				margin: .8rem;
+				margin-top: 0;
 				padding: 0;
 
 				.single-title {
@@ -399,7 +400,7 @@
 
 				.post-categories a {
 					font-size: .8rem;
-					padding: .4rem;
+					padding: .3rem;
 				}
 			}
 
@@ -426,6 +427,8 @@
 		}
 
 		#sidebar {
+			width:100%;
+
 			.side-content {
 				margin: 3rem 0;
 				padding: 1.5rem;
@@ -436,7 +439,7 @@
 			}
 
 			h3 {
-				font-size: 1.5rem;
+				font-size: 1.2rem;
 				margin-bottom: 1rem;
 			}
 
