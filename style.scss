@@ -432,7 +432,7 @@ p {
 		padding-top: 1rem;
 		border-bottom: solid rem(1px) #ccc;
 
-		&:hover {
+		a:hover {
 			color: darken($basic_color, 20%);
 		}
 	}
