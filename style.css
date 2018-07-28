@@ -319,7 +319,7 @@ p {
     padding-top: 1rem;
     border-bottom: solid 0.0625rem #ccc; }
     #sidebar li:hover {
-      background-color: #83E3C2; }
+      color: #30d099; }
 
 .released-date {
   margin-top: 1rem; }
