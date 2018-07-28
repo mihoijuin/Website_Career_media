@@ -433,7 +433,7 @@ p {
 		border-bottom: solid rem(1px) #ccc;
 
 		&:hover {
-			background-color: $basic_color;
+			color: darken($basic_color, 20%);
 		}
 	}
 
