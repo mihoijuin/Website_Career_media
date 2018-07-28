@@ -55,7 +55,7 @@ function my_meta_ogp() {
 		/**
 		* 初期設定
 		*/
-		$ogp_image    = 'https://main-nandedemodakara.ssl-lolipop.jp/wp-content/themes/Nandedemodakara/images/kento-nyanko.png';
+		$ogp_image    = 'https://main-nandedemodakara.ssl-lolipop.jp/wp-content/themes/Nandedemodakara/images/ogp.png';
 		$twitter_site = 'iju_miho';
 		// Twitterカードの種類（summary_large_image または summary を指定）.
 		$twitter_card = 'summary_large_image';

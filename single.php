@@ -24,8 +24,8 @@
 				<div class="single-post">
 					<?php the_post_thumbnail( 'full' ); ?>
 					<header>
-						<h2 class="single-title"><?php the_title(); ?></h2>
 						<div class="single-category"><?php the_category(); ?></div>
+						<h2 class="single-title"><?php the_title(); ?></h2>
 					</header>
 					<div class="txt-content">
 						<?php the_content(); ?>

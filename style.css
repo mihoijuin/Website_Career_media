@@ -146,7 +146,7 @@ a {
   text-decoration: none; }
 
 p {
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 1.7; }
 
 /* Header */
@@ -164,8 +164,10 @@ p {
       transform: rotate(25deg); }
     #header .header-logo .smartimg {
       display: none; }
+    #header .header-logo .media-title .title {
+      width: 100%; }
     #header .header-logo .media-title p {
-      font-size: .9rem;
+      font-size: 1rem;
       font-weight: bold;
       margin-top: 1rem; }
   #header .header-nav ul {
@@ -183,7 +185,7 @@ p {
   margin: 3rem auto;
   width: 85%; }
   .main-wrapper .heading {
-    width: 10%;
+    width: 14%;
     text-align: center;
     border-bottom: 0.4375rem dashed #F5AC88;
     padding-bottom: .8rem;
@@ -208,75 +210,84 @@ p {
     grid-area: area4; }
   .popular-posts .popular-post {
     background-color: #c1f1e1;
-    border-radius: .3rem;
-    opacity: 0.8; }
-    .popular-posts .popular-post:hover {
-      cursor: pointer;
-      opacity: 1; }
+    border-radius: .3rem; }
     .popular-posts .popular-post img {
       margin-right: 1rem;
       width: 100%; }
     .popular-posts .popular-post header {
-      display: flex;
-      justify-content: space-between;
-      padding: 1rem; }
+      padding: 0 1rem; }
       .popular-posts .popular-post header .popular-title {
         font-weight: bold;
-        font-size: 1.7rem; }
+        font-size: 1.8rem; }
+        .popular-posts .popular-post header .popular-title:hover {
+          color: #30d099; }
       .popular-posts .popular-post header .popular-category {
-        background-color: #f7bca0;
-        border-radius: .2rem;
-        padding: .4rem; }
+        text-align: right; }
+        .popular-posts .popular-post header .popular-category .category {
+          display: inline-block;
+          background-color: #f7bca0;
+          border-radius: .2rem;
+          margin: .5rem 0;
+          padding: .3rem; }
     .popular-posts .popular-post .released-date {
-      padding: 1rem; }
+      margin-top: 0;
+      padding: .5rem 1rem; }
 
 /* posts */
 .posts {
   margin: 1rem auto;
-  width: 85%; }
+  width: 90%; }
   .posts .post {
     background-color: #c1f1e1;
     border-radius: .3rem;
     margin-bottom: 1.7rem;
-    opacity: 0.8;
     padding: 1rem; }
-    .posts .post:hover {
-      cursor: pointer;
-      opacity: 1; }
-    .posts .post header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: .8rem; }
-      .posts .post header .post-title {
-        font-weight: bold;
-        font-size: 1.3rem; }
-      .posts .post header .post-category {
+    .posts .post header .post-title {
+      font-weight: bold;
+      font-size: 1.7rem;
+      margin-top: .5rem; }
+      .posts .post header .post-title:hover {
+        color: #30d099; }
+    .posts .post header .post-category {
+      text-align: right; }
+      .posts .post header .post-category a {
         background-color: #f7bca0;
         border-radius: .2rem;
-        padding: .1rem; }
+        padding: .3rem; }
+    .posts .post .post-txt {
+      margin: .8rem 0; }
+    .posts .post .released-date {
+      margin-top: 0; }
 
 .single {
   display: grid;
-  grid-template-columns: auto 20%;
+  grid-template-columns: auto 30%;
   grid-gap: 2rem;
   margin: 4rem auto;
   width: 90%; }
   .single .single-post {
-    background-color: #fff; }
+    background-color: #fff;
+    width: 100%; }
+    .single .single-post img {
+      width: 100%; }
     .single .single-post header {
-      display: flex;
-      justify-content: space-between;
-      padding: 4rem 3rem 0 3rem; }
+      padding: 2rem 3rem 0 3rem; }
       .single .single-post header .single-title {
         font-weight: bold;
-        font-size: 1.8rem; }
-      .single .single-post header .post-categories li {
-        background-color: #f7bca0;
-        border-radius: .2rem;
-        padding: .6rem .3rem; }
+        font-size: 2.5rem; }
+      .single .single-post header .post-categories {
+        margin-bottom: 1.5rem;
+        text-align: right; }
+        .single .single-post header .post-categories a {
+          display: inline-block;
+          background-color: #f7bca0;
+          border-radius: .2rem;
+          padding: .6rem .3rem; }
     .single .single-post .txt-content {
       margin: 3rem 0;
       padding: 0 3rem; }
+      .single .single-post .txt-content p {
+        font-size: 1.2rem; }
     .single .single-post .released-date {
       padding: 0 3rem; }
     .single .single-post .share ul {
@@ -287,14 +298,16 @@ p {
         margin-left: .8rem; }
 
 #sidebar {
-  width: 90%;
+  width: 80%;
   margin: 0 auto; }
   #sidebar .side-content {
     background-color: #c1f1e1;
     border-radius: .5rem;
-    padding: 4rem 2rem; }
+    padding: 1rem 1.5rem; }
   #sidebar .widget {
-    margin-bottom: 5rem; }
+    margin: 4rem 0; }
+    #sidebar .widget label {
+      display: none; }
   #sidebar h3 {
     border-bottom: dashed 0.375rem #F5AC88;
     font-size: 1.3rem;
@@ -302,9 +315,11 @@ p {
     margin-bottom: 1.5rem;
     padding-bottom: .5rem; }
   #sidebar li {
-    padding: .3rem; }
-    #sidebar li:hover {
-      background-color: #83E3C2; }
+    padding: .3rem;
+    padding-top: 1rem;
+    border-bottom: solid 0.0625rem #ccc; }
+    #sidebar li a:hover {
+      color: #30d099; }
 
 .released-date {
   margin-top: 1rem; }
@@ -348,7 +363,7 @@ p {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  width: 50%; }
+  width: 70%; }
   .profiles .profile {
     text-align: center;
     margin-bottom: 3rem; }
@@ -356,8 +371,9 @@ p {
       font-weight: bold;
       font-size: 1.5rem; }
     .profiles .profile img {
-      border-radius: 50%;
-      margin: 1.7rem 0; }
+      margin: 1rem 0; }
+    .profiles .profile p {
+      font-size: 1rem; }
     .profiles .profile a {
       display: inline-block;
       margin: 1.5rem 0; }
@@ -371,21 +387,21 @@ footer {
     align-items: center;
     justify-content: space-between; }
     footer .footer-container .footer-logo {
-      margin-top: 5rem;
+      margin-top: 4rem;
       margin-bottom: 3rem;
       text-align: center; }
       footer .footer-container .footer-logo .footer-icon1 {
         transform: rotate(-25deg);
-        width: 25%;
-        height: 25%; }
+        width: 30%;
+        height: 30%; }
       footer .footer-container .footer-logo .footer-icon2 {
         transform: rotate(25deg);
-        width: 25%;
-        height: 25%; }
+        width: 30%;
+        height: 30%; }
       footer .footer-container .footer-logo .footer-title {
-        width: 85%; }
+        width: 90%; }
       footer .footer-container .footer-logo p {
-        font-size: .8em;
+        font-size: .8rem;
         margin-top: 1rem; }
     footer .footer-container .social ul {
       display: flex;
