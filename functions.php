@@ -33,7 +33,7 @@ add_action( 'wp_enqueue_scripts', 'my_enqueue_style' );
 register_sidebar(
 	array(
 		'id'            => 'sidebar-1',
-		'before_widget' => '<div class="widget">',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h3>',
 		'after_title'   => '</h3>',
