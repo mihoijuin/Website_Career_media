@@ -15,7 +15,7 @@
 		<!-- main -->
 		<main>
 			<div class="main-wrapper">
-				<img class="heading" src="<?php echo get_template_directory_uri(); ?>/images/profile-title.svg" alt="">
+				<img class="heading profheading" src="<?php echo get_template_directory_uri(); ?>/images/profile-title.svg" alt="">
 				<div class="profiles">
 					<section class="profile">
 						<h3>ぽりん</h3>
