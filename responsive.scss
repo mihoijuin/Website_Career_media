@@ -301,6 +301,10 @@
 			padding-bottom: .5rem;
 			width: 35%;
 		}
+
+		.profheading {
+			width: 30%;
+		}
 	}
 
 	.popular-posts {
@@ -482,13 +486,18 @@
 
 	.profiles {
 		display: block;
-		width: 100%;
+		width: 85%;
 
 		.profile {
 			margin: 3rem 0;
 
 			h3 {
-				font-size: 1.8rem;
+				font-size: 1.3rem;
+			}
+
+			img {
+				width: 50%;
+				height: 50%;
 			}
 
 			p {
