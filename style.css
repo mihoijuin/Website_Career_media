@@ -206,6 +206,8 @@ p {
     border-bottom: 0.4375rem dashed #F5AC88;
     padding-bottom: .8rem;
     margin: 1.5rem 0; }
+  .main-wrapper .profheading {
+    width: 11%; }
 
 /* popular-posts@page.html */
 .popular-posts {
