@@ -154,22 +154,39 @@ p {
   background-color: #83E3C2; }
   #header .header-logo {
     display: flex;
-    text-align: center;
+    justify-content: space-between;
     padding-top: 4rem;
     padding-bottom: 2rem;
-    padding-left: 4rem; }
-    #header .header-logo .header-icon1 {
-      transform: rotate(-25deg); }
-    #header .header-logo .header-icon2 {
-      transform: rotate(25deg); }
-    #header .header-logo .smartimg {
-      display: none; }
+    padding-left: 5rem; }
     #header .header-logo .media-title .title {
-      width: 100%; }
+      width: 110%; }
     #header .header-logo .media-title p {
-      font-size: 1rem;
-      font-weight: bold;
+      text-align: center;
+      font-size: .8rem;
       margin-top: 1rem; }
+  #header .header-pcimg {
+    position: absolute;
+    top: 4rem;
+    right: 10rem; }
+    #header .header-pcimg .header-icon1 {
+      position: relative;
+      left: 1.5rem; }
+    #header .header-pcimg .header-icon2 {
+      position: relative;
+      right: 1.5rem; }
+    #header .header-pcimg .img-message {
+      background-color: #D8BB9C;
+      border: solid 0.125rem #9d6f3e;
+      color: #543b21;
+      text-align: center;
+      padding: 2.5rem;
+      position: relative;
+      bottom: 2.9rem; }
+      #header .header-pcimg .img-message p {
+        font-size: 2rem;
+        font-weight: bold; }
+  #header .header-smartimg {
+    display: none; }
   #header .header-nav ul {
     display: flex;
     background-color: #59daae;
@@ -190,6 +207,8 @@ p {
     border-bottom: 0.4375rem dashed #F5AC88;
     padding-bottom: .8rem;
     margin: 1.5rem 0; }
+  .main-wrapper .profheading {
+    width: 11%; }
 
 /* popular-posts@page.html */
 .popular-posts {
@@ -254,8 +273,9 @@ p {
         background-color: #f7bca0;
         border-radius: .2rem;
         padding: .3rem; }
-    .posts .post .post-txt {
-      margin: .8rem 0; }
+    .posts .post .post-txt p {
+      margin: .8rem 1rem;
+      font-size: 1rem; }
     .posts .post .released-date {
       margin-top: 0; }
 

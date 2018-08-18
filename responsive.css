@@ -9,13 +9,18 @@
   #header {
     padding-top: 5rem; }
     #header .header-logo {
-      justify-content: center;
+      display: block;
+      text-align: center;
       margin-top: 0;
       padding: 0; }
-      #header .header-logo .title {
-        width: 100%; }
+      #header .header-logo .media-title .title {
+        width: 70%; }
       #header .header-logo .media-title p {
         font-size: 1.3rem; }
+    #header .header-pcimg {
+      display: none; }
+    #header .header-smartimg {
+      display: block; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
@@ -132,6 +137,7 @@
     padding: 0; }
     #header .header-logo {
       display: block;
+      text-align: center;
       margin: 0;
       padding-top: 5rem;
       padding-bottom: 2rem; }
@@ -141,10 +147,6 @@
       #header .header-logo .header-icon2 {
         width: 25%;
         height: 25%; }
-      #header .header-logo .pcimg {
-        display: none; }
-      #header .header-logo .smartimg {
-        display: inline-block; }
       #header .header-logo .media-title .title {
         width: 85%; }
       #header .header-logo .media-title p {

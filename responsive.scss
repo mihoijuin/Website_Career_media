@@ -13,19 +13,28 @@
 		padding-top: 5rem;
 
 		.header-logo {
-			justify-content: center;
+			display: block;
+			text-align: center;
 			margin-top: 0;
 			padding: 0;
 
-			.title {
-				width: 100%;
-			}
-
 			.media-title {
+				.title {
+					width: 70%;
+				}
+
 				p {
 					font-size: 1.3rem;
 				}
 			}
+		}
+
+		.header-pcimg {
+			display: none;
+		}
+
+		.header-smartimg {
+			display: block;
 		}
 
 		.header-nav {
@@ -232,6 +241,7 @@
 
 		.header-logo {
 			display: block;
+			text-align: center;
 			margin: 0;
 			padding-top: 5rem;
 			padding-bottom: 2rem;
@@ -244,14 +254,6 @@
 			.header-icon2 {
 				width: 25%;
 				height: 25%;
-			}
-
-			.pcimg {
-				display: none;
-			}
-
-			.smartimg {
-				display: inline-block;
 			}
 
 			.media-title {
