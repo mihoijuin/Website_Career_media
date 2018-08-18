@@ -185,7 +185,7 @@ p {
 
 	.header-pcimg {
 		position: absolute;
-		top: 6rem;
+		top: 4rem;
 		right: 10rem;
 
 		.header-icon1 {
@@ -201,13 +201,14 @@ p {
 		.img-message {
 			background-color: #D8BB9C;
 			border: solid rem(2px) darken(#D8BB9C, 30%);
+			color: darken(#D8BB9C, 50%);
 			text-align: center;
-			padding: 2rem 4rem;
+			padding: 2.5rem;
 			position: relative;
 			bottom: 2.9rem;
 
 			p {
-				font-size: 1.8rem;
+				font-size: 2rem;
 				font-weight: bold;
 			}
 		}

@@ -166,7 +166,7 @@ p {
       margin-top: 1rem; }
   #header .header-pcimg {
     position: absolute;
-    top: 6rem;
+    top: 4rem;
     right: 10rem; }
     #header .header-pcimg .header-icon1 {
       position: relative;
@@ -177,12 +177,13 @@ p {
     #header .header-pcimg .img-message {
       background-color: #D8BB9C;
       border: solid 0.125rem #9d6f3e;
+      color: #543b21;
       text-align: center;
-      padding: 2rem 4rem;
+      padding: 2.5rem;
       position: relative;
       bottom: 2.9rem; }
       #header .header-pcimg .img-message p {
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-weight: bold; }
   #header .header-smartimg {
     display: none; }

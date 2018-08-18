@@ -9,13 +9,18 @@
   #header {
     padding-top: 5rem; }
     #header .header-logo {
-      justify-content: center;
+      display: block;
+      text-align: center;
       margin-top: 0;
       padding: 0; }
-      #header .header-logo .title {
-        width: 100%; }
+      #header .header-logo .media-title .title {
+        width: 70%; }
       #header .header-logo .media-title p {
         font-size: 1.3rem; }
+    #header .header-pcimg {
+      display: none; }
+    #header .header-smartimg {
+      display: block; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
@@ -148,10 +153,6 @@
         font-weight: normal;
         font-size: .7rem;
         margin-top: .5rem; }
-    #header .header-pcimg {
-      display: none; }
-    #header .header-smartimg {
-      display: block; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;

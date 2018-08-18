@@ -36,7 +36,7 @@
 					<img class="header-icon1 pcimg" src="<?php echo get_template_directory_uri(); ?>/images/porin-wanko.png" alt="" width="150" height="150">
 					<img class="header-icon2 pcimg" src="<?php echo get_template_directory_uri(); ?>/images/kento-nyanko.png" alt="" width="150" height="150">
 					<div class="img-message">
-						<p>Welcome!!</p>
+						<p>Welcome</p>
 					</div>
 				</div>
 				<div class="header-smartimg">

@@ -13,19 +13,28 @@
 		padding-top: 5rem;
 
 		.header-logo {
-			justify-content: center;
+			display: block;
+			text-align: center;
 			margin-top: 0;
 			padding: 0;
 
-			.title {
-				width: 100%;
-			}
-
 			.media-title {
+				.title {
+					width: 70%;
+				}
+
 				p {
 					font-size: 1.3rem;
 				}
 			}
+		}
+
+		.header-pcimg {
+			display: none;
+		}
+
+		.header-smartimg {
+			display: block;
 		}
 
 		.header-nav {
@@ -259,14 +268,6 @@
 					margin-top: .5rem;
 				}
 			}
-		}
-
-		.header-pcimg {
-			display: none;
-		}
-
-		.header-smartimg {
-			display: block;
 		}
 
 		.header-nav {
