@@ -232,6 +232,7 @@
 
 		.header-logo {
 			display: block;
+			text-align: center;
 			margin: 0;
 			padding-top: 5rem;
 			padding-bottom: 2rem;
@@ -246,14 +247,6 @@
 				height: 25%;
 			}
 
-			.pcimg {
-				display: none;
-			}
-
-			.smartimg {
-				display: inline-block;
-			}
-
 			.media-title {
 
 				.title {
@@ -266,6 +259,14 @@
 					margin-top: .5rem;
 				}
 			}
+		}
+
+		.header-pcimg {
+			display: none;
+		}
+
+		.header-smartimg {
+			display: block;
 		}
 
 		.header-nav {

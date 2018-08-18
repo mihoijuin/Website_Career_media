@@ -164,33 +164,58 @@ p {
 
   .header-logo {
 		display: flex;
-		text-align: center;
+		justify-content: space-between;
 		padding-top: 4rem;
 		padding-bottom: 2rem;
-		padding-left: 4rem;
+		padding-left: 5rem;
 
-		.header-icon1 {
-			transform: rotate(-25deg);
-		}
-
-		.header-icon2 {
-			transform: rotate(25deg);
-		}
-
-		.smartimg {
-			display: none;
-		}
 
     .media-title {
 			.title {
-				width: 100%;
+				width: 110%;
 			}
+
       p {
-				font-size: 1rem;
+				text-align: center;
+				font-size: .8rem;
         margin-top: 1rem;
 			}
-    }
-  }
+		}
+	}
+
+	.header-pcimg {
+		position: absolute;
+		top: 6rem;
+		right: 10rem;
+
+		.header-icon1 {
+			position: relative;
+			left: 1.5rem;
+		}
+
+		.header-icon2 {
+			position: relative;
+			right: 1.5rem;
+		}
+
+		.img-message {
+			background-color: #D8BB9C;
+			border: solid rem(2px) darken(#D8BB9C, 30%);
+			text-align: center;
+			padding: 2rem 4rem;
+			position: relative;
+			bottom: 2.9rem;
+
+			p {
+				font-size: 1.8rem;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.header-smartimg {
+		display: none;
+	}
 
   .header-nav {
     ul {

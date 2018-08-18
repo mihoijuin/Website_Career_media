@@ -154,21 +154,38 @@ p {
   background-color: #83E3C2; }
   #header .header-logo {
     display: flex;
-    text-align: center;
+    justify-content: space-between;
     padding-top: 4rem;
     padding-bottom: 2rem;
-    padding-left: 4rem; }
-    #header .header-logo .header-icon1 {
-      transform: rotate(-25deg); }
-    #header .header-logo .header-icon2 {
-      transform: rotate(25deg); }
-    #header .header-logo .smartimg {
-      display: none; }
+    padding-left: 5rem; }
     #header .header-logo .media-title .title {
-      width: 100%; }
+      width: 110%; }
     #header .header-logo .media-title p {
-      font-size: 1rem;
+      text-align: center;
+      font-size: .8rem;
       margin-top: 1rem; }
+  #header .header-pcimg {
+    position: absolute;
+    top: 6rem;
+    right: 10rem; }
+    #header .header-pcimg .header-icon1 {
+      position: relative;
+      left: 1.5rem; }
+    #header .header-pcimg .header-icon2 {
+      position: relative;
+      right: 1.5rem; }
+    #header .header-pcimg .img-message {
+      background-color: #D8BB9C;
+      border: solid 0.125rem #9d6f3e;
+      text-align: center;
+      padding: 2rem 4rem;
+      position: relative;
+      bottom: 2.9rem; }
+      #header .header-pcimg .img-message p {
+        font-size: 1.8rem;
+        font-weight: bold; }
+  #header .header-smartimg {
+    display: none; }
   #header .header-nav ul {
     display: flex;
     background-color: #59daae;

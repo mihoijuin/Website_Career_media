@@ -132,6 +132,7 @@
     padding: 0; }
     #header .header-logo {
       display: block;
+      text-align: center;
       margin: 0;
       padding-top: 5rem;
       padding-bottom: 2rem; }
@@ -141,16 +142,16 @@
       #header .header-logo .header-icon2 {
         width: 25%;
         height: 25%; }
-      #header .header-logo .pcimg {
-        display: none; }
-      #header .header-logo .smartimg {
-        display: inline-block; }
       #header .header-logo .media-title .title {
         width: 85%; }
       #header .header-logo .media-title p {
         font-weight: normal;
         font-size: .7rem;
         margin-top: .5rem; }
+    #header .header-pcimg {
+      display: none; }
+    #header .header-smartimg {
+      display: block; }
     #header .header-nav ul {
       background-color: #59daae;
       justify-content: center;
