@@ -168,7 +168,6 @@ p {
       width: 100%; }
     #header .header-logo .media-title p {
       font-size: 1rem;
-      font-weight: bold;
       margin-top: 1rem; }
   #header .header-nav ul {
     display: flex;
@@ -254,8 +253,9 @@ p {
         background-color: #f7bca0;
         border-radius: .2rem;
         padding: .3rem; }
-    .posts .post .post-txt {
-      margin: .8rem 0; }
+    .posts .post .post-txt p {
+      margin: .8rem 1rem;
+      font-size: 1rem; }
     .posts .post .released-date {
       margin-top: 0; }
 

@@ -187,7 +187,6 @@ p {
 			}
       p {
 				font-size: 1rem;
-				font-weight: bold;
         margin-top: 1rem;
 			}
     }
@@ -327,8 +326,9 @@ p {
       }
 		}
 
-		.post-txt {
-			margin: .8rem 0;
+		.post-txt p {
+			margin: .8rem 1rem;
+			font-size: 1rem;
 		}
 
 		.released-date {
