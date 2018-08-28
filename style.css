@@ -18,7 +18,7 @@ Description: Original Theme for nandedemodakara
 */
 html {
   color: #000;
-  background: #FFF; }
+  background: #fff; }
 
 /*
 	TODO remove settings on BODY since we can't namespace it.
@@ -97,7 +97,7 @@ h6 {
 
 q:before,
 q:after {
-  content: ''; }
+  content: ""; }
 
 abbr,
 acronym {
@@ -138,7 +138,7 @@ legend {
   box-sizing: border-box; }
 
 body {
-  font-family: -apple-system,'Segoe UI','Avenir','Helvetica Neue','Helvetica','Arial',"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  font-family: -apple-system, "Segoe UI", "Avenir", "Helvetica Neue", "Helvetica", "Arial", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
   background-color: #FAF5CD; }
 
 a {
@@ -162,7 +162,7 @@ p {
       width: 110%; }
     #header .header-logo .media-title p {
       text-align: center;
-      font-size: .8rem;
+      font-size: 0.8rem;
       margin-top: 1rem; }
   #header .header-pcimg {
     position: absolute;
@@ -175,7 +175,7 @@ p {
       position: relative;
       right: 1.5rem; }
     #header .header-pcimg .img-message {
-      background-color: #D8BB9C;
+      background-color: #d8bb9c;
       border: solid 0.125rem #9d6f3e;
       color: #543b21;
       text-align: center;
@@ -205,7 +205,7 @@ p {
     width: 14%;
     text-align: center;
     border-bottom: 0.4375rem dashed #F5AC88;
-    padding-bottom: .8rem;
+    padding-bottom: 0.8rem;
     margin: 1.5rem 0; }
   .main-wrapper .profheading {
     width: 11%; }
@@ -229,7 +229,7 @@ p {
     grid-area: area4; }
   .popular-posts .popular-post {
     background-color: #c1f1e1;
-    border-radius: .3rem; }
+    border-radius: 0.3rem; }
     .popular-posts .popular-post img {
       margin-right: 1rem;
       width: 100%; }
@@ -245,12 +245,12 @@ p {
         .popular-posts .popular-post header .popular-category .category {
           display: inline-block;
           background-color: #f7bca0;
-          border-radius: .2rem;
-          margin: .5rem 0;
-          padding: .3rem; }
+          border-radius: 0.2rem;
+          margin: 0.5rem 0;
+          padding: 0.3rem; }
     .popular-posts .popular-post .released-date {
       margin-top: 0;
-      padding: .5rem 1rem; }
+      padding: 0.5rem 1rem; }
 
 /* posts */
 .posts {
@@ -258,23 +258,23 @@ p {
   width: 90%; }
   .posts .post {
     background-color: #c1f1e1;
-    border-radius: .3rem;
+    border-radius: 0.3rem;
     margin-bottom: 1.7rem;
     padding: 1rem; }
     .posts .post header .post-title {
       font-weight: bold;
       font-size: 1.7rem;
-      margin-top: .5rem; }
+      margin-top: 0.5rem; }
       .posts .post header .post-title:hover {
         color: #30d099; }
     .posts .post header .post-category {
       text-align: right; }
       .posts .post header .post-category a {
         background-color: #f7bca0;
-        border-radius: .2rem;
-        padding: .3rem; }
+        border-radius: 0.2rem;
+        padding: 0.3rem; }
     .posts .post .post-txt p {
-      margin: .8rem 1rem;
+      margin: 0.8rem 1rem;
       font-size: 1rem; }
     .posts .post .released-date {
       margin-top: 0; }
@@ -301,8 +301,8 @@ p {
         .single .single-post header .post-categories a {
           display: inline-block;
           background-color: #f7bca0;
-          border-radius: .2rem;
-          padding: .6rem .3rem; }
+          border-radius: 0.2rem;
+          padding: 0.6rem 0.3rem; }
     .single .single-post .txt-content {
       margin: 3rem 0;
       padding: 0 3rem; }
@@ -315,14 +315,14 @@ p {
       justify-content: flex-end;
       margin: 0 3rem 4rem 0; }
       .single .single-post .share ul li {
-        margin-left: .8rem; }
+        margin-left: 0.8rem; }
 
 #sidebar {
   width: 80%;
   margin: 0 auto; }
   #sidebar .side-content {
     background-color: #c1f1e1;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     padding: 1rem 1.5rem; }
   #sidebar .widget {
     margin: 4rem 0; }
@@ -335,9 +335,9 @@ p {
     font-size: 1.3rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
-    padding-bottom: .5rem; }
+    padding-bottom: 0.5rem; }
   #sidebar li {
-    padding: .3rem;
+    padding: 0.3rem;
     padding-top: 1rem;
     border-bottom: solid 0.0625rem #ccc; }
     #sidebar li a:hover {
@@ -359,18 +359,18 @@ p {
     display: inline-block;
     background-color: #d6f6eb;
     border: solid 1px #ccc;
-    border-radius: .3rem;
-    margin: 0 .2rem;
-    padding: .6rem 1rem; }
+    border-radius: 0.3rem;
+    margin: 0 0.2rem;
+    padding: 0.6rem 1rem; }
     .pagination a:hover {
       background-color: #adecd6; }
   .pagination span {
     display: inline-block;
     background-color: #adecd6;
     border: solid 1px #ccc;
-    border-radius: .3rem;
-    margin: 0 .2rem;
-    padding: .6rem 1rem; }
+    border-radius: 0.3rem;
+    margin: 0 0.2rem;
+    padding: 0.6rem 1rem; }
 
 .more-nav {
   font-size: 1.2rem;
@@ -423,7 +423,7 @@ footer {
       footer .footer-container .footer-logo .footer-title {
         width: 90%; }
       footer .footer-container .footer-logo p {
-        font-size: .8rem;
+        font-size: 0.8rem;
         margin-top: 1rem; }
     footer .footer-container .social ul {
       display: flex;
@@ -439,7 +439,7 @@ footer {
         footer .footer-container .footer-nav ul li a:hover {
           color: #26a77b; }
   footer .copyright {
-    padding: .2rem;
+    padding: 0.2rem;
     text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
